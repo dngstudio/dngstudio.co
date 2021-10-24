@@ -1,0 +1,105 @@
+//headings
+$headings-color: #282828;
+$h1-font-size: 80px;
+$headings-font-family: "Noto Sans";
+$headings-line-height:1;
+$headings-font-weight:700;
+
+
+//colors
+$primary:#e56161;
+$gray-100:#ededed;
+$gray-900:#202020;
+$danger: #e56161;
+
+//base
+$font-family-base:"Noto Sans";
+
+//links
+$link-color:black;
+
+//cards
+$card-border-width:0px;
+
+//containers
+$container-padding-x:0px;
+
+//navbar
+.navbar {
+  padding:0 1.5rem;
+}
+.nav-link {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: $link-color;
+}
+
+.navbar-nav {
+margin: 0 auto;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0; // remove the gap so it doesn't close
+}
+
+//buttons
+$btn-font-family:"Anonymous Pro";
+.fill {
+    font-size: 16px;
+    font-family: $btn-font-family;
+    font-weight: bold;
+    padding: 10px 20px 10px;
+    outline: 0;
+    border: 2px solid black;
+    cursor: pointer;
+    position: relative;
+    top: 7px;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  
+.fill::after {
+    content: "";
+    background-color: $primary;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+    transition: 0.2s;
+}
+  
+.fill:hover::after {
+    top: 0px;
+    left: 0px;
+}
+
+//layout
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 10,
+);
+
+//misc
+
+.skew{
+  height: 200px;
+  transform: skewY(-2deg);
+  background-color: #fff;
+  margin-top: -30px;
+}
+
+ 
+.inverted {
+  height: 100vh;
+  overflow: auto;
+}
+
+
+@import '../bootstrap/scss/bootstrap';
