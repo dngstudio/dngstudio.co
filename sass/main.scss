@@ -1,6 +1,9 @@
 //headings
 $headings-color: #282828;
 $h1-font-size: 80px;
+$h2-font-size: 60px;
+$h3-font-size: 30px;
+$h4-font-size: 20px;
 $headings-font-family: "Noto Sans";
 $headings-line-height:1;
 $headings-font-weight:700;
@@ -36,13 +39,14 @@ $container-padding-x:0px;
 }
 
 .navbar-nav {
-margin: 0 auto;
+  margin: 0 auto;
 }
 
 .dropdown:hover .dropdown-menu {
   display: block;
   margin-top: 0; // remove the gap so it doesn't close
 }
+
 
 //buttons
 $btn-font-family:"Anonymous Pro";
@@ -83,7 +87,7 @@ $spacers: (
   1: $spacer * .25,
   2: $spacer * .5,
   3: $spacer,
-  4: $spacer * 1.5,
+  4: $spacer * 5,
   5: $spacer * 10,
 );
 
@@ -102,5 +106,13 @@ $spacers: (
   overflow: auto;
 }
 
+span a {
+  color: $primary;
+  text-decoration: none;
+}
+
+div a {
+  text-decoration: none;
+}
 
 @import '../bootstrap/scss/bootstrap';
