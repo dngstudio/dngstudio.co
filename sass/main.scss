@@ -84,9 +84,9 @@ $btn-font-family:"Anonymous Pro";
 $spacer: 1rem;
 $spacers: (
   0: 0,
-  1: $spacer * .25,
-  2: $spacer * .5,
-  3: $spacer,
+  1: $spacer * .5,
+  2: $spacer,
+  3: $spacer * 2,
   4: $spacer * 5,
   5: $spacer * 10,
 );
@@ -113,6 +113,22 @@ span a {
 
 div a {
   text-decoration: none;
+}
+
+//footer
+
+#footer-info {
+  background-color: $gray-900;
+  color:white;
+  padding: 0;
+}
+
+#footer-info .card-body {
+  padding: 0px;
+}
+
+#footer-info img {
+  width: 80px
 }
 
 @import '../bootstrap/scss/bootstrap';
