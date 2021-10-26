@@ -76,8 +76,8 @@
             <li><a class="dropdown-item" href="#">Something else here</a></li>
           </ul>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="seo-i-marketing.php" id="navbarDropdown" role="button"  aria-expanded="false">
+        <li class="nav-item dropdown">  <!-- id="navbarDropdown" -->
+          <a  href="seo-i-marketing.php" <?php if($title=='Seo & Marketing' ){ echo ' id="active" class="nav-link dropdown-toggle"';}else{echo 'class="nav-link dropdown-toggle"';}?>  role="button"  aria-expanded="false">
             SEO & marketing
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
