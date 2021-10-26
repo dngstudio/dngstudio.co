@@ -45,7 +45,7 @@
           <a  <?php if($title=='Početna' ){ echo ' id="active" class="nav-link"';}else{echo 'class="nav-link"';}?>  aria-current="page" href="index.php">Početna</a>
         </li>
         <li class="nav-item dropdown">
-          <a href="e-commerce.php" class="nav-link dropdown-toggle"  id="navbarDropdown" role="button"  aria-expanded="false"  >
+          <a href="e-commerce.php" <?php if($title=='E-commerce' ){ echo ' id="active" class="nav-link dropdown-toggle"';}else{echo 'class="nav-link dropdown-toggle"';}?>  id="navbarDropdown" role="button"  aria-expanded="false"  >
             E-commerce
           </a> <!-- data-bs-toggle="dropdown"-->
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -56,7 +56,7 @@
           </ul>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="izrada-sajtova.php" id="navbarDropdown" role="button"  aria-expanded="false">
+          <a <?php if($title=='Izrada sajtova' ){ echo ' id="active" class="nav-link dropdown-toggle"';}else{echo 'class="nav-link dropdown-toggle"';}?> href="izrada-sajtova.php" id="navbarDropdown" role="button"  aria-expanded="false">
             Izrada sajtova
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -67,7 +67,7 @@
           </ul>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="graficki-dizajn.php" id="navbarDropdown" role="button"  aria-expanded="false">
+          <a <?php if($title=='Grafički dizajn' ){ echo ' id="active" class="nav-link dropdown-toggle"';}else{echo 'class="nav-link dropdown-toggle"';}?> href="graficki-dizajn.php" id="navbarDropdown" role="button"  aria-expanded="false">
             Dizajn
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
