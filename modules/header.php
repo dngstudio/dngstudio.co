@@ -42,11 +42,7 @@
 
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-<<<<<<< HEAD
-          <a class="nav-link" aria-current="page" href="index.php">Početna</a>
-=======
           <a  <?php if($title=='Početna' ){ echo ' id="active" class="nav-link"';}else{echo 'class="nav-link"';}?>  aria-current="page" href="index.php">Početna</a>
->>>>>>> d0b2c93129604f6e5e1ba64c6b6d9aca68cdb850
         </li>
         <li class="nav-item dropdown">
           <a href="e-commerce.php" class="nav-link dropdown-toggle"  id="navbarDropdown" role="button"  aria-expanded="false"  >
