@@ -9,6 +9,7 @@ $headings-line-height:1;
 $headings-font-weight:700;
 
 
+
 //colors
 $primary:#e56161;
 $secondary:#107e7d;
@@ -18,6 +19,8 @@ $danger: #e56161;
 
 //base
 $font-family-base:"Noto Sans";
+$font-size-base:1rem;
+$font-size-sm: $font-size-base * .875 !default;
 
 //links
 $link-color:black;
@@ -93,6 +96,33 @@ $spacers: (
   5: $spacer * 10,
 );
 
+
+//footer
+
+#footer-info {
+  background-color: $gray-900;
+  color:white;
+  padding: 0;
+}
+
+#footer-info .card-body {
+  padding: 0px;
+  font-size: $font-size-sm;
+}
+
+#footer-info .card-body p {
+  font-size: $font-size-sm;
+}
+
+
+#footer-info img {
+  width: 80px;
+}
+
+#footer a {
+  font-size: $font-size-sm;
+}
+
 //misc
 
 .skew{
@@ -117,20 +147,18 @@ div a {
   text-decoration: none;
 }
 
-//footer
-
-#footer-info {
-  background-color: $gray-900;
-  color:white;
-  padding: 0;
+#faq img {
+  max-width: 80%;
+  width: 100%;
 }
+$accordion-border-width:0px;
+$accordion-button-focus-border-color:white;
+$grid-gutter-width:1px;
+$badge-font-size: $font-size-sm;
+$badge-font-weight: normal;
 
-#footer-info .card-body {
-  padding: 0px;
-}
-
-#footer-info img {
-  width: 80px
+div#featured {
+  border:1px solid $secondary;
 }
 
 @import '../bootstrap/scss/bootstrap';

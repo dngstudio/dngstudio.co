@@ -2,9 +2,6 @@
 $title = 'Početna';
 require './modules/header.php'; ?>
 
-
-<h1>DNG</h1>
-
 <div class="container header">
   <div class="row align-items-center">
     <div class="col">
@@ -161,64 +158,65 @@ require './modules/header.php'; ?>
   </div>
 </div>
 
-<div class="container mt-5 text-center">
+<div class="container mt-5 text-center px-5">
   <h3 class="mb-3">Paketi usluga</h2>
   <div class="row">
-    <div class="col d-flex justify-content-center pricing">
+    <div class="col-3 d-flex justify-content-center pricing">
         <div class="card text-center shadow" style="width: 18rem;">
         <img src="..." class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <h5 class="card-title">Šegrt</h5>
+          <p class="card-text">Početni sajt, savršen za portfolio firme ili pojedinca.</p>
         </div>
         <ul class="list-group list-group-flush">
-          <li class="list-group-item">An item</li>
-          <li class="list-group-item">A second item</li>
-          <li class="list-group-item">A third item</li>
+          <li class="list-group-item">Do 5 stranica</li>
+          <li class="list-group-item">SEO</li>
+          <li class="list-group-item">Optimizacija za mobilne uređaje</li>
         </ul>
         <div class="card-body">
-          <a href="#" class="card-link">Card link</a>
+          <button class="btn btn-outline-secondary">Zakaži konsultacije</button>
         </div>
       </div>
     </div>
-    <div class="col d-flex justify-content-center pricing">
-        <div class="card text-center shadow" style="width: 18rem;">
+    <div class="col-6 d-flex justify-content-center pricing">
+        <div class="card text-center shadow" id="featured" style="width: 18rem;">
         <img src="..." class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <span class="badge bg-secondary my-2">Najtraženije</span>
+          <h5 class="card-title">Majstor</h5>        
+          <p class="card-text">Za naprednije projekte, poput interaktivnih platformi ili online prodavnica.</p>
         </div>
         <ul class="list-group list-group-flush">
-          <li class="list-group-item">An item</li>
-          <li class="list-group-item">A second item</li>
-          <li class="list-group-item">A third item</li>
+          <li class="list-group-item">Do 5 stranica</li>
+          <li class="list-group-item">SEO</li>
+          <li class="list-group-item">Optimizacija za mobilne uređaje</li>
         </ul>
         <div class="card-body">
-          <a href="#" class="card-link">Card link</a>
+          <button class="btn btn-outline-secondary">Zakaži konsultacije</button>
         </div>
       </div>
     </div>
-    <div class="col d-flex justify-content-center pricing">
+    <div class="col-3 d-flex justify-content-center pricing">
         <div class="card text-center shadow" style="width: 18rem;">
         <img src="..." class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <h5 class="card-title">Pro</h5>
+          <p class="card-text">Za najhrabrije! Ovaj paket obuhvata izradu kompletnog veb sajta sa uključenim brendingom.</p>
         </div>
         <ul class="list-group list-group-flush">
-          <li class="list-group-item">An item</li>
-          <li class="list-group-item">A second item</li>
-          <li class="list-group-item">A third item</li>
+          <li class="list-group-item">Do 5 stranica</li>
+          <li class="list-group-item">SEO</li>
+          <li class="list-group-item">Optimizacija za mobilne uređaje</li>
         </ul>
         <div class="card-body">
-          <a href="#" class="card-link">Card link</a>
+          <button class="btn btn-outline-secondary">Zakaži konsultacije</button>
         </div>
       </div>
     </div>
   </div>
 </div>
 
-<div class="container mt-5">
+<div class="container mt-5" id="faq">
   <div class="row g-0">
     <h3 class="mb-3">FAQ</h2>
       <div class="col">
@@ -262,7 +260,7 @@ require './modules/header.php'; ?>
         </div>
       </div>
       <div class="col">
-        hthfht
+        <img src="media\pics\DNG Studio FAQ.jpg" alt="" class="shadow ms-4">
       </div>
   </div>
 </div>
