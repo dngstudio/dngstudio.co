@@ -3,7 +3,7 @@ $title = 'Početna';
 require './modules/header.php'; ?>
 
 
-<!--<h1>DNG</h1>-->
+<h1>DNG</h1>
 
 <div class="container header">
   <div class="row align-items-center">
