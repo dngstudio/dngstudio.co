@@ -9,6 +9,10 @@
   color: black;
 }
 
+#active {
+  color:blue;
+}
+
 .navbar-nav {
   margin: 0 auto;
 }
