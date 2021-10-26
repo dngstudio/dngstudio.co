@@ -4413,10 +4413,10 @@ textarea.form-control-lg {
 }
 
 .navbar-light .navbar-brand {
-  color: rgba(0, 0, 0, 0.9);
+  color: red;
 }
 .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
-  color: rgba(0, 0, 0, 0.9);
+  color: red;
 }
 .navbar-light .navbar-nav .nav-link {
   color: rgba(0, 0, 0, 0.55);
@@ -4429,7 +4429,7 @@ textarea.form-control-lg {
 }
 .navbar-light .navbar-nav .show > .nav-link,
 .navbar-light .navbar-nav .nav-link.active {
-  color: rgba(0, 0, 0, 0.9);
+  color: red;
 }
 .navbar-light .navbar-toggler {
   color: rgba(0, 0, 0, 0.55);
@@ -4444,7 +4444,7 @@ textarea.form-control-lg {
 .navbar-light .navbar-text a,
 .navbar-light .navbar-text a:hover,
 .navbar-light .navbar-text a:focus {
-  color: rgba(0, 0, 0, 0.9);
+  color: red;
 }
 
 .navbar-dark .navbar-brand {
