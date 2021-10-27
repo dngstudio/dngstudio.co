@@ -53,7 +53,7 @@
 
 <script src="./scripts/lottie.js" type="text/javascript"></script>
 <script src="./scripts/gsap.js"></script>
-<script src="./scripts/test.js"></script>
+<script src="./scripts/misc.js"></script>
 <script src="./bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
 
 

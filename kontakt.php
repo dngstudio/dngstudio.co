@@ -37,7 +37,7 @@ if(isset($_POST['submit'])){
         <h5>Naslov: </h5> <input type="text" name="naslov"><br>
         <h5>Poruka:</h5><textarea rows="5" name="message" cols="30"></textarea><br>
         
-        <button type="submit" class="btn btn-primary btn-lg" name="submit" value="Submit">Pošalji</button>
+        <button type="submit" class="fill" name="submit" value="Submit">Pošalji</button>
         </form>
 
 </div>

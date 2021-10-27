@@ -31,6 +31,10 @@ $card-border-width:0px;
 //containers
 $container-padding-x:0px;
 
+//borders
+$border-width:2px;
+$border-radius:0px;
+
 //navbar
 .navbar {
   padding:0 1.5rem;
@@ -96,6 +100,13 @@ $spacers: (
   5: $spacer * 10,
 );
 
+#active {
+  border-bottom: $border-width solid $secondary;
+}
+
+.nav-link:hover {
+  border-bottom: $border-width solid $secondary;
+}
 
 //footer
 
@@ -151,14 +162,78 @@ div a {
   max-width: 80%;
   width: 100%;
 }
-$accordion-border-width:0px;
+
+
 $accordion-button-focus-border-color:white;
 $grid-gutter-width:1px;
 $badge-font-size: $font-size-sm;
 $badge-font-weight: normal;
+$list-group-border-width: 0px;
+$accordion-border-width: 0px;
 
 div#featured {
   border:1px solid $secondary;
 }
+
+//gsap
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: blue;
+  font-family: "montserrat", sans-serif;
+}
+h2 {
+  text-transform: uppercase;
+  font-size: 5rem;
+  color: #fff;
+  letter-spacing: 0.8rem;
+}
+.horizontal-container {
+  width: 400%;
+  height: 100vh;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+}
+.main-wrapper {
+  width: 100%;
+  height: auto;
+}
+.page {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#home {
+  background-color: rgb(110, 0, 0);
+}
+#about {
+  background-color: rgb(197, 98, 5);
+}
+#projects {
+  background-color: rgb(207, 221, 13);
+}
+#project01 {
+  background-color: rgb(26, 224, 19);
+}
+#project02 {
+  background-color: rgb(2, 156, 79);
+}
+#project03 {
+  background-color: rgb(9, 138, 73);
+}
+#contact {
+  background-color: rgb(16, 158, 214);
+}
+
 
 @import '../bootstrap/scss/bootstrap';

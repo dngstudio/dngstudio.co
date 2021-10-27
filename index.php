@@ -139,30 +139,23 @@ require './modules/header.php'; ?>
   </div>
 </div>
 
-<div class="bg-dark mt-5 pt-5 pb-5 inverted">
-  <div class="row">
-    <div class="col">
-      <h1 class="h2 text-danger">Šta sve radimo?</h2>
-    </div>
-    <div class="col">
-      <div class="card" style="width: 18rem;">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+
+<div id="panel" class="container-fluid mt-5">
+  <div class="module green"></div>
+  <div class="module yellow"></div>
+  <div class="module purple"></div>
+  <div class="module orange"></div>
+  <div class="module blue"></div>
+  <div class="module red"></div>
 </div>
 
-<div class="container mt-5 text-center px-5">
-  <h3 class="mb-3">Paketi usluga</h2>
-  <div class="row">
-    <div class="col-3 d-flex justify-content-center pricing">
-        <div class="card text-center shadow" style="width: 18rem;">
+
+
+<div class="container mt-5 text-center px-4">
+  <h3 class="mb-3 mt-5">Paketi usluga</h2>
+  <div class="row gx-0">
+    <div class="col d-flex justify-content-center">
+        <div class="card text-center shadow pricing" id="pricing-segrt" style="width: 18rem;">
         <img src="..." class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Šegrt</h5>
@@ -178,8 +171,8 @@ require './modules/header.php'; ?>
         </div>
       </div>
     </div>
-    <div class="col-6 d-flex justify-content-center pricing">
-        <div class="card text-center shadow" id="featured" style="width: 18rem;">
+    <div class="col d-flex justify-content-center">
+        <div class="card text-center shadow pricing" id="pricing-majstor" id="featured" style="width: 18rem;">
         <img src="..." class="card-img-top" alt="...">
         <div class="card-body">
           <span class="badge bg-secondary my-2">Najtraženije</span>
@@ -196,8 +189,8 @@ require './modules/header.php'; ?>
         </div>
       </div>
     </div>
-    <div class="col-3 d-flex justify-content-center pricing">
-        <div class="card text-center shadow" style="width: 18rem;">
+    <div class="col d-flex justify-content-center">
+        <div class="card text-center shadow pricing" id="pricing-pro" style="width: 18rem;">
         <img src="..." class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Pro</h5>
