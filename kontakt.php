@@ -40,7 +40,15 @@ if(isset($_POST['submit'])){
         <button type="submit" class="fill" name="submit" value="Submit">Pošalji</button>
         </form>
 
-</div>
+    </div>
 </div>
 
+
+
+
 <?php include './modules/footer.php' ?>
+
+
+
+
+

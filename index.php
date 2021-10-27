@@ -149,7 +149,7 @@ require './modules/header.php'; ?>
   <div class="module red"></div>
 </div>
 
-
+<div id="endtrigger"></div>
 
 <div class="container mt-5 text-center px-4">
   <h3 class="mb-3 mt-5">Paketi usluga</h2>
