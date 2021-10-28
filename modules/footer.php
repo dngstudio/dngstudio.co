@@ -1,6 +1,7 @@
-<div class="container-fluid bg-dark pb-2" id="footer">
+<div class="container-fluid bg-dark pb-2 pt-4 mt-5" id="footer">
+    <div class="text-white" id="marquee"></div>
         <div class="container">
-        <div class="row bg-dark mt-5 pb-4 pt-4">
+        <div class="row bg-dark mt-5 pb-4">
             <div class="col">
                 <div class="card" id="footer-info" style="width: 18rem;">
                     <img src="media\pics\DNG Studio Logo.png" class="card-img-top" alt="...">
@@ -51,10 +52,25 @@
     </div>
 </div>
 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<script
+  type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/dynamic-marquee@2"
+></script>
+<script type="text/javascript">
+  const Marquee = dynamicMarquee.Marquee;
+</script>
+<script src="./magnific/jquery.magnific-popup.min.js"></script>
 <script src="./scripts/lottie.js" type="text/javascript"></script>
 <script src="./scripts/gsap.js"></script>
 <script src="./scripts/misc.js"></script>
+<script src="./scripts/magnific-popup.js"></script>
+<script src="./scripts/marquee.js"></script>
 <script src="./bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
+
+
 
 
 

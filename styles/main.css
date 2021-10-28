@@ -3,10 +3,11 @@
   padding: 0 1.5rem;
 }
 
-.nav-link {
+.nav-item {
   font-weight: bold;
   text-transform: uppercase;
   color: black;
+  margin-bottom: 10px;
 }
 
 .navbar-nav {
@@ -15,7 +16,39 @@
 
 .dropdown:hover .dropdown-menu {
   display: block;
-  margin-top: 0;
+  margin-top: 10px;
+}
+
+.nav-hover {
+  padding: 5px 10px 5px;
+  outline: 0;
+  cursor: pointer;
+  position: relative;
+  top: 7px;
+}
+
+.nav-hover::after {
+  content: "";
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+  border-width: 0px;
+}
+
+.nav-hover:hover::after {
+  content: "";
+  background-color: #e56161;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  transition: 0.2s;
+  top: 0px;
+  left: 0px;
 }
 
 .fill {
@@ -49,11 +82,12 @@
 }
 
 #active {
-  border-bottom: 2px solid #107e7d;
-}
-
-.nav-link:hover {
-  border-bottom: 2px solid #107e7d;
+  padding: 5px 10px 5px;
+  outline: 0;
+  cursor: pointer;
+  position: relative;
+  background-color: #e56161;
+  top: 7px;
 }
 
 #footer-info {
@@ -105,8 +139,10 @@ div a {
   width: 100%;
 }
 
-div#featured {
-  border: 1px solid #107e7d;
+#marquee {
+  font-family: "Anonymous Pro";
+  font-size: 30px;
+  color: #e56161 !important;
 }
 
 /*!
@@ -243,7 +279,7 @@ h3, .h3 {
 }
 
 h4, .h4 {
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 
 h5, .h5 {
@@ -762,7 +798,7 @@ progress {
   }
 }
 .row {
-  --bs-gutter-x: 1px;
+  --bs-gutter-x: 20px;
   --bs-gutter-y: 0;
   display: flex;
   flex-wrap: wrap;
@@ -3540,19 +3576,6 @@ textarea.form-control-lg {
 .dropdown-toggle {
   white-space: nowrap;
 }
-.dropdown-toggle::after {
-  display: inline-block;
-  margin-left: 0.255em;
-  vertical-align: 0.255em;
-  content: "";
-  border-top: 0.3em solid;
-  border-right: 0.3em solid transparent;
-  border-bottom: 0;
-  border-left: 0.3em solid transparent;
-}
-.dropdown-toggle:empty::after {
-  margin-left: 0;
-}
 
 .dropdown-menu {
   position: absolute;
@@ -3683,39 +3706,12 @@ textarea.form-control-lg {
   margin-top: 0;
   margin-bottom: 0.125rem;
 }
-.dropup .dropdown-toggle::after {
-  display: inline-block;
-  margin-left: 0.255em;
-  vertical-align: 0.255em;
-  content: "";
-  border-top: 0;
-  border-right: 0.3em solid transparent;
-  border-bottom: 0.3em solid;
-  border-left: 0.3em solid transparent;
-}
-.dropup .dropdown-toggle:empty::after {
-  margin-left: 0;
-}
-
 .dropend .dropdown-menu[data-bs-popper] {
   top: 0;
   right: auto;
   left: 100%;
   margin-top: 0;
   margin-left: 0.125rem;
-}
-.dropend .dropdown-toggle::after {
-  display: inline-block;
-  margin-left: 0.255em;
-  vertical-align: 0.255em;
-  content: "";
-  border-top: 0.3em solid transparent;
-  border-right: 0;
-  border-bottom: 0.3em solid transparent;
-  border-left: 0.3em solid;
-}
-.dropend .dropdown-toggle:empty::after {
-  margin-left: 0;
 }
 .dropend .dropdown-toggle::after {
   vertical-align: 0;
@@ -3727,27 +3723,6 @@ textarea.form-control-lg {
   left: auto;
   margin-top: 0;
   margin-right: 0.125rem;
-}
-.dropstart .dropdown-toggle::after {
-  display: inline-block;
-  margin-left: 0.255em;
-  vertical-align: 0.255em;
-  content: "";
-}
-.dropstart .dropdown-toggle::after {
-  display: none;
-}
-.dropstart .dropdown-toggle::before {
-  display: inline-block;
-  margin-right: 0.255em;
-  vertical-align: 0.255em;
-  content: "";
-  border-top: 0.3em solid transparent;
-  border-right: 0.3em solid;
-  border-bottom: 0.3em solid transparent;
-}
-.dropstart .dropdown-toggle:empty::after {
-  margin-left: 0;
 }
 .dropstart .dropdown-toggle::before {
   vertical-align: 0;
@@ -4439,10 +4414,10 @@ textarea.form-control-lg {
 }
 
 .navbar-light .navbar-brand {
-  color: red;
+  color: rgba(0, 0, 0, 0.9);
 }
 .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
-  color: red;
+  color: rgba(0, 0, 0, 0.9);
 }
 .navbar-light .navbar-nav .nav-link {
   color: rgba(0, 0, 0, 0.55);
@@ -4455,7 +4430,7 @@ textarea.form-control-lg {
 }
 .navbar-light .navbar-nav .show > .nav-link,
 .navbar-light .navbar-nav .nav-link.active {
-  color: red;
+  color: rgba(0, 0, 0, 0.9);
 }
 .navbar-light .navbar-toggler {
   color: rgba(0, 0, 0, 0.55);
@@ -4470,7 +4445,7 @@ textarea.form-control-lg {
 .navbar-light .navbar-text a,
 .navbar-light .navbar-text a:hover,
 .navbar-light .navbar-text a:focus {
-  color: red;
+  color: rgba(0, 0, 0, 0.9);
 }
 
 .navbar-dark .navbar-brand {
@@ -4624,7 +4599,7 @@ textarea.form-control-lg {
 }
 
 .card-group > .card {
-  margin-bottom: 0.5px;
+  margin-bottom: 10px;
 }
 @media (min-width: 576px) {
   .card-group {
@@ -7552,7 +7527,7 @@ textarea.form-control-lg {
 }
 
 .fs-4 {
-  font-size: 1.25rem !important;
+  font-size: 1rem !important;
 }
 
 .fs-5 {

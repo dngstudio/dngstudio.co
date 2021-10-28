@@ -29,13 +29,14 @@ require './modules/header.php'; ?>
       </div>
     </div>
   </div>
-    
-</div>    
+</div>
+
+
 
 <div class="pt-5 pb-5 container">
   <div class="row">
     <div class="col d-flex justify-content-center">
-      <div class="card text-center shadow" style="width: 18rem;">
+      <div class="card text-center shadow services" style="width: 18rem;">
         <div class="card-body">
           <h5 class="card-title">E-commerce</h5>
           <p class="card-text">Izrada Internet prodavnica, od onih za jedan proizvoda, do velikih radnji.</p>
@@ -44,19 +45,19 @@ require './modules/header.php'; ?>
       </div>
     </div>
     <div class="col d-flex justify-content-center">
-    <div class="card text-center shadow" style="width: 18rem;">
+    <div class="card text-center shadow services" style="width: 18rem;">
         <div class="card-body">
-          <h5 class="card-title">E-commerce</h5>
-          <p class="card-text">Izrada Internet prodavnica, od onih za jedan proizvoda, do velikih radnji.</p>
+          <h5 class="card-title">Web dizajn</h5>
+          <p class="card-text">Dizajniramo sajtove svih nivoa kompleksnosti. Neka Vaš sajt bude poseban!</p>
           <a href="#" class="card-link">Saznajte više</a>
         </div>
       </div>
     </div>
     <div class="col d-flex justify-content-center">
-    <div class="card text-center shadow" style="width: 18rem;">
+    <div class="card text-center shadow services" style="width: 18rem;">
         <div class="card-body">
-          <h5 class="card-title">E-commerce</h5>
-          <p class="card-text">Izrada Internet prodavnica, od onih za jedan proizvoda, do velikih radnji.</p>
+          <h5 class="card-title">Web development</h5>
+          <p class="card-text">Razvijanje dinamičkih sistema i aplikacija za web pregledače, Android i iOS.</p>
           <a href="#" class="card-link">Saznajte više</a>
         </div>
       </div>
@@ -64,36 +65,34 @@ require './modules/header.php'; ?>
   </div>
   <div class="row mt-4">
     <div class="col d-flex justify-content-center">
-      <div class="card text-center shadow" style="width: 18rem;">
+      <div class="card text-center shadow services" style="width: 18rem;">
         <div class="card-body">
-          <h5 class="card-title">E-commerce</h5>
-          <p class="card-text">Izrada Internet prodavnica, od onih za jedan proizvoda, do velikih radnji.</p>
+          <h5 class="card-title">Grafički dizajn</h5>
+          <p class="card-text">Dizajn logoa, promotivnog materijala i kompletnog vizuelnog identiteta.</p>
           <a href="#" class="card-link">Saznajte više</a>
         </div>
       </div>
     </div>
     <div class="col d-flex justify-content-center">
-    <div class="card text-center shadow" style="width: 18rem;">
+    <div class="card text-center shadow services" style="width: 18rem;">
         <div class="card-body">
-          <h5 class="card-title">E-commerce</h5>
-          <p class="card-text">Izrada Internet prodavnica, od onih za jedan proizvoda, do velikih radnji.</p>
+          <h5 class="card-title">SEO</h5>
+          <p class="card-text">Uz adekvatno odrađen SEO, Vaš sajt može da se nađe na prvoj strani Gugla bez reklama.</p>
           <a href="#" class="card-link">Saznajte više</a>
         </div>
       </div>
     </div>
     <div class="col d-flex justify-content-center">
-    <div class="card text-center shadow" style="width: 18rem;">
+    <div class="card text-center shadow services" style="width: 18rem;">
         <div class="card-body">
-          <h5 class="card-title">E-commerce</h5>
-          <p class="card-text">Izrada Internet prodavnica, od onih za jedan proizvoda, do velikih radnji.</p>
+          <h5 class="card-title">Digitalni marketing</h5>
+          <p class="card-text">Postavljanje kampanja na društvenim mrežama i vođenje profila.</p>
           <a href="#" class="card-link">Saznajte više</a>
         </div>
       </div>
     </div>
   </div>
 </div>
-
-<div class="skew container-fluid"></div>
 
 <div class="container mt-4 text-center">
   <h3>Ukazali su nam poverenje</h3>
@@ -119,7 +118,7 @@ require './modules/header.php'; ?>
   </div>
 </div>
 
-<div class="container mt-5">
+<div class="container d-flex flex-column min-vh-100 justify-content-center align-items-center">
   <div class="row">
     <div class="col">
       <h2 class="h2">DNG Studio firmu čuva</h2>
@@ -140,7 +139,7 @@ require './modules/header.php'; ?>
 </div>
 
 
-<div id="panel" class="container-fluid mt-5">
+<div id="panel" class="container-fluid">
   <div class="module green"></div>
   <div class="module yellow"></div>
   <div class="module purple"></div>
@@ -151,11 +150,11 @@ require './modules/header.php'; ?>
 
 <div id="endtrigger"></div>
 
-<div class="container mt-5 text-center px-4">
+<div class="container d-flex flex-column min-vh-100 justify-content-center align-items-center">
   <h3 class="mb-3 mt-5">Paketi usluga</h2>
-  <div class="row gx-0">
+  <div class="row gx-3">
     <div class="col d-flex justify-content-center">
-        <div class="card text-center shadow pricing" id="pricing-segrt" style="width: 18rem;">
+        <div class="card text-center shadow pricing" style="width: 18rem;">
         <img src="..." class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Šegrt</h5>
@@ -172,7 +171,7 @@ require './modules/header.php'; ?>
       </div>
     </div>
     <div class="col d-flex justify-content-center">
-        <div class="card text-center shadow pricing" id="pricing-majstor" id="featured" style="width: 18rem;">
+        <div class="card text-center shadow pricing" id="featured" style="width: 18rem;">
         <img src="..." class="card-img-top" alt="...">
         <div class="card-body">
           <span class="badge bg-secondary my-2">Najtraženije</span>
@@ -190,7 +189,7 @@ require './modules/header.php'; ?>
       </div>
     </div>
     <div class="col d-flex justify-content-center">
-        <div class="card text-center shadow pricing" id="pricing-pro" style="width: 18rem;">
+        <div class="card text-center shadow pricing" style="width: 18rem;">
         <img src="..." class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Pro</h5>
@@ -210,52 +209,55 @@ require './modules/header.php'; ?>
 </div>
 
 <div class="container mt-5" id="faq">
-  <div class="row g-0">
+  <div class="row">
     <h3 class="mb-3">FAQ</h2>
       <div class="col">
         <div class="accordion" id="accordionPanelsStayOpenExample">
           <div class="accordion-item">
             <h2 class="accordion-header" id="panelsStayOpen-headingOne">
               <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                Accordion Item #1
+                Šta se dešava nakon što popunim zahtev?
               </button>
             </h2>
             <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
               <div class="accordion-body">
-                <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              To je sve sa Vaše strane! Mi ćemo da Vas provedemo kroz sve ostale korake i da Vam kažemo koje su nam informacije neophodne.
               </div>
             </div>
           </div>
           <div class="accordion-item">
             <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                Accordion Item #2
+                Kako se odvijaju konsultacije?
               </button>
             </h2>
             <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
               <div class="accordion-body">
-                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              Živimo u 21. veku, a DNG studio se bavi digitalom, stoga je najefikasnije da pričamo online. Možemo da zakažemo razgovor putem Skajpa, Diskorda, Google Hangouts-a ili jednostavno putem telefona. Javite nam se sa svojim predlogom i mi ćemo da Vam izađemo u susret.
               </div>
             </div>
           </div>
           <div class="accordion-item">
             <h2 class="accordion-header" id="panelsStayOpen-headingThree">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                Accordion Item #3
+                Da li imate cenovnik?
               </button>
             </h2>
             <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
               <div class="accordion-body">
-                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                <p>Cene su izražene samo za promotivne pakete koje nudimo. Zašto nisu izražene za svaku uslugu? Iz prostog razloga: zato što je svaki posao drugačiji. Izrada sajta nekada podrazumeva jednu jednostavnu stranicu, a nekada platformu na kojoj se radi mesecima.</p>
+                <p>Cena sata rada našeg tima je 25 evra po satu, te u skladu sa tim formiramo i ponudu. Najjednostavnije je da nam bez ikakvih obaveza pošaljete zahtev za ponudu putem neke od kontakt formi i mi ćemo da Vam u najkraćem roku odgovorimo.</p>
               </div>
             </div>
           </div>
         </div>
       </div>
       <div class="col">
-        <img src="media\pics\DNG Studio FAQ.jpg" alt="" class="shadow ms-4">
+        
+        <a class="lightbox" href="media\pics\DNG Studio FAQ.jpg"><img src="media\pics\DNG Studio FAQ.jpg" alt="" class="shadow ms-4"></a>
       </div>
   </div>
 </div>
+
 
 <?php include './modules/footer.php' ?>

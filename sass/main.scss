@@ -3,7 +3,7 @@ $headings-color: #282828;
 $h1-font-size: 80px;
 $h2-font-size: 60px;
 $h3-font-size: 30px;
-$h4-font-size: 20px;
+$h4-font-size: 16px;
 $headings-font-family: "Noto Sans";
 $headings-line-height:1;
 $headings-font-weight:700;
@@ -36,13 +36,16 @@ $border-width:2px;
 $border-radius:0px;
 
 //navbar
+$enable-caret: false;
+$btn-font-family:"Anonymous Pro";
 .navbar {
   padding:0 1.5rem;
 }
-.nav-link {
+.nav-item {
   font-weight: bold;
   text-transform: uppercase;
   color: $link-color;
+  margin-bottom: 10px;
 }
 
 .navbar-nav {
@@ -51,14 +54,44 @@ $border-radius:0px;
 
 .dropdown:hover .dropdown-menu {
   display: block;
-  margin-top: 0; // remove the gap so it doesn't close
+  margin-top: 10px; // remove the gap so it doesn't close
 }
 
-$navbar-light-active-color:red;
+.nav-hover {
+  padding: 5px 10px 5px;
+  outline: 0;
+  cursor: pointer;
+  position: relative;
+  top: 7px;
+}
+
+.nav-hover::after {
+  content: "";
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+  border-width:0px;
+}
+
+.nav-hover:hover::after {
+  content: "";
+  background-color: $primary;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  transition: 0.2s;
+  top: 0px;
+  left: 0px;
+}
 
 
 //buttons
-$btn-font-family:"Anonymous Pro";
+
 .fill {
     font-size: 16px;
     font-family: $btn-font-family;
@@ -101,12 +134,14 @@ $spacers: (
 );
 
 #active {
-  border-bottom: $border-width solid $secondary;
+  padding: 5px 10px 5px;
+  outline: 0;
+  cursor: pointer;
+  position: relative;
+  background-color: $primary;
+  top:7px;
 }
 
-.nav-link:hover {
-  border-bottom: $border-width solid $secondary;
-}
 
 //footer
 
@@ -165,17 +200,22 @@ div a {
 
 
 $accordion-button-focus-border-color:white;
-$grid-gutter-width:1px;
+$grid-gutter-width:20px;
 $badge-font-size: $font-size-sm;
 $badge-font-weight: normal;
 $list-group-border-width: 0px;
 $accordion-border-width: 0px;
 
-div#featured {
-  border:1px solid $secondary;
+
+
+#marquee {
+  font-family: $btn-font-family;
+  font-size: $h3-font-size;
+  color:$primary !important;
 }
 
-//gsap
+
+
 
 
 @import '../bootstrap/scss/bootstrap';

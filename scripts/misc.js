@@ -5,7 +5,7 @@ $(".pricing").hover(
     function () {
       $(this).removeClass('shadow-lg');
     }
-    );
+);
 
 
 $('.pricing').hover(
@@ -17,4 +17,13 @@ $('.pricing').hover(
         $("button", this).removeClass('btn-secondary');
         $("button", this).addClass('btn-outline-secondary');
       }
+);
+
+$(".services").hover(
+  function () {
+    $(this).addClass('shadow-lg');
+  }, 
+  function () {
+    $(this).removeClass('shadow-lg');
+  }
 );

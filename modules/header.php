@@ -9,11 +9,11 @@
     <link rel="icon" href="media\pics\DNG Studio Logo.png" sizes="192x192" />
     <link rel="stylesheet" href="./styles/main.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./magnific/magnific-popup.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollToPlugin.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.7.13/lottie.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
     <title><?php echo $title; ?></title>
     <!--Start of Tawk.to Script-->
     <script type="text/javascript">
@@ -43,10 +43,10 @@
 
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a  <?php if($title=='Početna' ){ echo ' id="active" class="nav-link"';}else{echo 'class="nav-link"';}?>  aria-current="page" href="index.php">Početna</a>
+          <a  <?php if($title=='Početna' ){ echo 'id="active"';}else{echo 'class="nav-hover"';}?>  aria-current="page" href="index.php">Početna</a>
         </li>
         <li class="nav-item dropdown">
-          <a href="e-commerce.php" <?php if($title=='E-commerce' ){ echo ' id="active" class="nav-link dropdown-toggle"';}else{echo 'class="nav-link dropdown-toggle"';}?>  id="navbarDropdown" role="button"  aria-expanded="false"  >
+          <a href="e-commerce.php" <?php if($title=='E-commerce' ){ echo ' id="active" class="dropdown-toggle"';}else{echo 'class="nav-hover dropdown-toggle"';}?>  id="navbarDropdown" role="button"  aria-expanded="false"  >
             E-commerce
           </a> <!-- data-bs-toggle="dropdown"-->
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -57,7 +57,7 @@
           </ul>
         </li>
         <li class="nav-item dropdown">
-          <a <?php if($title=='Izrada sajtova' ){ echo ' id="active" class="nav-link dropdown-toggle"';}else{echo 'class="nav-link dropdown-toggle"';}?> href="izrada-sajtova.php" id="navbarDropdown" role="button"  aria-expanded="false">
+          <a <?php if($title=='Izrada sajtova' ){ echo ' id="active" class="dropdown-toggle"';}else{echo 'class="nav-hover dropdown-toggle"';}?> href="izrada-sajtova.php" id="navbarDropdown" role="button"  aria-expanded="false">
             Izrada sajtova
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -68,7 +68,7 @@
           </ul>
         </li>
         <li class="nav-item dropdown">
-          <a <?php if($title=='Grafički dizajn' ){ echo ' id="active" class="nav-link dropdown-toggle"';}else{echo 'class="nav-link dropdown-toggle"';}?> href="graficki-dizajn.php" id="navbarDropdown" role="button"  aria-expanded="false">
+          <a <?php if($title=='Grafički dizajn' ){ echo ' id="active" class="dropdown-toggle"';}else{echo 'class="nav-hover dropdown-toggle"';}?> href="graficki-dizajn.php" id="navbarDropdown" role="button"  aria-expanded="false">
             Dizajn
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -79,7 +79,7 @@
           </ul>
         </li>
         <li class="nav-item dropdown">  <!-- id="navbarDropdown" -->
-          <a  href="seo-i-marketing.php" <?php if($title=='Seo & Marketing' ){ echo ' id="active" class="nav-link dropdown-toggle"';}else{echo 'class="nav-link dropdown-toggle"';}?>  role="button"  aria-expanded="false">
+          <a  href="seo-i-marketing.php" <?php if($title=='Seo & Marketing' ){ echo ' id="active" class="dropdown-toggle"';}else{echo 'class="nav-hover dropdown-toggle"';}?>  role="button"  aria-expanded="false">
             SEO & marketing
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -95,7 +95,7 @@
           </ul>
         </li>
         <li class="nav-item">
-          <a <?php if($title=='Kontakt' ){ echo ' id="active" class="nav-link"';}else{echo 'class="nav-link"';}?> href="kontakt.php">Kontakt</a>
+          <a <?php if($title=='Kontakt' ){ echo ' id="active" ';}else{echo 'class="nav-hover"';}?> href="kontakt.php">Kontakt</a>
         </li>
       </ul>
 
