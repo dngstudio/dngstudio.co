@@ -113,11 +113,21 @@
   font-size: 0.875rem;
 }
 
+.badge {
+  font-family: "Anonymous Pro";
+}
+
 .skew {
   height: 200px;
   transform: skewY(-2deg);
   background-color: #fff;
   margin-top: -30px;
+}
+
+.price {
+  font-family: "Anonymous Pro";
+  font-weight: bold;
+  font-size: 30px;
 }
 
 .inverted {
@@ -137,6 +147,16 @@ div a {
 #faq img {
   max-width: 80%;
   width: 100%;
+}
+
+.switch::before {
+  content: "Odjednom";
+  padding-right: 15px;
+}
+
+.switch::after {
+  content: "Na 3 rate";
+  margin-left: 15px;
 }
 
 #marquee {

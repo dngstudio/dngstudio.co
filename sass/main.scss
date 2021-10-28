@@ -169,6 +169,14 @@ $spacers: (
   font-size: $font-size-sm;
 }
 
+//badge
+$badge-font-size: $font-size-sm;
+$badge-font-weight: normal;
+
+.badge {
+  font-family: $btn-font-family;
+}
+
 //misc
 
 .skew{
@@ -178,6 +186,11 @@ $spacers: (
   margin-top: -30px;
 }
 
+.price {
+  font-family: $btn-font-family;
+  font-weight: bold;
+  font-size: $h3-font-size;
+}
  
 .inverted {
   height: 100vh;
@@ -199,12 +212,24 @@ div a {
 }
 
 
+.switch::before {
+  content: "Odjednom";
+  padding-right: 15px;
+}
+
+.switch::after {
+  content: "Na 3 rate";
+  margin-left: 15px;
+}
+
+
 $accordion-button-focus-border-color:white;
 $grid-gutter-width:20px;
-$badge-font-size: $font-size-sm;
-$badge-font-weight: normal;
 $list-group-border-width: 0px;
 $accordion-border-width: 0px;
+
+
+
 
 
 

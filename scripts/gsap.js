@@ -7,19 +7,15 @@ gsap.to(container, {
   ease: "power1.inOut",
   scrollTrigger: {
     trigger: container,
-    start:"80% 20%",
+    start:"45% top",
     invalidateOnRefresh: true,
-    pin: true,
     scrub: 1,
     end: () => "+=" + container.offsetWidth,
     markers:true,
-    
   },
   snap: {
     snapTo: "#panel",
     duration: 0.3,
-    delay: 0.1,
-    ease: "power1.inOut"
   },
 })
 

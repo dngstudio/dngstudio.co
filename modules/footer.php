@@ -47,7 +47,19 @@
             <div class="col">
                 <span class="text-white">Powered by <a href="https://www.dngstudio.co">DNG Studio</a></span>
             </div>
-            <div class="col"></div>
+            <div class="col d-flex align-items-right justify-content-end ">
+                <img src="media\pics\tehnologije\html.png" alt="" class="tehnologije">
+                <img src="media\pics\tehnologije\css3.png" alt="" class="tehnologije">
+                <img src="media\pics\tehnologije\js.png" alt="" class="tehnologije">
+                <img src="media\pics\tehnologije\jquery.png" alt="" class="tehnologije">
+                <img src="media\pics\tehnologije\sass.png" alt="" class="tehnologije">
+                <img src="media\pics\tehnologije\php.png" alt="" class="tehnologije">
+                <img src="media\pics\tehnologije\MySQL.png" alt="" class="tehnologije">
+                <img src="media\pics\tehnologije\wp.png" alt="" class="tehnologije">
+                <img src="media\pics\tehnologije\ps.png" alt="" class="tehnologije">
+                <img src="media\pics\tehnologije\ai.png" alt="" class="tehnologije">
+                <img src="media\pics\tehnologije\xd.png" alt="" class="tehnologije">
+            </div>
         </div>
     </div>
 </div>
