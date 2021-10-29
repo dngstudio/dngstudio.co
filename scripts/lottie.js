@@ -5,5 +5,5 @@ lottie.loadAnimation({
     renderer: 'svg',
     loop: true,
     autoplay: true,
-    path: 'media/misc/lf30_editor_zr0qlv8l.json' // the path to the animation json
+    path: 'media/misc/heading.json' // the path to the animation json
   });

@@ -16,6 +16,7 @@ $secondary:#107e7d;
 $gray-100:#ededed;
 $gray-900:#202020;
 $danger: #e56161;
+$component-active-bg: $secondary;
 
 //base
 $font-family-base:"Noto Sans";
@@ -34,6 +35,7 @@ $container-padding-x:0px;
 //borders
 $border-width:2px;
 $border-radius:0px;
+$input-btn-focus-width:0px;
 
 //navbar
 $enable-caret: false;
@@ -177,6 +179,11 @@ $badge-font-weight: normal;
   font-family: $btn-font-family;
 }
 
+//switch
+
+
+
+
 //misc
 
 .skew{
@@ -212,21 +219,14 @@ div a {
 }
 
 
-.switch::before {
-  content: "Odjednom";
-  padding-right: 15px;
-}
-
-.switch::after {
-  content: "Na 3 rate";
-  margin-left: 15px;
-}
 
 
 $accordion-button-focus-border-color:white;
 $grid-gutter-width:20px;
 $list-group-border-width: 0px;
 $accordion-border-width: 0px;
+$accordion-button-active-color: white;
+$accordion-button-active-bg: $secondary;
 
 
 

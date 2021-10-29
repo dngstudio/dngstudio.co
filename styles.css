@@ -24,53 +24,35 @@ html,body{
   padding:0;
   margin:0;
 }
+
 body {
   overflow-x: hidden;
 }
 
 #panel {
-  background-color:grey;
+  background-color:#282828;
+  padding: 0;
+  margin: 0;
   display:flex;
   flex-wrap:wrap;
   flex-direction:column;
-  height:100vh;
-  position: sticky;
 }
 
 .module{
-  height:100vh;
   display:flex;
-  position: sticky;
+  background-color:#282828;
 }
 
-.green{
-  width:500px;
-  background-color:green;
+.panel1{
+  width:100%;
 }
 
-.yellow{
-  width:1300px;
-  background-color:yellow;
+.panel2{
+  width:100%;
 }
 
-.purple{
-  width:800px;
-  background-color:purple;
-}
-
-.orange{
-  width:800px;
-  background-color:purple;
-}
-
-.blue{
-  width:2100px;
-  background-color:blue;
-}
-
-.red{
-  width:900px;
-  background-color:red;
+.panel3{
+  width:100%;
 }
 
 .partners {
@@ -93,3 +75,25 @@ body {
   margin-left: 10px;
 }
 
+
+#odjednom {
+  display: flex !important;
+  position: relative;
+  margin-right: 60px;
+}
+
+#rate {
+  display: flex !important;
+  position: relative;
+  margin-left: 20px;
+}
+
+.form-switch {
+  margin-left: -40px;
+}
+
+.form-check-input
+{
+    outline: none;
+    box-shadow: none;
+}

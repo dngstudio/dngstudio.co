@@ -1,21 +1,29 @@
 gsap.registerPlugin(ScrollTrigger)
 
+let topcontainer = document.getElementById("panelcontainer");
+
 let container = document.getElementById("panel");
 
-gsap.to(container, {
+const tl = gsap.timeline();
+
+tl.to(container, {
   x: () => -(container.scrollWidth - document.documentElement.clientWidth) + "px",
-  ease: "power1.inOut",
+  ease: "power2.out" ,
   scrollTrigger: {
+    ease: "none",
     trigger: container,
-    start:"45% top",
-    invalidateOnRefresh: true,
-    scrub: 1,
+    start:"top top",
+    scrub: true,
     end: () => "+=" + container.offsetWidth,
     markers:true,
+    pin: topcontainer,
+    invalidateOnRefresh: false,
   },
-  snap: {
-    snapTo: "#panel",
-    duration: 0.3,
-  },
-})
+});
+
+
+
+
+
+
 

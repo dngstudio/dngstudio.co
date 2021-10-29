@@ -7,7 +7,8 @@ require './modules/header.php'; ?>
     <div class="col">
       <h1 class="h1">DNG Studio firmu čuva</h1>
       <p>Pomažemo firmama i pojedincima da se istaknu uz upečatljiv digitalni identitet.</p>
-      <button class="fill">Saznajte više</button>
+      <button class="fill">Pošaljite upit</button>
+      <button class="btn btn-outline-dark ms-2" style="padding: 10px 20px 10px; position:relative;top:7px">Saznajte više</button>
     </div>
     <div class="col">
       <div id="home-anim"></div>
@@ -111,7 +112,7 @@ require './modules/header.php'; ?>
   </div>
 </div>
 
-<div class="container d-flex flex-column min-vh-100 justify-content-center align-items-center">
+<div class="container d-flex flex-column h-100 justify-content-center align-items-center">
   <div class="row">
     <div class="col">
       <h2 class="h2">DNG Studio firmu čuva</h2>
@@ -131,22 +132,37 @@ require './modules/header.php'; ?>
   </div>
 </div>
 
-
-<div id="panel" class="container-fluid">
-  <div class="module green"></div>
-  <div class="module yellow"></div>
-  <div class="module purple"></div>
-  <div class="module orange"></div>
-  <div class="module blue"></div>
-  <div class="module red"></div>
+<div class="container-fluid h-100" id="panelcontainer">
+  <div id="panel" class="h-100">
+    <div class="module panel1 h-100">
+        <div class="container d-flex justify-content-center align-items-center">
+          <div class="row">
+            <div class="col">
+              <img src="media\pics\DNG Studio FAQ.jpg" alt="">
+            </div>
+            <div class="col">
+              
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="module panel2 h-100"></div>
+    <div class="module panel3 h-100"></div>
+  </div>
 </div>
 
-<h3 class="mb-3 mt-5 text-center">Paketi usluga</h2>
-<div class="container form-check form-switch d-inline-flex justify-content-center">
 
-  <input class="form-check-input switch" type="checkbox" role="switch" id="flexSwitchCheckDefault">
-  
+
+<h3 class="mb-2 mt-5 text-center">Paketi usluga</h2>
+
+<div class="d-flex form-check form-switch justify-content-center mb-3">
+    <label id="odjednom">Odjednom</label>
+    <input class="form-check-input" id="placanje" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+    <label id="rate">Na 3 rate</label>
 </div>
+
+
+
 <div class="container d-flex min-vh-100 align-items-start justify-content-center">
       <div class="card text-center shadow pricing d-inline-flex mx-2 py-3" style="width: 18rem;">
         <div class="card-body">
@@ -159,7 +175,8 @@ require './modules/header.php'; ?>
           <li class="list-group-item">Optimizacija za mobilne uređaje</li>
         </ul>
         <div class="card-body">
-          <p class="price pb-1">od 300€</p>
+          <p class="price pb-1 price1">od 300€</p>
+          <p class="price pb-1 price2">od 420€</p>
           <button class="btn btn-outline-secondary">Zakaži konsultacije</button>
         </div>
       </div>
@@ -182,7 +199,8 @@ require './modules/header.php'; ?>
           <li class="list-group-item">Opcija za e-commerce</li>
         </ul>
         <div class="card-body">
-          <p class="price pb-1">od 500€</p>
+          <p class="price pb-1 price1">od 500€</p>
+          <p class="price pb-1 price2">od 600€</p>
           <button class="btn btn-outline-secondary">Zakaži konsultacije</button>
         </div>
       </div>
@@ -192,12 +210,16 @@ require './modules/header.php'; ?>
           <p class="card-text">Za najhrabrije! Ovaj paket obuhvata izradu kompletnog veb sajta sa uključenim brendingom.</p>
         </div>
         <ul class="list-group list-group-flush">
-          <li class="list-group-item">Do 5 stranica</li>
-          <li class="list-group-item">SEO</li>
-          <li class="list-group-item">Optimizacija za mobilne uređaje</li>
+          <li class="list-group-item">Neograničeno stranica</li>
+          <li class="list-group-item">Napredni SEO</li>
+          <li class="list-group-item">Napredno kodiranje</li>
+          <li class="list-group-item">Izrada kompletnog vizuelnog identiteta</li>
+          <li class="list-group-item">Povezivanje sa Guglom i Instagramom</li>
+          <li class="list-group-item">Pravljenje kompleksnih baza podataka</li>
         </ul>
         <div class="card-body">
-          <p class="price pb-1">od 1500€</p>
+          <p class="price pb-1 price1">od 1500€</p>
+          <p class="price pb-1 price2">od 1800€</p>
           <button class="btn btn-outline-secondary">Zakaži konsultacije</button>
         </div>
       </div>

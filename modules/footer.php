@@ -6,8 +6,9 @@
                 <div class="card" id="footer-info" style="width: 18rem;">
                     <img src="media\pics\DNG Studio Logo.png" class="card-img-top" alt="...">
                     <div class="card-body mt-2">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <p class="card-text">DNG Studio se bavi izradom veb sajtova, aplikacija i razvijanjem vizuelnog identiteta brendova.
+Omogućavamo firmama da ostvare svoj pun potencijal!</p>
+                        <a href="#" class="btn btn-primary">Zakaži konsultacije</a>
                     </div>
                 </div>
             </div>
@@ -32,10 +33,23 @@
                 </div>
             </div>
             <div class="col">
+                <div class="list-group">
+                    <h4 class="text-primary">Call centar</h4>
+                    <a class="text-white mt-1" href="#">Portfolio</a>
+                    <h4 class="text-primary mt-3">E-mail podrška</h4>
+                    <a class="text-white" href="mailto:office@dngstudio.co">office@dngstudio.co</a>
 
+                </div>
             </div>
             <div class="col">
-
+                <div class="list-group">
+                    <h4 class="text-primary">O firmi</h4>
+                    <a class="text-white mt-1" href="#">Portfolio</a>
+                    <a class="text-white mt-1" href="#">Cenovnik</a>
+                    <a class="text-white mt-1" href="#">Baza znanja</a>
+                    <a class="text-white mt-1" href="#">Kontakt</a>
+                    <a class="text-white mt-1" href="#">Naš tim</a>
+                </div>
             </div>
         </div>
     </div>
