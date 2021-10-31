@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./styles/main.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="./magnific/magnific-popup.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollToPlugin.min.js"></script>
@@ -28,7 +29,13 @@
       })();
     </script>
     <!--End of Tawk.to Script-->
-</head>
+
+    <!--Start of formio Script-->
+    <link rel='stylesheet' href='https://cdn.form.io/formiojs/formio.full.min.css'>
+    <script src='https://cdn.form.io/formiojs/formio.full.min.js'></script> 
+    <!--End of formio Script-->
+
+  </head>
 
 <body>
 

@@ -171,6 +171,10 @@ $spacers: (
   font-size: $font-size-sm;
 }
 
+#footer p {
+  font-size: $font-size-sm;
+}
+
 //badge
 $badge-font-size: $font-size-sm;
 $badge-font-weight: normal;
@@ -179,9 +183,14 @@ $badge-font-weight: normal;
   font-family: $btn-font-family;
 }
 
-//switch
+//form
+#builder {
+  font-size: $font-size-sm;
+}
 
-
+.info {
+  font-size: $font-size-sm;
+}
 
 
 //misc

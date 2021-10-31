@@ -112,21 +112,15 @@ require './modules/header.php'; ?>
   </div>
 </div>
 
-<div class="container d-flex flex-column h-100 justify-content-center align-items-center">
+<div class="container d-flex flex-column mt-5 justify-content-center align-items-center">
   <div class="row">
-    <div class="col">
-      <h2 class="h2">DNG Studio firmu čuva</h2>
+    <div class="col-6 my-auto ">
+      <h2 class="h2">Nego, kako mi sve navedeno radimo?</h2>
       <p>Pomažemo firmama i pojedincima da se istaknu uz upečatljiv digitalni identitet.</p>
       <button class="fill">Saznajte više</button>
     </div>
-    <div class="col">
-        <div class="card text-center shadow" style="width: 18rem;">
-          <div class="card-body">
-            <h5 class="card-title">E-commerce</h5>
-            <p class="card-text">Izrada Internet prodavnica, od onih za jedan proizvoda, do velikih radnji.</p>
-            <a href="#" class="card-link">Saznajte više</a>
-          </div>
-        </div>
+    <div class="col-6">
+        <img src="media\pics\DNG Studio - Phone Mockup.png" alt="" id="pmockup">
       </div>
     </div>
   </div>
@@ -226,7 +220,36 @@ require './modules/header.php'; ?>
 </div>
 
 
-<div class="container" id="faq">
+<div class="container d-flex align-items-start justify-content-center mt-5">
+  <div class="card shadow mx-2 py-3 my-auto">
+    <div class="card-body p-3">
+      <h3 class="card-title">Ne uklapaš se u pakete?</h3>
+      <p class="card-text my-2">To je sasvim normalno! Svaki projekat je priča za sebe i ne treba svakom klijentu isti tip usluge. Slobodno nam napiši u formi ispod šta te zanima, a mi ćemo da te provedemo kroz neka najbitnija pitanja. Ovde možeš da odlučiš da li želiš da se prvo konsultujemo ili bi odmah da nas angažuješ.</p>
+      <div class="row">
+        <div class="col">
+          <div id="builder"></div>
+        </div>
+        <div class="col">
+          <div class="card mb-3 info bg-light" style="max-width: 18rem;">
+            <div class="card-body">
+              <h4 class="card-title"><i class="bi bi-info-circle me-1" aria-label="Info"></i>Nekoliko napomena</h4>
+              <ul>
+                <li>Od kompleksnosti projekta najviše zavise cena i rok izrade</li>
+                <li>Popuni formu što preciznije</li>
+                <li>Obavezno ostavi pravu mejl adresu</li>
+                <li>Konsultacije se vrše online, a po potrebi se zakazuje sastanak</li>
+                <li>Za sve nejasnoće obrati nam se putem četa ili poziva</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div> 
+    </div>
+  </div>
+</div>
+
+
+<div class="container mt-5" id="faq">
   <div class="row">
     <h3 class="mb-3">FAQ</h2>
       <div class="col">

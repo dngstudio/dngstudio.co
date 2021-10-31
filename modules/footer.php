@@ -35,7 +35,7 @@ Omogućavamo firmama da ostvare svoj pun potencijal!</p>
             <div class="col">
                 <div class="list-group">
                     <h4 class="text-primary">Call centar</h4>
-                    <a class="text-white mt-1" href="#">Portfolio</a>
+                    <a class="text-white mt-1" href="tel:+381677411312">0677/411-312</a>
                     <h4 class="text-primary mt-3">E-mail podrška</h4>
                     <a class="text-white" href="mailto:office@dngstudio.co">office@dngstudio.co</a>
 
@@ -44,11 +44,10 @@ Omogućavamo firmama da ostvare svoj pun potencijal!</p>
             <div class="col">
                 <div class="list-group">
                     <h4 class="text-primary">O firmi</h4>
-                    <a class="text-white mt-1" href="#">Portfolio</a>
-                    <a class="text-white mt-1" href="#">Cenovnik</a>
-                    <a class="text-white mt-1" href="#">Baza znanja</a>
-                    <a class="text-white mt-1" href="#">Kontakt</a>
-                    <a class="text-white mt-1" href="#">Naš tim</a>
+                    <p class="text-white mt-1">Jelena Janić PR DNG Media</p>
+                    <p class="text-white">PIB: 112475742</p>
+                    <p class="text-white">Matični broj: 66128229</p>
+                    <p class="text-white">Žiro račun: 265-1070310001533-62</p>
                 </div>
             </div>
         </div>
@@ -93,6 +92,7 @@ Omogućavamo firmama da ostvare svoj pun potencijal!</p>
 <script src="./scripts/gsap.js"></script>
 <script src="./scripts/misc.js"></script>
 <script src="./scripts/magnific-popup.js"></script>
+<script src="./scripts/form.js"></script>
 <script src="./scripts/marquee.js"></script>
 <script src="./bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
 

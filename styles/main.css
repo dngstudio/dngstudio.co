@@ -113,8 +113,20 @@
   font-size: 0.875rem;
 }
 
+#footer p {
+  font-size: 0.875rem;
+}
+
 .badge {
   font-family: "Anonymous Pro";
+}
+
+#builder {
+  font-size: 0.875rem;
+}
+
+.info {
+  font-size: 0.875rem;
 }
 
 .skew {
