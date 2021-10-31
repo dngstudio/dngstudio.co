@@ -61,7 +61,7 @@ window.onload = function() {
                                         "minLength": 2,
                                         "maxLength": 30
                                     },
-                                    "key": "ime1",
+                                    "key": "prezime",
                                     "type": "textfield",
                                     "input": true
                                 }
@@ -121,6 +121,66 @@ window.onload = function() {
                     "key": "kojuUsluguZelis",
                     "type": "select",
                     "input": true
+                },
+                {
+                    "label": "Koliki ti je okviran budžet za projekat?",
+                    "widget": "choicesjs",
+                    "tableView": true,
+                    "data": {
+                        "values": [
+                            {
+                                "label": "Do 200€",
+                                "value": "do200€"
+                            },
+                            {
+                                "label": "200€ - 500€",
+                                "value": "200€500€"
+                            },
+                            {
+                                "label": "500€ - 1000€",
+                                "value": "500€1000€"
+                            },
+                            {
+                                "label": "1000€ - 2000€",
+                                "value": "1000€2000€"
+                            },
+                            {
+                                "label": "2000€ - 3000€",
+                                "value": "2000€3000€"
+                            },
+                            {
+                                "label": "Preko 3000€",
+                                "value": "preko3000€"
+                            }
+                        ]
+                    },
+                    "validate": {
+                        "required": true
+                    },
+                    "key": "kolikiTiJeOkviranBudzetZaProjekat3",
+                    "conditional": {
+                        "show": true,
+                        "when": "kojuUsluguZelis",
+                        "eq": "imamPosebanZahtev"
+                    },
+                    "type": "select",
+                    "input": true
+                },
+                {
+                    "label": "Opiši nam projekat, šta tačno želiš, navedi nam neke postojeće primere ako ti padaju na pamet",
+                    "autoExpand": false,
+                    "tableView": true,
+                    "validate": {
+                        "required": true
+                    },
+                    "key": "opisiNamProjekatStaTacnoZelisNavediNamNekePostojecePrimereAkoTiPadajuNaPamet",
+                    "conditional": {
+                        "show": true,
+                        "when": "kojuUsluguZelis",
+                        "eq": "imamPosebanZahtev"
+                    },
+                    "type": "textarea",
+                    "input": true
                 }
             ],
             "input": false,
@@ -139,6 +199,11 @@ window.onload = function() {
             "scrollToTop": false,
             "collapsible": false,
             "key": "page2",
+            "conditional": {
+                "show": false,
+                "when": "kojuUsluguZelis",
+                "eq": "imamPosebanZahtev"
+            },
             "type": "panel",
             "label": "Page 2",
             "components": [
@@ -247,6 +312,206 @@ window.onload = function() {
                     },
                     "type": "select",
                     "input": true
+                },
+                {
+                    "label": "Šta želiš da dizajniramo?",
+                    "widget": "choicesjs",
+                    "tableView": true,
+                    "data": {
+                        "values": [
+                            {
+                                "label": "Logo",
+                                "value": "logo"
+                            },
+                            {
+                                "label": "Vizit kartu",
+                                "value": "vizitKartu"
+                            },
+                            {
+                                "label": "Flajer/brošuru",
+                                "value": "flajerBrosuru"
+                            },
+                            {
+                                "label": "Promotivni materijal",
+                                "value": "promotivniMaterijal"
+                            },
+                            {
+                                "label": "Dizajn za garderobu",
+                                "value": "dizajnZaGarderobu"
+                            },
+                            {
+                                "label": "Vizuelni identitet",
+                                "value": "vizuelniIdentitet"
+                            },
+                            {
+                                "label": "Brending vozila",
+                                "value": "brendingVozila"
+                            },
+                            {
+                                "label": "Reklamu",
+                                "value": "reklamu"
+                            },
+                            {
+                                "label": "UI/UX dizajn",
+                                "value": "uiUxDizajn"
+                            },
+                            {
+                                "label": "Imam poseban zahtev",
+                                "value": "imamPosebanZahtev"
+                            }
+                        ]
+                    },
+                    "validate": {
+                        "required": true
+                    },
+                    "key": "staZelisDaDizajniramo",
+                    "conditional": {
+                        "show": true,
+                        "when": "kojuUsluguZelis",
+                        "eq": "dizajn"
+                    },
+                    "type": "select",
+                    "input": true
+                },
+                {
+                    "label": "Ovde napiši šta želiš da dizajniramo",
+                    "tableView": true,
+                    "key": "ovdeNapisiStaZelisDaDizajniramo",
+                    "conditional": {
+                        "show": true,
+                        "when": "staZelisDaDizajniramo",
+                        "eq": "imamPosebanZahtev"
+                    },
+                    "type": "textfield",
+                    "input": true
+                },
+                {
+                    "label": "Koliki ti je okviran budžet za projekat?",
+                    "widget": "choicesjs",
+                    "tableView": true,
+                    "data": {
+                        "values": [
+                            {
+                                "label": "Do 200€",
+                                "value": "do200€"
+                            },
+                            {
+                                "label": "200€ - 500€",
+                                "value": "200€500€"
+                            },
+                            {
+                                "label": "500€ - 1000€",
+                                "value": "500€1000€"
+                            },
+                            {
+                                "label": "1000€ - 2000€",
+                                "value": "1000€2000€"
+                            },
+                            {
+                                "label": "2000€ - 3000€",
+                                "value": "2000€3000€"
+                            },
+                            {
+                                "label": "Preko 3000€",
+                                "value": "preko3000€"
+                            }
+                        ]
+                    },
+                    "validate": {
+                        "required": true
+                    },
+                    "key": "kolikiTiJeOkviranBudzetZaProjekat1",
+                    "conditional": {
+                        "show": true,
+                        "when": "kojuUsluguZelis",
+                        "eq": "dizajn"
+                    },
+                    "type": "select",
+                    "input": true
+                },
+                {
+                    "label": "Koji tip marketinga te zanima?",
+                    "widget": "choicesjs",
+                    "tableView": true,
+                    "data": {
+                        "values": [
+                            {
+                                "label": "SEO",
+                                "value": "seo"
+                            },
+                            {
+                                "label": "Google marketing",
+                                "value": "googleMarketing"
+                            },
+                            {
+                                "label": "Instagram marketing",
+                                "value": "instagramMarketing"
+                            },
+                            {
+                                "label": "Facebook marketing",
+                                "value": "facebookMarketing"
+                            },
+                            {
+                                "label": "Vođenje profila na društvenim mrežama",
+                                "value": "vodenjeProfilaNaDrustvenimMrezama"
+                            }
+                        ]
+                    },
+                    "validate": {
+                        "required": true
+                    },
+                    "key": "kojiTipMarketingaZelite",
+                    "conditional": {
+                        "show": true,
+                        "when": "kojuUsluguZelis",
+                        "eq": "marketing"
+                    },
+                    "type": "select",
+                    "input": true
+                },
+                {
+                    "label": "Koliki ti je okviran mesečni budžet za projekat?",
+                    "widget": "choicesjs",
+                    "tableView": true,
+                    "data": {
+                        "values": [
+                            {
+                                "label": "Do 200€",
+                                "value": "do200€"
+                            },
+                            {
+                                "label": "200€ - 500€",
+                                "value": "200€500€"
+                            },
+                            {
+                                "label": "500€ - 1000€",
+                                "value": "500€1000€"
+                            },
+                            {
+                                "label": "1000€ - 2000€",
+                                "value": "1000€2000€"
+                            },
+                            {
+                                "label": "2000€ - 3000€",
+                                "value": "2000€3000€"
+                            },
+                            {
+                                "label": "Preko 3000€",
+                                "value": "preko3000€"
+                            }
+                        ]
+                    },
+                    "validate": {
+                        "required": true
+                    },
+                    "key": "kolikiTiJeOkviranBudzetZaProjekat2",
+                    "conditional": {
+                        "show": true,
+                        "when": "kojuUsluguZelis",
+                        "eq": "marketing"
+                    },
+                    "type": "select",
+                    "input": true
                 }
             ],
             "input": false,
@@ -265,13 +530,18 @@ window.onload = function() {
             "scrollToTop": false,
             "collapsible": false,
             "key": "page3",
+            "conditional": {
+                "show": false,
+                "when": "kojuUsluguZelis",
+                "eq": "imamPosebanZahtev"
+            },
             "type": "panel",
             "label": "Page 3",
             "input": false,
             "tableView": false,
             "components": [
                 {
-                    "label": "Da li već imate svoj sajt?",
+                    "label": "Da li već imaš svoj sajt?",
                     "optionsLabelPosition": "right",
                     "inline": false,
                     "tableView": false,
@@ -300,7 +570,120 @@ window.onload = function() {
                     "input": true
                 },
                 {
-                    "label": "Unesite URL svog sajta",
+                    "label": "Da li već imaš neko svoje grafičko rešenje?",
+                    "optionsLabelPosition": "right",
+                    "inline": false,
+                    "tableView": false,
+                    "values": [
+                        {
+                            "label": "Da",
+                            "value": "da",
+                            "shortcut": ""
+                        },
+                        {
+                            "label": "Ne",
+                            "value": "ne",
+                            "shortcut": ""
+                        }
+                    ],
+                    "validate": {
+                        "required": true
+                    },
+                    "key": "daLiVecImateSvojSajt1",
+                    "conditional": {
+                        "show": true,
+                        "when": "kojuUsluguZelis",
+                        "eq": "dizajn"
+                    },
+                    "type": "radio",
+                    "input": true
+                },
+                {
+                    "label": "Da li već imaš neki profil na društvenoj mreži?",
+                    "optionsLabelPosition": "right",
+                    "inline": false,
+                    "tableView": false,
+                    "values": [
+                        {
+                            "label": "Da",
+                            "value": "da",
+                            "shortcut": ""
+                        },
+                        {
+                            "label": "Ne",
+                            "value": "ne",
+                            "shortcut": ""
+                        }
+                    ],
+                    "validate": {
+                        "required": true
+                    },
+                    "key": "daLiVecImateSvojSajt2",
+                    "conditional": {
+                        "show": false,
+                        "when": "kojiTipMarketingaZelite",
+                        "eq": "seo"
+                    },
+                    "type": "radio",
+                    "input": true
+                },
+                {
+                    "label": "Da li već imaš sajt ili želiš da ga napravimo za tebe?",
+                    "optionsLabelPosition": "right",
+                    "inline": false,
+                    "tableView": false,
+                    "values": [
+                        {
+                            "label": "Imam sajt",
+                            "value": "imamSajt",
+                            "shortcut": ""
+                        },
+                        {
+                            "label": "Želim da ga napravite",
+                            "value": "zelimDaGaNapravite",
+                            "shortcut": ""
+                        },
+                        {
+                            "label": "Sajt mi pravi neko drugi",
+                            "value": "sajtMiPraviNekoDrugi",
+                            "shortcut": ""
+                        }
+                    ],
+                    "validate": {
+                        "required": true
+                    },
+                    "key": "daLiVecImateSvojSajt3",
+                    "conditional": {
+                        "show": true,
+                        "when": "kojiTipMarketingaZelite",
+                        "eq": "seo"
+                    },
+                    "type": "radio",
+                    "input": true
+                },
+                {
+                    "label": "Ukoliko želiš, otpremi ovde svoj postojeći dizajn kako bismo imali bolji uvid u to šta ti treba",
+                    "tableView": false,
+                    "storage": "googledrive",
+                    "webcam": false,
+                    "fileTypes": [
+                        {
+                            "label": "",
+                            "value": ""
+                        }
+                    ],
+                    "fileMaxSize": "100MB",
+                    "key": "ukolikoZelisOtpremiOvdeSvojPostojeciDizajnKakoBismoImaliBoljiUvidUToStaTiTreba",
+                    "conditional": {
+                        "show": true,
+                        "when": "daLiVecImateSvojSajt1",
+                        "eq": "da"
+                    },
+                    "type": "file",
+                    "input": true
+                },
+                {
+                    "label": "Unesi URL svog sajta",
                     "tableView": true,
                     "key": "unesiteUrlSvogSajta",
                     "conditional": {
@@ -312,14 +695,64 @@ window.onload = function() {
                     "input": true
                 },
                 {
-                    "label": "Opiši ovde detaljnije projekat, reci nam šta želiš, pošalji neke sajtove koji ti se sviđaju.",
+                    "label": "Unesi URL profila koji želiš da reklamiraš",
+                    "tableView": true,
+                    "key": "unesiteUrlSvogSajta1",
+                    "conditional": {
+                        "show": true,
+                        "when": "daLiVecImateSvojSajt2",
+                        "eq": "da"
+                    },
+                    "type": "url",
+                    "input": true
+                },
+                {
+                    "label": "Unesi URL sajta na kome bi da radimo SEO",
+                    "tableView": true,
+                    "key": "unesiteUrlSvogSajta2",
+                    "conditional": {
+                        "show": true,
+                        "when": "daLiVecImateSvojSajt3",
+                        "eq": "imamSajt"
+                    },
+                    "type": "url",
+                    "input": true
+                },
+                {
+                    "label": "Opiši ovde detaljnije projekat, reci nam šta želiš, šta želiš da postigneš reklamom, da li ti padaju na pamet neke interesantne kampanje na koje želiš da se ugledaš.",
                     "autoExpand": false,
                     "tableView": true,
                     "key": "opisiOvdeDetaljnijeProjekatReciNamStaZelisPosaljiNekeSajtoveKojiTiSeSvidaju1",
                     "conditional": {
                         "show": true,
                         "when": "kojuUsluguZelis",
+                        "eq": "marketing"
+                    },
+                    "type": "textarea",
+                    "input": true
+                },
+                {
+                    "label": "Opiši ovde detaljnije projekat, reci nam šta želiš, pošalji neke sajtove koji ti se sviđaju.",
+                    "autoExpand": false,
+                    "tableView": true,
+                    "key": "opisiOvdeDetaljnijeProjekatReciNamStaZelisPosaljiNekeSajtoveKojiTiSeSvidaju3",
+                    "conditional": {
+                        "show": true,
+                        "when": "kojuUsluguZelis",
                         "eq": "izradaVebSajtaProdavnice"
+                    },
+                    "type": "textarea",
+                    "input": true
+                },
+                {
+                    "label": "Opiši ovde detaljnije projekat, reci nam šta želiš, pošalji neki dizajn ili stil koji ti se sviđa.",
+                    "autoExpand": false,
+                    "tableView": true,
+                    "key": "opisiOvdeDetaljnijeProjekatReciNamStaZelisPosaljiNekeSajtoveKojiTiSeSvidaju2",
+                    "conditional": {
+                        "show": true,
+                        "when": "kojuUsluguZelis",
+                        "eq": "dizajn"
                     },
                     "type": "textarea",
                     "input": true
@@ -388,6 +821,7 @@ window.onload = function() {
                         "hourIncrement": 1,
                         "minuteIncrement": 1,
                         "time_24hr": true,
+                        "minDate": null,
                         "disableWeekends": true,
                         "disableWeekdays": false,
                         "maxDate": null
