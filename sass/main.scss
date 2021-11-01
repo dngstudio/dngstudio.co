@@ -188,6 +188,14 @@ $badge-font-weight: normal;
   font-size: $font-size-sm;
 }
 
+#builder button {
+  margin-top: .5rem !important;
+}
+
+#builder .page-item {
+  border-width: 0px;
+}
+
 .info {
   font-size: $font-size-sm;
 }

@@ -125,6 +125,14 @@
   font-size: 0.875rem;
 }
 
+#builder button {
+  margin-top: 0.5rem !important;
+}
+
+#builder .page-item {
+  border-width: 0px;
+}
+
 .info {
   font-size: 0.875rem;
 }

@@ -1,5 +1,6 @@
 window.onload = function() {
-    Formio.createForm(document.getElementById('builder'), {
+    Formio.createForm(document.getElementById('builder'),
+    {       
         "display": "wizard",
     "settings": {
         "pdf": {
@@ -93,6 +94,7 @@ window.onload = function() {
                     "label": "Koju uslugu želiš?",
                     "widget": "choicesjs",
                     "tableView": true,
+                    "placeholder": "Odaberi uslugu",
                     "data": {
                         "values": [
                             {
@@ -191,7 +193,7 @@ window.onload = function() {
             "breadcrumbClickable": true,
             "buttonSettings": {
                 "previous": true,
-                "cancel": true,
+                "cancel": false,
                 "next": true
             },
             "navigateOnEnter": false,
@@ -233,6 +235,7 @@ window.onload = function() {
                     "label": "Koja bi bila namena sajta?",
                     "widget": "choicesjs",
                     "tableView": true,
+                    "placeholder": "Odaberi namenu sajta",
                     "data": {
                         "values": [
                             {
@@ -273,6 +276,7 @@ window.onload = function() {
                     "label": "Koliki ti je okviran budžet za projekat?",
                     "widget": "choicesjs",
                     "tableView": true,
+                    "placeholder": "Odaberi budžet",
                     "data": {
                         "values": [
                             {
@@ -317,6 +321,7 @@ window.onload = function() {
                     "label": "Šta želiš da dizajniramo?",
                     "widget": "choicesjs",
                     "tableView": true,
+                    "placeholder": "Odaberi dizajn",
                     "data": {
                         "values": [
                             {
@@ -389,6 +394,7 @@ window.onload = function() {
                     "label": "Koliki ti je okviran budžet za projekat?",
                     "widget": "choicesjs",
                     "tableView": true,
+                    "placeholder": "Odaberi budžet",
                     "data": {
                         "values": [
                             {
@@ -433,6 +439,7 @@ window.onload = function() {
                     "label": "Koji tip marketinga te zanima?",
                     "widget": "choicesjs",
                     "tableView": true,
+                    "placeholder": "Odaberi tip marketinga",
                     "data": {
                         "values": [
                             {
@@ -473,6 +480,7 @@ window.onload = function() {
                     "label": "Koliki ti je okviran mesečni budžet za projekat?",
                     "widget": "choicesjs",
                     "tableView": true,
+                    "placeholder": "Odaberi budžet",
                     "data": {
                         "values": [
                             {
@@ -522,7 +530,7 @@ window.onload = function() {
             "breadcrumbClickable": true,
             "buttonSettings": {
                 "previous": true,
-                "cancel": true,
+                "cancel": false,
                 "next": true
             },
             "navigateOnEnter": false,
@@ -830,5 +838,7 @@ window.onload = function() {
             ]
         }
     ]
+    
     });
+    
 };
