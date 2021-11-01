@@ -88,14 +88,18 @@
               <div class="col">dwad</div>
             </div>
           </ul>
+
+          <li class="nav-item">
+          <a  <?php if($title=='Baza znanja' ){ echo 'id="active"';}else{echo 'class="nav-hover"';}?>  aria-current="page" href="baza-znanja.php">Baza znanja</a>
         </li>
-        <li class="nav-item">
-          <a <?php if($title=='Kontakt' ){ echo ' id="active" ';}else{echo 'class="nav-hover"';}?> href="kontakt.php">Kontakt</a>
+
         </li>
       </ul>
 
       <form class="d-flex">
-        <button class="fill" type="button">Besplatne konsultacije</button>
+      <a href="besplatne-konsultacije.php">
+        <button  class="fill" type="button">Besplatne konsultacije</button>
+    </a>
       </form>
     </div>
   </div>
