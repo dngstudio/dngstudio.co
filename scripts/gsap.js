@@ -14,7 +14,7 @@ tl.to(container, {
     trigger: container,
     start:"top top",
     scrub: true,
-    end: () => "+=" + container.offsetWidth,
+    end: () => "+=" + (container.offsetWidth)*5,
     markers:true,
     pin: topcontainer,
     invalidateOnRefresh: false,

@@ -5,7 +5,7 @@
       <p class="card-text my-2">To je sasvim normalno! Svaki projekat je priča za sebe i ne treba svakom klijentu isti tip usluge. Slobodno nam napiši u formi ispod šta te zanima, a mi ćemo da te provedemo kroz neka najbitnija pitanja. Ovde možeš da odlučiš da li želiš da se prvo konsultujemo ili bi odmah da nas angažuješ.</p>
       <div class="row">
         <div class="col">
-          <div id="builder"></div>
+          <div id="builder" class="mt-3"></div>
         </div>
         <div class="col">
           <div class="card mb-3 info bg-light" style="max-width: 18rem;">

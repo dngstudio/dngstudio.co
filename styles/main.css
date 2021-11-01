@@ -126,11 +126,19 @@
 }
 
 #builder button {
-  margin-top: 0.5rem !important;
+  margin-top: 1rem !important;
 }
 
-#builder .page-item {
+#builder .page-link {
   border-width: 0px;
+}
+
+#builder input {
+  border: 1px solid #202020;
+}
+
+#builder .selection {
+  border: 1px solid #202020;
 }
 
 .info {

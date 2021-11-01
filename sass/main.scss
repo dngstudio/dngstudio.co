@@ -189,11 +189,19 @@ $badge-font-weight: normal;
 }
 
 #builder button {
-  margin-top: .5rem !important;
+  margin-top: 1rem !important;
 }
 
-#builder .page-item {
+#builder .page-link {
   border-width: 0px;
+}
+
+#builder input {
+  border:1px solid $gray-900;
+}
+
+#builder .selection {
+  border:1px solid $gray-900;
 }
 
 .info {

@@ -126,22 +126,27 @@ require './modules/header.php'; ?>
   </div>
 </div>
 
-<div class="container-fluid h-100" id="panelcontainer">
+<div class="container-fluid h-100 d-flex align-items-middle" id="panelcontainer">
   <div id="panel" class="h-100">
     <div class="module panel1 h-100">
-        <div class="container d-flex justify-content-center align-items-center">
-          <div class="row">
-            <div class="col">
-              <img src="media\pics\DNG Studio FAQ.jpg" alt="">
-            </div>
-            <div class="col">
-              
-            </div>
-          </div>
+      <div class="row">
+        <div class="col">
+          <h2 class="text-primary align-middle">Napravite od svoje firme pravi brend</h2>
         </div>
+        <div class="col">
+              
+        </div>
+      </div>
     </div>
     <div class="module panel2 h-100"></div>
-    <div class="module panel3 h-100"></div>
+    <div class="module panel3 h-100">
+      <div class="row">
+        <h3 class="text-white">Naš tim</h3>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+      </div>
+    </div>
   </div>
 </div>
 
