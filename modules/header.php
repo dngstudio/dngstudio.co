@@ -27,7 +27,7 @@
 
 <body>
 
-<nav class="navbar navbar-expand-lg">
+<nav class="navbar navbar-expand-lg py-2">
   <div class="container-fluid">
     <a class="navbar-brand" href="index.php"><img id="logo" src="media\pics\DNG Studio Logo.png" alt=""></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,55 +40,25 @@
         <li class="nav-item">
           <a  <?php if($title=='Početna' ){ echo 'id="active"';}else{echo 'class="nav-hover"';}?>  aria-current="page" href="index.php">Početna</a>
         </li>
-        <li class="nav-item dropdown">
-          <a href="e-commerce.php" <?php if($title=='E-commerce' ){ echo ' id="active" class="dropdown-toggle"';}else{echo 'class="nav-hover dropdown-toggle"';}?>  id="navbarDropdown" role="button"  aria-expanded="false"  >
+        <li class="nav-item">
+          <a href="e-commerce.php" <?php if($title=='E-commerce' ){ echo ' id="active"';}else{echo 'class="nav-hover"';}?>  role="button"  aria-expanded="false"  >
             E-commerce
           </a> <!-- data-bs-toggle="dropdown"-->
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
         </li>
-        <li class="nav-item dropdown">
-          <a <?php if($title=='Izrada sajtova' ){ echo ' id="active" class="dropdown-toggle"';}else{echo 'class="nav-hover dropdown-toggle"';}?> href="izrada-sajtova.php" id="navbarDropdown" role="button"  aria-expanded="false">
+        <li class="nav-item">
+          <a <?php if($title=='Izrada sajtova' ){ echo ' id="active"';}else{echo 'class="nav-hover "';}?> href="izrada-sajtova.php"  role="button"  aria-expanded="false">
             Izrada sajtova
           </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
         </li>
         <li class="nav-item dropdown">
-          <a <?php if($title=='Grafički dizajn' ){ echo ' id="active" class="dropdown-toggle"';}else{echo 'class="nav-hover dropdown-toggle"';}?> href="graficki-dizajn.php" id="navbarDropdown" role="button"  aria-expanded="false">
+          <a <?php if($title=='Grafički dizajn' ){ echo ' id="active"';}else{echo 'class="nav-hover "';}?> href="graficki-dizajn.php" role="button"  aria-expanded="false">
             Dizajn
           </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
         </li>
-        <li class="nav-item dropdown">  <!-- id="navbarDropdown" -->
-          <a  href="seo-i-marketing.php" <?php if($title=='Seo & Marketing' ){ echo ' id="active" class="dropdown-toggle"';}else{echo 'class="nav-hover dropdown-toggle"';}?>  role="button"  aria-expanded="false">
+        <li class="nav-item ">  <!-- id="navbarDropdown" -->
+          <a  href="seo-i-marketing.php" <?php if($title=='Seo & Marketing' ){ echo ' id="active"';}else{echo 'class="nav-hover"';}?>  role="button"  aria-expanded="false">
             SEO & marketing
           </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-            <div class="row">
-              <div class="col">dwad</div>
-              <div class="col">dwad</div>
-              <div class="col">dwad</div>
-            </div>
-          </ul>
-
           <li class="nav-item">
           <a  <?php if($title=='Baza znanja' ){ echo 'id="active"';}else{echo 'class="nav-hover"';}?>  aria-current="page" href="baza-znanja.php">Baza znanja</a>
         </li>
