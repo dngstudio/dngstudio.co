@@ -24,7 +24,7 @@ if ($result->num_rows > 0) {
       echo "id: " . $row["id"]. " - Name: " . $row["autor"]. " " . $row["Naziv"]. "<br>";
     }
   } else {
-    echo "0 results";
+    echo "Nema blogova";
   }
   $conn->close();
 
