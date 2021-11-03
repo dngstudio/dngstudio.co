@@ -210,11 +210,15 @@ $badge-font-weight: normal;
 
 //misc
 
-.skew{
-  height: 200px;
-  transform: skewY(-2deg);
-  background-color: #fff;
-  margin-top: -30px;
+.skew::before{
+  content: '';
+  position: absolute;
+  margin-top: -7%;
+  width: 100%;
+  height: 50%;
+  transform: skewY(-7deg);
+  background: $gray-100;
+  z-index: -1;
 }
 
 .price {
