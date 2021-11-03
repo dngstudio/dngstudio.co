@@ -5,7 +5,7 @@ require './modules/header.php'; ?>
 
 <div class="container text-center mt-4 ecom-header">
     <h2 class="px-5">Pretvorite svoju prodavnicu u online carstvo!</h2>
-    <p class="px-5">U poslednjih nekoliko godina se sve više ljudi odlučuje na kupovinu putem Interneta, a razloga ima bezbroj.</p>
+    <p class="px-5 my-3">U poslednjih nekoliko godina se sve više ljudi odlučuje na kupovinu putem Interneta, a razloga ima bezbroj.</p>
     <button class="fill">Saznajte više</button>
     <div class="row mt-5">
         <div class="col d-flex justify-content-center">
@@ -125,6 +125,17 @@ require './modules/header.php'; ?>
     <h3>Ne znaš odakle da počneš?</h3>
     <p>Sasvim je normalno da klijenti nemaju potpuno razvijenu ideju, pogotovo jer je Internet trgovina relativno nova stvar i nisu se svi navikli na to. Zato možeš da se konsultuješ sa našim timom stručnjaka za e-commerce kako bi te pravilno posavetovali.</p>
     <button class="btn btn-outline-secondary">Zakaži besplatne konsultacije</button>
+</div>
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col">
+            <h3 class="text-center">Klasična e-prodavnica</h3>
+        </div>
+        <div class="col">
+            <h3 class="text-center">DNG Shop</h3>
+        </div>
+    </div>
 </div>
 
 <?php include './modules/footer.php' ?>
