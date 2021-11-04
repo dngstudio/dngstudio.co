@@ -95,7 +95,7 @@ require './modules/header.php'; ?>
             </div>
             <div class="col-6">
                 <h3 class="card-title text-white">Stranica produkta</h3>
-                <p class="card-text text-white">Dizajniraćemo stranicu produkta tako da kupcu bude jasno na prvi pogled šta treba da radi. Dobra i pregledna stranica motiviše posetioca da kupi produkt, a dobro optimizovani dodaci mogu da ga navedu da doda još koju sitnisu u korpu.</p>
+                <p class="card-text text-white">Dizajniraćemo stranicu produkta tako da kupcu bude jasno na prvi pogled šta treba da radi. Dobra i pregledna stranica motiviše posetioca da kupi produkt, a dobro optimizovani dodaci mogu da ga navedu da doda još koju sitnicu u korpu.</p>
             </div>
         </div>
         <div class="row  my-4">
@@ -128,12 +128,38 @@ require './modules/header.php'; ?>
 </div>
 
 <div class="container mt-5">
-    <div class="row">
-        <div class="col">
-            <h3 class="text-center">Klasična e-prodavnica</h3>
+    <div class="row g-4">
+        <div class="col-6">
+            <h3 class="">Klasična e-prodavnica</h3>
+            <img src="media\pics\ecom\Klasična e-prodavnica.png" alt="" class=" shadow my-3 img-fluid">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Jednoličan korisnički interfejs</li>
+                <li class="list-group-item">Neadekvatna hijerarhija</li>
+                <li class="list-group-item">Neizražen CTA</li>
+                <li class="list-group-item">Komplikovan put do korpe</li>
+                <li class="list-group-item">Loša ili nikakva Google optimizacija</li>
+                <li class="list-group-item">Nejasan način naručivanja</li>
+                <li class="list-group-item">Neistaknute promocije ili akcije</li>
+                <li class="list-group-item">Ne zadržava pažnju kupcu</li>
+                <li class="list-group-item">Frustrirajuće dugačak proces naručivanja</li>
+                <li class="list-group-item">Nepostojanje korisničke podrške</li>
+            </ul>
         </div>
-        <div class="col">
-            <h3 class="text-center">DNG Shop</h3>
+        <div class="col-6">
+            <h3 class="">DNG Shop</h3>
+            <img src="media\pics\ecom\DNG Shop.png" alt="" class=" shadow my-3 img-fluid">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Interaktivan i zanimljiv dizajn</li>
+                <li class="list-group-item">Klasifikacija po kategorijama, filteri, sortiranja</li>
+                <li class="list-group-item">Upadljivo obeleženi najvažniji dugmići</li>
+                <li class="list-group-item">Do korpe se dolazi u najviše tri koraka</li>
+                <li class="list-group-item">Optimizacija za prvu stranicu Google pretrage</li>
+                <li class="list-group-item">Detaljno opisan proces dostave i troškova</li>
+                <li class="list-group-item">Posebne stranice i katalozi za promocijama</li>
+                <li class="list-group-item">Tehnike za zadržavanje kupca na sajtu što duže</li>
+                <li class="list-group-item">Naručivanje je svedeno na samo nekoliko klikova</li>
+                <li class="list-group-item">Implementacija sistema za brzu podršku</li>
+            </ul>
         </div>
     </div>
 </div>
