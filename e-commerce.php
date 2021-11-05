@@ -9,7 +9,7 @@ require './modules/header.php'; ?>
     <button class="fill">Saznajte više</button>
     <div class="row mt-5">
         <div class="col d-flex justify-content-center">
-            <div class="card text-center shadow services" style="width: 18rem;">
+            <div class="card text-center shadow services">
                 <div class="row">
                     <div class="col-3 bg-secondary d-flex flex-column justify-content-center align-items-center">
                         <h3 class="text-white">1.</h4>
@@ -23,7 +23,7 @@ require './modules/header.php'; ?>
             </div>
         </div>
         <div class="col d-flex justify-content-center">
-            <div class="card text-center shadow services" style="width: 18rem;">
+            <div class="card text-center shadow services">
                 <div class="row">
                     <div class="col-3 bg-secondary d-flex flex-column justify-content-center align-items-center">
                         <h3 class="text-white">2.</h4>
@@ -37,7 +37,7 @@ require './modules/header.php'; ?>
             </div>
         </div>
         <div class="col d-flex justify-content-center">
-            <div class="card text-center shadow services" style="width: 18rem;">
+            <div class="card text-center shadow services">
                 <div class="row">
                     <div class="col-3 bg-secondary d-flex flex-column justify-content-center align-items-center">
                         <h3 class="text-white">3.</h4>

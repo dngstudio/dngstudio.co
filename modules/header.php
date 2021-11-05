@@ -6,7 +6,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Sora:wght@400;700&display=swap" rel="stylesheet"> 
     <link rel="icon" href="media\pics\DNG Studio Logo.png" sizes="192x192" />
+    <link href="https://api.fontshare.com/css?f[]=satoshi@500,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/main.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="./magnific/magnific-popup.css">

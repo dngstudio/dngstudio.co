@@ -5,7 +5,7 @@ require './modules/header.php'; ?>
 <div class="container header">
   <div class="row align-items-center">
     <div class="col">
-      <h1 class="h1">DNG Studio firmu čuva</h1>
+      <h1>DNG Studio firmu čuva</h1>
       <p>Pomažemo firmama i pojedincima da se istaknu uz upečatljiv digitalni identitet.</p>
       <button class="fill">Pošaljite upit</button>
       <button class="btn btn-outline-dark ms-2" style="padding: 10px 20px 10px; position:relative;top:7px">Saznajte više</button>
@@ -126,22 +126,29 @@ require './modules/header.php'; ?>
   </div>
 </div>
 
-<div class="container-fluid h-100 d-flex align-items-middle" id="panelcontainer">
+<div class="container-fluid h-100" id="panelcontainer">
   <div id="panel" class="h-100">
-    <div class="module panel1 h-100">
-      <div class="row">
-        <div class="col">
-          <h2 class="text-primary align-middle">Napravite od svoje firme pravi brend</h2>
-        </div>
-        <div class="col">
-              
+    <div class="module h-100 panel1">
+      <div class="container d-flex flex-column justify-content-center align-items-center">
+        <div class="row">
+          <div class="col-6 my-auto ">
+              <h2 class="h2 text-secondary">Prepusti komplikovan deo nama</h2>
+              <p class="text-white">Pomažemo firmama i pojedincima da se istaknu uz upečatljiv digitalni identitet.</p>
+              <button class="btn btn-outline-secondary">Pogledaj naš portfolio</button>
+          </div>
+          <div class="col-6">
+              <h2 class="text-white">fgsegesg</h2>
+          </div>
         </div>
       </div>
     </div>
-    <div class="module panel2 h-100"></div>
+    <div class="module panel2 h-100">
+      <h3 class="text-white">Zašto baš mi?</h3>
+    </div>
     <div class="module panel3 h-100">
       <div class="row">
         <h3 class="text-white">Naš tim</h3>
+        <div class="col"></div>
         <div class="col"></div>
         <div class="col"></div>
         <div class="col"></div>

@@ -1,11 +1,10 @@
 //headings
 $headings-color: #282828;
-$h1-font-size: 80px;
-$h2-font-size: 60px;
+$h1-font-size: 60px;
+$h2-font-size: 48px;
 $h3-font-size: 30px;
 $h4-font-size: 16px;
-$headings-font-family: "Noto Sans";
-$headings-line-height:1;
+$headings-font-family: 'Satoshi', sans-serif;
 $headings-font-weight:700;
 
 
@@ -19,7 +18,7 @@ $danger: #e56161;
 $component-active-bg: $secondary;
 
 //base
-$font-family-base:"Noto Sans";
+$font-family-base:'Satoshi', sans-serif;
 $font-size-base:1rem;
 $font-size-sm: $font-size-base * .875 !default;
 

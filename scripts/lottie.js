@@ -1,5 +1,6 @@
 let animacija = document.getElementById("home-anim")
 let codeanim = document.getElementById("code-anim")
+let socialanim = document.getElementById("socialanim")
 
 lottie.loadAnimation({
     container: animacija, // the dom element that will contain the animation
@@ -16,3 +17,12 @@ lottie.loadAnimation({
   autoplay: true,
   path: 'media/misc/code.json' // the path to the animation json
 });
+
+lottie.loadAnimation({
+  container: socialanim, // the dom element that will contain the animation
+  renderer: 'svg',
+  loop: true,
+  autoplay: true,
+  path: 'media/misc/social-media.json' // the path to the animation json
+});
+

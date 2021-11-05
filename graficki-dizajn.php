@@ -35,13 +35,13 @@ require './modules/header.php'; ?>
                 </div>
             </div>
         </div>
-        <div class="col">
-            
+        <div class="col-6 p-4">
+            <img src="media\pics\dizajn\DIzajn - DNG Studio.jpg" alt="" class="img-fluid shadow">
         </div>
     </div>
     <div class="row">
-        <div class="col">
-            
+        <div class="col-6 p-4">
+            <img src="media\pics\dizajn\Dizajn 2 - DNG Studio.jpg" alt="" class="img-fluid shadow">
         </div>
         <div class="col-6 bg-secondary p-4">
             <h2 class="text-white">Proces dizajna?</h2>
@@ -58,7 +58,7 @@ require './modules/header.php'; ?>
             <div class="row mt-2">
                 <div class="col">
                     <h3 class="text-white">Finiširanje</h3>
-                    <p class="text-white">Dovršavanje, dodavanje bolja i detalja koji oživljavaju projekat.</p>
+                    <p class="text-white">Dovršavanje, dodavanje boja i detalja koji oživljavaju projekat.</p>
                 </div>
                 <div class="col">
                     <h3 class="text-white">Štampa</h3>
@@ -67,6 +67,12 @@ require './modules/header.php'; ?>
             </div>
         </div>
     </div>
+</div>
+
+<div class="container text-center shadow p-4 mt-5" style="width: 55rem;" id="ecom-cta">
+    <h3>Budi u trendu. Dizajn govori mnogo o firmi. </h3>
+    <p>Nekada se čini da je dobar dizajn samo detalj, ali mnogo biznisa uspeva samo zbog lepe estetike. Najpoznatiji svetski brendovi su na tim pozicijama baš zbog svoje posvećenosti dizajnu.</p>
+    <button class="fill">Zakaži besplatne konsultacije</button>
 </div>
 
 <?php include './modules/footer.php' ?>
