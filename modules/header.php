@@ -50,10 +50,21 @@
             E-commerce
           </a> <!-- data-bs-toggle="dropdown"-->
         </li>
-        <li class="nav-item">
-          <a <?php if($title=='Izrada sajtova' ){ echo ' id="active"';}else{echo 'class="nav-hover "';}?> href="izrada-sajtova.php"  role="button"  aria-expanded="false">
+        <li class="nav-item dropdown">
+          <a <?php if($title=='Izrada sajtova' ){ echo ' id="active"';}else{echo 'class="nav-hover dropdown-toggle"';}?> href="izrada-sajtova.php"  role="button"  aria-expanded="false">
             Izrada sajtova
           </a>
+          
+          <div class="dropdown-menu shadow" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item pt-2" href="#">
+              <h6>Održavanje sajtova</h6>
+              <p>Ne dopusti da ti sajt propadne</p>
+            </a>
+            <a class="dropdown-item pt-2" href="#">
+              <h6>Redizajn sajtova</h6>
+              <p>Ulepšavamo i popravljamo tvoj sajt</p>
+            </a>
+          </div>
         </li>
         <li class="nav-item dropdown">
           <a <?php if($title=='Grafički dizajn' ){ echo ' id="active"';}else{echo 'class="nav-hover "';}?> href="graficki-dizajn.php" role="button"  aria-expanded="false">

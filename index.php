@@ -4,13 +4,13 @@ require './modules/header.php'; ?>
 
 <div class="container header">
   <div class="row align-items-center">
-    <div class="col">
+    <div class="col-lg-6 col-sm-12">
       <h1>DNG Studio firmu čuva</h1>
       <p>Pomažemo firmama i pojedincima da se istaknu uz upečatljiv digitalni identitet.</p>
       <button class="fill">Pošaljite upit</button>
       <button class="btn btn-outline-dark ms-2" style="padding: 10px 20px 10px; position:relative;top:7px">Saznajte više</button>
     </div>
-    <div class="col">
+    <div class="col-lg-6 col-sm-12">
       <div id="home-anim"></div>
     </div>
   </div>
