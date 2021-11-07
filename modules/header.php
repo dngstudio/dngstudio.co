@@ -56,11 +56,11 @@
           </a>
           
           <div class="dropdown-menu shadow" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item pt-2" href="#">
+            <a class="dropdown-item pt-2" href="odrzavanje-sajtova.php">
               <h6>Održavanje sajtova</h6>
               <p>Ne dopusti da ti sajt propadne</p>
             </a>
-            <a class="dropdown-item pt-2" href="#">
+            <a class="dropdown-item pt-2" href="redesign-sajtova.php">
               <h6>Redizajn sajtova</h6>
               <p>Ulepšavamo i popravljamo tvoj sajt</p>
             </a>
