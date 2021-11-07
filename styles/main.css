@@ -3626,7 +3626,7 @@ textarea.form-control-lg {
   position: absolute;
   z-index: 1000;
   display: none;
-  min-width: 15rem;
+  min-width: 20rem;
   padding: 0.5rem 0;
   margin: 0;
   font-size: 1rem;

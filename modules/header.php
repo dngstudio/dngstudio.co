@@ -56,6 +56,7 @@
           </a>
           
           <div class="dropdown-menu shadow" aria-labelledby="navbarDropdown">
+<<<<<<< HEAD
             <a class="dropdown-item pt-2" href="odrzavanje-sajtova.php">
               <h6>Održavanje sajtova</h6>
               <p>Ne dopusti da ti sajt propadne</p>
@@ -63,6 +64,27 @@
             <a class="dropdown-item pt-2" href="redesign-sajtova.php">
               <h6>Redizajn sajtova</h6>
               <p>Ulepšavamo i popravljamo tvoj sajt</p>
+=======
+            <a class="dropdown-item pt-2" href="#">
+              <div class="row">
+                <div class="col-3">
+                </div>
+                <div class="col-9">
+                  <h6>Održavanje sajtova</h6>
+                  <p>Ne dopusti da ti sajt propadne</p>
+                </div>
+              </div>
+            </a>
+            <a class="dropdown-item pt-2" href="#">
+              <div class="row">
+                <div class="col-3">
+                </div>
+                <div class="col-9">
+                  <h6>Redizajn sajtova</h6>
+                  <p>Ulepšavamo i popravljamo tvoj sajt</p>
+                </div>
+              </div>
+>>>>>>> e72f94b681d0ad35cd146b06d46192cc8656835c
             </a>
           </div>
         </li>
@@ -75,9 +97,9 @@
           <a  href="seo-i-marketing.php" <?php if($title=='Seo & Marketing' ){ echo ' id="active"';}else{echo 'class="nav-hover"';}?>  role="button"  aria-expanded="false">
             SEO & marketing
           </a>
-          <li class="nav-item">
-          <a  <?php if($title=='Baza znanja' ){ echo 'id="active"';}else{echo 'class="nav-hover"';}?>  aria-current="page" href="baza-znanja.php">Baza znanja</a>
-        </li>
+          <!-- <li class="nav-item">
+          <a  <?php// if($title=='Baza znanja' ){ echo 'id="active"';}else{echo 'class="nav-hover"';}?>  aria-current="page" href="baza-znanja.php">Baza znanja</a>
+          </li> -->
 
         </li>
       </ul>
