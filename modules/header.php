@@ -57,8 +57,9 @@
           
           <div class="dropdown-menu shadow" aria-labelledby="navbarDropdown">
             <a class="dropdown-item pt-2" href="#">
-              <div class="row">
-                <div class="col-3">
+              <div class="row justify-content-center">
+                <div class="col-3 my-auto">
+                  <i class="bi bi-gear text-center"></i>
                 </div>
                 <div class="col-9">
                   <h6>Održavanje sajtova</h6>
@@ -69,6 +70,7 @@
             <a class="dropdown-item pt-2" href="#">
               <div class="row">
                 <div class="col-3">
+                  <i class="bi bi-code-slash"></i>
                 </div>
                 <div class="col-9">
                   <h6>Redizajn sajtova</h6>
