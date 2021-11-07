@@ -57,12 +57,24 @@
           
           <div class="dropdown-menu shadow" aria-labelledby="navbarDropdown">
             <a class="dropdown-item pt-2" href="#">
-              <h6>Održavanje sajtova</h6>
-              <p>Ne dopusti da ti sajt propadne</p>
+              <div class="row">
+                <div class="col-3">
+                </div>
+                <div class="col-9">
+                  <h6>Održavanje sajtova</h6>
+                  <p>Ne dopusti da ti sajt propadne</p>
+                </div>
+              </div>
             </a>
             <a class="dropdown-item pt-2" href="#">
-              <h6>Redizajn sajtova</h6>
-              <p>Ulepšavamo i popravljamo tvoj sajt</p>
+              <div class="row">
+                <div class="col-3">
+                </div>
+                <div class="col-9">
+                  <h6>Redizajn sajtova</h6>
+                  <p>Ulepšavamo i popravljamo tvoj sajt</p>
+                </div>
+              </div>
             </a>
           </div>
         </li>
