@@ -16,10 +16,7 @@
     <link rel="stylesheet" href="./magnific/magnific-popup.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollToPlugin.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.7.13/lottie.min.js"></script>
+
     <title><?php echo $title; ?></title>
     <script src="//code-eu1.jivosite.com/widget/vioHGNClnN" async></script>
 
@@ -36,10 +33,15 @@
   <div class="container-fluid">
     <a class="navbar-brand" href="index.php"><img id="logo" src="media\pics\DNG Studio Logo.png" alt=""></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+      <div id="nav-icon3">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
     </button> 
     
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
 
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
@@ -54,15 +56,24 @@
           <a <?php if($title=='Izrada sajtova' ){ echo ' id="active"';}else{echo 'class="nav-hover dropdown-toggle"';}?> href="izrada-sajtova.php"  role="button"  aria-expanded="false">
             Izrada sajtova
           </a>
-          
           <div class="dropdown-menu shadow" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item pt-2" href="odrzavanje-sajtova.php">
-              <h6>Održavanje sajtova</h6>
-              <p>Ne dopusti da ti sajt propadne</p>
+            <a class="dropdown-item p-1" href="odrzavanje-sajtova.php">
+              <div class="row d-flex align-items-center justify-content-center">
+                <div class="col-3 d-flex"><i class="bi bi-code-slash mx-auto" style="font-size:20px"></i></div>
+                <div class="col-9">
+                  <h6>Održavanje sajtova</h6>
+                  <p>Ne dopusti da ti sajt propadne</p>
+                </div>
+              </div>
             </a>
-            <a class="dropdown-item pt-2" href="redesign-sajtova.php">
-              <h6>Redizajn sajtova</h6>
-              <p>Ulepšavamo i popravljamo tvoj sajt</p>
+            <a class="dropdown-item p-1" href="redesign-sajtova.php">
+              <div class="row d-flex align-items-center justify-content-center">
+                <div class="col-3 d-flex"><i class="bi bi-tools mx-auto" style="font-size:20px"></i></div>
+                <div class="col-9">
+                  <h6>Redizajn sajtova</h6>
+                  <p>Ulepšavamo i popravljamo tvoj sajt</p>
+                </div>
+              </div>
             </a>
           </div>
         </li>

@@ -2,37 +2,41 @@
     <div class="text-white" id="marquee"></div>
         <div class="container">
         <div class="row bg-dark mt-5 pb-4">
-            <div class="col">
-                <div class="card" id="footer-info" style="width: 18rem;">
+            <div class="col-lg-3 col-sm-12 mt-3">
+                <div class="card" id="footer-info">
                     <img src="media\pics\DNG Studio Logo.png" class="card-img-top" alt="...">
                     <div class="card-body mt-2">
                         <p class="card-text">DNG Studio se bavi izradom veb sajtova, aplikacija i razvijanjem vizuelnog identiteta brendova.
-Omogućavamo firmama da ostvare svoj pun potencijal!</p>
+                                            Omogućavamo firmama da ostvare svoj pun potencijal!</p>
                         <a href="#" class="btn btn-primary">Zakaži konsultacije</a>
                     </div>
                 </div>
             </div>
-            <div class="col">
-                <div class="list-group">
-                    <h4 class="text-primary">Usluge</h4>
-                    <a class="text-white mt-1" href="#">Izrada sajta</a>
-                    <a class="text-white mt-1" href="#">Izrada Internet prodavnice</a>
-                    <a class="text-white mt-1" href="#">Grafički dizajn</a>
-                    <a class="text-white mt-1" href="#">SEO</a>
-                    <a class="text-white mt-1" href="#">Digitalni marketing</a>
+            <div class="col-lg-3 col-sm-12">
+                <div class="row">
+                    <div class="col-lg-6 col-sm-12 mt-3">
+                        <div class="list-group">
+                            <h4 class="text-primary">Usluge</h4>
+                            <a class="text-white mt-1" href="#">Izrada sajta</a>
+                            <a class="text-white mt-1" href="#">Izrada Internet prodavnice</a>
+                            <a class="text-white mt-1" href="#">Grafički dizajn</a>
+                            <a class="text-white mt-1" href="#">SEO</a>
+                            <a class="text-white mt-1" href="#">Digitalni marketing</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-12 mt-3">
+                        <div class="list-group">
+                            <h4 class="text-primary">O nama</h4>
+                            <a class="text-white mt-1" href="#">Portfolio</a>
+                            <a class="text-white mt-1" href="#">Cenovnik</a>
+                            <a class="text-white mt-1" href="#">Baza znanja</a>
+                            <a class="text-white mt-1" href="#">Kontakt</a>
+                            <a class="text-white mt-1" href="#">Naš tim</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col">
-                <div class="list-group">
-                    <h4 class="text-primary">O nama</h4>
-                    <a class="text-white mt-1" href="#">Portfolio</a>
-                    <a class="text-white mt-1" href="#">Cenovnik</a>
-                    <a class="text-white mt-1" href="#">Baza znanja</a>
-                    <a class="text-white mt-1" href="#">Kontakt</a>
-                    <a class="text-white mt-1" href="#">Naš tim</a>
-                </div>
-            </div>
-            <div class="col">
+            <div class="col-lg-3 col-sm-12 mt-3">
                 <div class="list-group">
                     <h4 class="text-primary">Call centar</h4>
                     <a class="text-white mt-1" href="tel:+381677411312">0677/411-312</a>
@@ -41,7 +45,7 @@ Omogućavamo firmama da ostvare svoj pun potencijal!</p>
 
                 </div>
             </div>
-            <div class="col">
+            <div class="col-lg-3 col-sm-12 mt-3">
                 <div class="list-group">
                     <h4 class="text-primary">O firmi</h4>
                     <p class="text-white mt-1">Jelena Janić PR DNG Media</p>
@@ -78,6 +82,13 @@ Omogućavamo firmama da ostvare svoj pun potencijal!</p>
 </div>
 
 
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollToPlugin.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.7.13/lottie.min.js"></script>
+
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
 <script
@@ -95,6 +106,7 @@ Omogućavamo firmama da ostvare svoj pun potencijal!</p>
 <script src="./scripts/form.js"></script>
 <script src="./scripts/marquee.js"></script>
 <script src="./bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
+
 
 
 
