@@ -11,10 +11,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Sora:wght@400;700&display=swap" rel="stylesheet"> 
     <link rel="icon" href="media\pics\DNG Studio Logo.png" sizes="192x192" />
     <link href="https://api.fontshare.com/css?f[]=satoshi@500,900&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./styles/main.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="./magnific/magnific-popup.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
 
     <title><?php echo $title; ?></title>

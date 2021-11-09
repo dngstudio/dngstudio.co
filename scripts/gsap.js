@@ -1,8 +1,7 @@
 
+let container = document.getElementById("container");
 
-let topcontainer = document.getElementById("panelcontainer");
-
-let container = document.getElementById("panel");
+let sections = gsap.utils.toArray(".module");
 
 $( document ).ready(function() {
   gsap.from("#pmockup", {
@@ -15,9 +14,23 @@ $( document ).ready(function() {
       markers:true
     }
   });
+
 });
 
 
+$( document ).ready(function() {
+  gsap.to(container, {
+    x: () => -(container.scrollWidth - document.documentElement.clientWidth) + "px",
+    ease: "none",
+    scrollTrigger: {
+      trigger: container,
+      start:"top top",
+      pin: true,
+      scrub: 1,
+      markers:true,
+      end: () => "+=" + container.offsetWidth,
+      snap: 1 / (sections.length - 1),
+    }
+  })
 
-
-
+});
