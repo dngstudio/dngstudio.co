@@ -14,6 +14,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./styles/main.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/form.css">
     <link rel="stylesheet" href="./magnific/magnific-popup.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
 

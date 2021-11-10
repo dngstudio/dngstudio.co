@@ -1,0 +1,94 @@
+
+
+#msform fieldset:not(:first-of-type) {
+    display: none
+}
+
+
+
+#msform input:focus,
+#msform textarea:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #107e7d;
+    outline-width: 0
+}
+
+
+
+
+.card {
+    z-index: 0;
+    border: none;
+    position: relative
+}
+
+.fs-title {
+    color: #107e7d;
+    margin-bottom: 15px;
+    text-align: left
+}
+
+.purple-text {
+    color: #107e7d;
+}
+
+
+
+#progressbar {
+    margin-bottom: 30px;
+    overflow: hidden;
+    color: lightgrey
+}
+
+#progressbar .active {
+    color: #107e7d
+}
+
+#progressbar li {
+    list-style-type: none;
+    width: 25%;
+    float: left;
+    position: relative;
+}
+
+#progressbar li:before {
+    width: 50px;
+    height: 50px;
+    display: block;
+    color: #ffffff;
+    background: lightgray;
+    border-radius: 50%;
+    margin: 0 auto 10px auto;
+    padding: 2px
+}
+
+#progressbar li:after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: lightgray;
+    position: absolute;
+    left: 0;
+    top: 25px;
+    z-index: -1
+}
+
+#progressbar li.active:before,
+#progressbar li.active:after {
+    background: #107e7d
+}
+
+.progress {
+    height: 20px
+}
+
+.progress-bar {
+    background-color: #107e7d
+}
+
+.fit-image {
+    width: 100%;
+    object-fit: cover
+}

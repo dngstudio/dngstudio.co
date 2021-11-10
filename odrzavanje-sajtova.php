@@ -58,6 +58,7 @@ require './modules/header.php'; ?>
           <li class="list-group-item">Mesečni testing</li>
           <li class="list-group-item">Ažuriranje SEO-a jednom mesečno</li>
           <li class="list-group-item">Do 3 izmene na sajtu mesečno</li>
+          <li class="list-group-item">Mesečni backup</li>
         </ul>
         <div class="card-body">
             <p class="price price-muted mprice1 text-gray-400 text-muted text-decoration-line-through">1560€</p>
@@ -80,14 +81,15 @@ require './modules/header.php'; ?>
             <li class="list-group-item">Rešavanje problema u roku od 24 sata</li>
             <li class="list-group-item">Ažuriranje i izmena zastarelog kôda</li>
             <li class="list-group-item">Nedeljno ažuriranje SEO-a</li>
-            <li class="list-group-item">Pravljenje kompleksnih baza podataka</li>
-            <li class="list-group-item">Pravljenje kompleksnih baza podataka</li>
-            <li class="list-group-item">Pravljenje kompleksnih baza podataka</li>
+            <li class="list-group-item">Održavanje baza podataka</li>
+            <li class="list-group-item">Do 2 sata besplatih konsultacija mesečno</li>
+            <li class="list-group-item">Dodavanje do 2 statične stranice mesečno</li>
             <li class="list-group-item">Podržano održavanje dvojezičnog sajta</li>
             <li class="list-group-item">Bezbedonosna verifikacija</li>
             <li class="list-group-item">Nedeljni testing</li>
             <li class="list-group-item">Uvek dostupna korisnička podrška</li>
             <li class="list-group-item">Do 30 izmena/produkata mesečno</li>
+            <li class="list-group-item">Nedeljni backup</li>
           </ul>
           <div class="card-body">
             <p class="price price-muted mprice1 text-gray-400 text-muted text-decoration-line-through">3000€</p>
@@ -101,15 +103,26 @@ require './modules/header.php'; ?>
       <div class="card text-center shadow maintenance mx-2 py-3">
           <div class="card-body">
             <h5 class="card-title">Platinum</h5>
-            <p class="card-text">Za najhrabrije! Ovaj paket obuhvata izradu kompletnog veb sajta sa uključenim brendingom.</p>
+            <p class="card-text">Za ozbiljne veb prodavnice i platforme koje imaju više stotina ili hiljada posetioca dnevno. Ovakav sajt zahteva konstantan rad na njemu.</p>
           </div>
           <ul class="list-group list-group-flush">
-            <li class="list-group-item">Neograničeno stranica</li>
-            <li class="list-group-item">Napredni SEO</li>
-            <li class="list-group-item">Napredno kodiranje</li>
-            <li class="list-group-item">Izrada kompletnog vizuelnog identiteta</li>
-            <li class="list-group-item">Povezivanje sa Guglom i Instagramom</li>
-            <li class="list-group-item">Pravljenje kompleksnih baza podataka</li>
+          <li class="list-group-item">Svakodnevno obilaženje sajta</li>
+            <li class="list-group-item">Popravke bagova</li>
+            <li class="list-group-item">Rešavanje problema u roku od 12 sati</li>
+            <li class="list-group-item">Ažuriranje i izmena zastarelog kôda</li>
+            <li class="list-group-item">Ažuriranje SEO-a dva puta nedeljno</li>
+            <li class="list-group-item">Održavanje baza podataka</li>
+            <li class="list-group-item">Do 4 sata besplatih konsultacija mesečno</li>
+            <li class="list-group-item">Dodavanje do 4 statične stranice mesečno</li>
+            <li class="list-group-item">Podržano održavanje trojezičnog sajta</li>
+            <li class="list-group-item">Bezbedonosna verifikacija</li>
+            <li class="list-group-item">Testing dva puta nedeljno</li>
+            <li class="list-group-item">Uvek dostupna korisnička podrška</li>
+            <li class="list-group-item">Do 50 izmena/produkata mesečno</li>
+            <li class="list-group-item">Briga o sajtu bez uključenosti klijenta</li>
+            <li class="list-group-item">Kreiranje mesečnog izveštaja o aktivnosti sajta</li>
+            <li class="list-group-item">Kvartalni izveštaji sa preporukama za dalji rad</li>
+            <li class="list-group-item">Svakodnevni backup</li>
           </ul>
           <div class="card-body">
             <p class="price price-muted mprice1 text-gray-400 text-muted text-decoration-line-through">4200€</p>
@@ -122,7 +135,7 @@ require './modules/header.php'; ?>
   </div>
 </div>
 
-
+<?php include './modules/contact.php' ?>
 
 
 <?php include './modules/footer.php' ?>
