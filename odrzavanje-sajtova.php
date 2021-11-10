@@ -5,7 +5,7 @@ require './modules/header.php'; ?>
 <div class="container-fluid py-4">
     <div class="container text-center">
         <h1 class="px-5">Bolje sprečiti nego lečiti</h1>
-        <p class="px-5 my-3">Zašto da se dovodiš u situaciju da ti sajt padne ili da zastari. Sajt je živ organizam kome treba redovno održavanje i sređivanje. Prepusti to nama.</p>
+        <p class="px-5 my-3">Zašto da se dovodiš u situaciju da ti sajt padne ili da zastari? Sajt je živ organizam kome treba redovno održavanje i sređivanje. Prepusti to nama.</p>
         <button class="fill">Pogledaj pakete</button>
     </div>
 </div>
