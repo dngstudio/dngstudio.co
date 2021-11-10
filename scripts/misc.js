@@ -19,7 +19,27 @@ $('.pricing').hover(
       }
 );
 
+$('.maintenance').hover(
+  function () {
+      $("button", this).addClass('btn-secondary');
+      $("button", this).removeClass('btn-outline-secondary');
+    }, 
+    function () {
+      $("button", this).removeClass('btn-secondary');
+      $("button", this).addClass('btn-outline-secondary');
+    }
+);
+
 $(".services").hover(
+  function () {
+    $(this).addClass('shadow-lg');
+  }, 
+  function () {
+    $(this).removeClass('shadow-lg');
+  }
+);
+
+$(".maintenance").hover(
   function () {
     $(this).addClass('shadow-lg');
   }, 
@@ -43,3 +63,25 @@ $(function () {
   });
 });
 
+$(function () {
+  $(".mprice1").show();
+  $(".mprice2").hide();
+  $(".price-muted").show();
+  $("#mplacanje").change(function () {
+      if ($(this).is(":checked")) {
+          $(".price-muted").show();
+          $(".mprice2").show();
+          $(".mprice1").hide();
+      } else {
+          $(".price-muted").hide();
+          $(".mprice2").hide();
+          $(".mprice1").show();
+      }
+  });
+});
+
+$(document).ready(function(){
+	$('#nav-icon3').click(function(){
+		$(this).toggleClass('open');
+	});
+});

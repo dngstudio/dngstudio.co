@@ -28,8 +28,7 @@ $link-color:black;
 //cards
 $card-border-width:0px;
 
-//containers
-$container-padding-x:0px;
+
 
 //borders
 $border-width: 2px;
@@ -44,6 +43,8 @@ $dropdown-link-hover-bg: $primary;
 $dropdown-min-width: 20rem;
 $dropdown-spacer:0px;
 
+
+
 .navbar {
   padding:0 1.5rem;
 }
@@ -55,6 +56,11 @@ $dropdown-spacer:0px;
 
 .nav-item p {
   font-size: $font-size-sm;
+  margin-bottom:0px;
+}
+
+.nav-item h6 {
+  margin-bottom:0px;
 }
 
 .navbar-nav {

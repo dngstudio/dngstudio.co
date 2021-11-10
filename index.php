@@ -4,13 +4,13 @@ require './modules/header.php'; ?>
 
 <div class="container header">
   <div class="row align-items-center">
-    <div class="col-lg-6 col-sm-12">
+    <div class="col-lg-6 col-sm-12 order-2 order-sm-1" data-aos="fade-right">
       <h1>DNG Studio firmu čuva</h1>
       <p>Pomažemo firmama i pojedincima da se istaknu uz upečatljiv digitalni identitet.</p>
       <button class="fill">Pošaljite upit</button>
       <button class="btn btn-outline-dark ms-2" style="padding: 10px 20px 10px; position:relative;top:7px">Saznajte više</button>
     </div>
-    <div class="col-lg-6 col-sm-12">
+    <div class="col-lg-6 col-sm-12 order-1 order-sm-2">
       <div id="home-anim"></div>
     </div>
   </div>
@@ -19,28 +19,31 @@ require './modules/header.php'; ?>
 
 
 <div class="pt-5 pb-5 container">
-  <div class="row">
-    <div class="col d-flex justify-content-center">
-      <div class="card text-center shadow services" style="width: 18rem;">
+  <div class="row g-4">
+    <div class="col-lg-4 col-sm-12 justify-content-center">
+      <div class="card text-center shadow services" >
         <div class="card-body">
+          <img src="media\icons\Ecommerce.png" alt="" class="services-icons my-2">
           <h5 class="card-title">E-commerce</h5>
           <p class="card-text">Izrada Internet prodavnica, od onih za jedan proizvoda, do velikih radnji.</p>
           <a href="#" class="card-link">Saznajte više</a>
         </div>
       </div>
     </div>
-    <div class="col d-flex justify-content-center">
-    <div class="card text-center shadow services" style="width: 18rem;">
+    <div class="col-lg-4 col-sm-12 justify-content-center">
+    <div class="card text-center shadow services" >
         <div class="card-body">
+          <img src="media\icons\Website.png" alt="" class="services-icons my-2">
           <h5 class="card-title">Web dizajn</h5>
           <p class="card-text">Dizajniramo sajtove svih nivoa kompleksnosti. Neka Vaš sajt bude poseban!</p>
           <a href="#" class="card-link">Saznajte više</a>
         </div>
       </div>
     </div>
-    <div class="col d-flex justify-content-center">
-    <div class="card text-center shadow services" style="width: 18rem;">
+    <div class="col-lg-4 col-sm-12  justify-content-center">
+    <div class="card text-center shadow services" >
         <div class="card-body">
+          <img src="media\icons\Development.png" alt="" class="services-icons my-2">
           <h5 class="card-title">Web development</h5>
           <p class="card-text">Razvijanje dinamičkih sistema i aplikacija za web pregledače, Android i iOS.</p>
           <a href="#" class="card-link">Saznajte više</a>
@@ -48,28 +51,31 @@ require './modules/header.php'; ?>
       </div>
     </div>
   </div>
-  <div class="row mt-4">
-    <div class="col d-flex justify-content-center">
-      <div class="card text-center shadow services" style="width: 18rem;">
+  <div class="row mt-2 g-4">
+    <div class="col-lg-4 col-sm-12  justify-content-center">
+      <div class="card text-center shadow services" >
         <div class="card-body">
+          <img src="media\icons\Creative Idea.png" alt="" class="services-icons my-2">
           <h5 class="card-title">Grafički dizajn</h5>
           <p class="card-text">Dizajn logoa, promotivnog materijala i kompletnog vizuelnog identiteta.</p>
           <a href="#" class="card-link">Saznajte više</a>
         </div>
       </div>
     </div>
-    <div class="col d-flex justify-content-center">
-    <div class="card text-center shadow services" style="width: 18rem;">
+    <div class="col-lg-4 col-sm-12  justify-content-center">
+    <div class="card text-center shadow services" >
         <div class="card-body">
+          <img src="media\icons\SEO.png" alt="" class="services-icons my-2">
           <h5 class="card-title">SEO</h5>
           <p class="card-text">Uz adekvatno odrađen SEO, Vaš sajt može da se nađe na prvoj strani Gugla bez reklama.</p>
           <a href="#" class="card-link">Saznajte više</a>
         </div>
       </div>
     </div>
-    <div class="col d-flex justify-content-center">
-    <div class="card text-center shadow services" style="width: 18rem;">
+    <div class="col-lg-4 col-sm-12 justify-content-center">
+    <div class="card text-center shadow services" >
         <div class="card-body">
+          <img src="media\icons\Feedback Audience.png" alt="" class="services-icons my-2">
           <h5 class="card-title">Digitalni marketing</h5>
           <p class="card-text">Postavljanje kampanja na društvenim mrežama i vođenje profila.</p>
           <a href="#" class="card-link">Saznajte više</a>
@@ -79,79 +85,127 @@ require './modules/header.php'; ?>
   </div>
 </div>
 
-<div class="container mt-4 text-center d-flex flex-column justify-content-center align-items-center">
+<div  data-aos="fade-up" class="container my-5 text-center px-4">
   <h3>Ukazali su nam poverenje</h3>
-  <div class="row mt-4 gx-4 align-items-center">
-    <div class="col">
+  <div class="row mt-4 g-4 align-items-center">
+    <div class="col-lg-3 col-sm-6">
         <img src="media\pics\Tvoja Majica Logo.png" alt="" class="partners">
     </div>
-    <div class="col">
+    <div class="col-lg-3 col-sm-6">
       <img src="media\pics\Easy Moving Logo.png" alt="" class="partners">
     </div>
-    <div class="col">
+    <div class="col-lg-3 col-sm-6">
       <img src="media\pics\Dungn Underground Logo.png" alt="" class="partners">
     </div>
-    <div class="col">
+    <div class="col-lg-3 col-sm-6">
       <img src="media\pics\Digital Print Logo.png" alt="" class="partners">
     </div>
     </div>
-    <div class="row mt-4 gx-4 align-items-center">
-    <div class="col">
+    <div class="row mt-2 g-4 align-items-center">
+    <div class="col-lg-3 col-sm-6">
         <img src="media\pics\Charlie Fashion Logo.png" alt="" class="partners">
     </div>
-    <div class="col">
+    <div class="col-lg-3 col-sm-6">
       <img src="media\pics\Zelena Panorama Logo.png" alt="" class="partners">
     </div>
-    <div class="col">
+    <div class="col-lg-3 col-sm-6">
       <img src="media\pics\Moja nalepnica Logo.png" alt="" class="partners">
     </div>
-    <div class="col">
+    <div class="col-lg-3 col-sm-6">
       <img src="media\pics\Edusaurus Logo.png" alt="" class="partners">
     </div>
     </div>
   </div>
 </div>
 
-<div class="container d-flex flex-column mt-5 justify-content-center align-items-center">
+<div class="container">
   <div class="row">
-    <div class="col-6 my-auto ">
-      <h2 class="h2">Nego, kako mi sve navedeno radimo?</h2>
+    <div class="col-lg-6 col-sm-12 my-auto">
+      <h2 class="h2">Nego, kako mi sve to radimo?</h2>
       <p>Pomažemo firmama i pojedincima da se istaknu uz upečatljiv digitalni identitet.</p>
-      <button class="fill">Saznajte više</button>
+      <ul>
+        <li>Vršimo detaljnu analizu projekta</li>
+        <li>Organizujemo sastanke tokom cele saradnje</li>
+        <li>Obaveštavamo klijenta o svakom koraku</li>
+        <li>Zajednički sa klijentom formiramo stavke projekta</li>
+        <li>Ništa ne prepuštamo slučaju</li>
+        <li>Nakon svakog projekta radimo detaljno testiranje</li>
+        <li>Klijent može sve da prepusti nama, bez brige</li>
+      </ul>
+      <button class="fill">Započnimo</button>
     </div>
-    <div class="col-6">
+    <div class="col-lg-6 col-sm-12">
         <img src="media\pics\DNG Studio - Phone Mockup.png" alt="" id="pmockup">
       </div>
     </div>
   </div>
 </div>
 
-<div class="container-fluid h-100" id="panelcontainer">
-  <div id="panel" class="h-100">
-    <div class="module h-100 panel1">
-      <div class="container d-flex flex-column justify-content-center align-items-center">
-        <div class="row">
-          <div class="col-6 my-auto ">
-              <h2 class="h2 text-secondary">Prepusti komplikovan deo nama</h2>
-              <p class="text-white">Pomažemo firmama i pojedincima da se istaknu uz upečatljiv digitalni identitet.</p>
-              <button class="btn btn-outline-secondary">Pogledaj naš portfolio</button>
+
+<div class="container-fluid hcontainer min-vh-100 mt-5 ">
+  <div id="container">
+    <div class="module module1 align-items-center">
+      <div class="container">
+        <div class="row gx-5 align-items-center">
+          <div class="col ">
+            <h2 class="text-primary">Zašto mi?</h2>
+            <p class="text-white">Naš tim čine iskusni dizajneri i programeri koji će da ti pruže najbolju moguću uslugu. U svetu Internet tehnologija je teško opredeliti se za adekvatnu agenciju. Naša preporuka je da staviš kvalitet pre cene, jer će te jeftin sajt i dizajn kasnije koštati mnogo više.</p>
           </div>
-          <div class="col-6">
-              <h2 class="text-white">fgsegesg</h2>
+          <div class="col">
+            <div class="card w-75">
+              <div class="card-body">
+                <img src="" alt="">
+                <h5 class="card-title">Transparentne cene</h5>
+                <p class="card-text">Odmah po proceni projekta dobijaš kompletan cenovnik usluga, napravljen samo za tebe. Cene ne menjamo na pola posla i nema neprijatnih iznenađenja.</p>
+              </div>
+            </div>
+            <div class="card w-75 mt-3">
+              <div class="card-body">
+                <img src="" alt="">
+                <h5 class="card-title">Nama je stalo do kvaliteta</h5>
+                <p class="card-text">Kao što je klijentu stalo do digitalne prezentacije svoje firme, tako i mi svaki projekat gledamo kao da radimo za nas. Uz klijentovu dozvolu, projekat stavljamo u svoj portfolio.</p>
+              </div>
+            </div>
+            <div class="card w-75 mt-3">
+              <div class="card-body">
+                <img src="" alt="">
+                <h5 class="card-title">Naša usluga nije mačka u džaku</h5>
+                <p class="card-text">Od samog početka te obaveštavamo o etapama projekta, uvek sve vidiš unapred i ne moraš da strepiš od toga kakav će finalni rad da bude.</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="module panel2 h-100">
-      <h3 class="text-white">Zašto baš mi?</h3>
+    <div class="module module2 ">
+      <div class="container my-auto">
+        <h2 class="text-center mb-4">Naš ekosistem</h2>
+        <div class="row gx-4">
+          <div class="col text-center">
+            <h3>DNG Shop</h3>
+            <p>Uz pomoć DNG Shop sistema za razvoj e-prodavnica napravićemo ti prestižan online shop, lagan za korišćenje, a bogat naprednim opcijama koje vode ka prodajama.</p>
+          </div>
+          <div class="col text-center">
+            <h3>DNG Lite</h3>
+            <p>Kreiraj sebi pristupačan sajt uz DNG Lite generator. Ovi sajtovi su idelni za ljude koji tek počinju. Kasnije uvek možeš da se opredeliš za ručno rađen sajt na kome bi radio naš tim.</p>
+          </div>
+          <div class="col text-center">
+            <h3>DNG Express</h3>
+            <p>Ukoliko ti je hitno potreban dizajn, a nemaš vremena i sredstava da angažuješ naše dizajnere, možeš da se opredeliš za DNG Express, gde ćemo mi da ti nađemo brzu i povoljnu opciju.</p>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="module panel3 h-100">
-      <div class="row">
-        <h3 class="text-white">Naš tim</h3>
-        <div class="col"></div>
-        <div class="col"></div>
-        <div class="col"></div>
-        <div class="col"></div>
+    <div class="module module3">
+      <div class="container my-auto">
+        <h2 class="text-center mb-4 text-white">Naš tim</h2>
+        <div class="row">
+          <div class="col"></div>
+          <div class="col"></div>
+          <div class="col"></div>
+          <div class="col"></div>
+          <div class="col"></div>
+        </div>
       </div>
     </div>
   </div>
@@ -168,25 +222,28 @@ require './modules/header.php'; ?>
 </div>
 
 
-
-<div class="container d-flex min-vh-100 align-items-start justify-content-center">
-      <div class="card text-center shadow pricing d-inline-flex mx-2 py-3" style="width: 18rem;">
-        <div class="card-body">
-          <h5 class="card-title">Šegrt</h5>
-          <p class="card-text">Početni sajt, savršen za portfolio firme ili pojedinca.</p>
-        </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">Do 5 stranica</li>
-          <li class="list-group-item">SEO</li>
-          <li class="list-group-item">Optimizacija za mobilne uređaje</li>
-        </ul>
-        <div class="card-body">
-          <p class="price pb-1 price1">od 300€</p>
-          <p class="price pb-1 price2">od 420€</p>
-          <button class="btn btn-outline-secondary">Zakaži konsultacije</button>
-        </div>
+<div class="container min-vh-100 px-lg-5">
+  <div class="row gx-lg-2 mt-3">
+    <div class="col-lg-4 col-sm-12">
+      <div class="card text-center shadow pricing mx-2 py-3">
+          <div class="card-body">
+            <h5 class="card-title">Šegrt</h5>
+            <p class="card-text">Početni sajt, savršen za portfolio firme ili pojedinca.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Do 5 stranica</li>
+            <li class="list-group-item">SEO</li>
+            <li class="list-group-item">Optimizacija za mobilne uređaje</li>
+          </ul>
+          <div class="card-body">
+            <p class="price pb-1 price1">od 300€</p>
+            <p class="price pb-1 price2">od 420€</p>
+            <button class="btn btn-outline-secondary">Zakaži konsultacije</button>
+          </div>
       </div>
-      <div class="card text-center shadow pricing d-inline-flex mx-2 py-3" id="featured" style="width: 18rem;">
+    </div>
+    <div class="col-lg-4 col-sm-12">
+      <div class="card text-center shadow pricing mx-2 py-3" id="featured">
         <div class="card-body">
           <h5 class="card-title">Majstor</h5>   
           <span class="badge bg-secondary my-2">Najtraženije</span>     
@@ -210,26 +267,31 @@ require './modules/header.php'; ?>
           <button class="btn btn-outline-secondary">Zakaži konsultacije</button>
         </div>
       </div>
-      <div class="card text-center shadow pricing d-inline-flex mx-2 py-3" style="width: 18rem;">
-        <div class="card-body">
-          <h5 class="card-title">Ekspert</h5>
-          <p class="card-text">Za najhrabrije! Ovaj paket obuhvata izradu kompletnog veb sajta sa uključenim brendingom.</p>
-        </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">Neograničeno stranica</li>
-          <li class="list-group-item">Napredni SEO</li>
-          <li class="list-group-item">Napredno kodiranje</li>
-          <li class="list-group-item">Izrada kompletnog vizuelnog identiteta</li>
-          <li class="list-group-item">Povezivanje sa Guglom i Instagramom</li>
-          <li class="list-group-item">Pravljenje kompleksnih baza podataka</li>
-        </ul>
-        <div class="card-body">
-          <p class="price pb-1 price1">od 1500€</p>
-          <p class="price pb-1 price2">od 1800€</p>
-          <button class="btn btn-outline-secondary">Zakaži konsultacije</button>
-        </div>
+    </div>
+    <div class="col-lg-4 col-sm-12">
+      <div class="card text-center shadow pricing mx-2 py-3">
+          <div class="card-body">
+            <h5 class="card-title">Ekspert</h5>
+            <p class="card-text">Za najhrabrije! Ovaj paket obuhvata izradu kompletnog veb sajta sa uključenim brendingom.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Neograničeno stranica</li>
+            <li class="list-group-item">Napredni SEO</li>
+            <li class="list-group-item">Napredno kodiranje</li>
+            <li class="list-group-item">Izrada kompletnog vizuelnog identiteta</li>
+            <li class="list-group-item">Povezivanje sa Guglom i Instagramom</li>
+            <li class="list-group-item">Pravljenje kompleksnih baza podataka</li>
+          </ul>
+          <div class="card-body">
+            <p class="price pb-1 price1">od 1500€</p>
+            <p class="price pb-1 price2">od 1800€</p>
+            <button class="btn btn-outline-secondary">Zakaži konsultacije</button>
+          </div>
       </div>
+    </div>
+  </div>
 </div>
+
 
 
 
@@ -240,7 +302,7 @@ require './modules/header.php'; ?>
 <div class="container mt-5" id="faq">
   <div class="row">
     <h3 class="mb-3">FAQ</h2>
-      <div class="col">
+      <div class="col-lg-6 col-sm-12">
         <div class="accordion" id="accordionPanelsStayOpenExample">
           <div class="accordion-item">
             <h2 class="accordion-header" id="panelsStayOpen-headingOne">
@@ -281,9 +343,9 @@ require './modules/header.php'; ?>
           </div>
         </div>
       </div>
-      <div class="col">
+      <div class="col-lg-6 col-sm-12 text-center">
         
-        <a class="lightbox" href="media\pics\DNG Studio FAQ.jpg"><img src="media\pics\DNG Studio FAQ.jpg" alt="" class="shadow ms-4"></a>
+        <a class="lightbox shadow mt-sm-3" href="media\pics\DNG Studio FAQ.jpg"><img src="media\pics\DNG Studio FAQ.jpg" alt="" ></a>
       </div>
   </div>
 </div>
