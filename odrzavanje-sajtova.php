@@ -26,12 +26,12 @@ require './modules/header.php'; ?>
       <div class="card text-center shadow maintenance mx-2 py-3">
           <div class="card-body">
             <h5 class="card-title">Bronze</h5>
-            <p class="card-text">Početni sajt, savršen za portfolio firme ili pojedinca.</p>
+            <p class="card-text">Za jednostavne sajtove. Neophodan paket za sve koji žele ispravan sajt.</p>
           </div>
           <ul class="list-group list-group-flush">
-            <li class="list-group-item">Do 5 stranica</li>
-            <li class="list-group-item">SEO</li>
-            <li class="list-group-item">Optimizacija za mobilne uređaje</li>
+            <li class="list-group-item">Redovno obilaženje sajta</li>
+            <li class="list-group-item">Popravka bagova</li>
+            <li class="list-group-item">Ažuriranje zastarelog kôda</li>
           </ul>
           <div class="card-body">
             <p class="price price-muted mprice1 text-gray-400 text-muted text-decoration-line-through">600€</p>
@@ -45,19 +45,19 @@ require './modules/header.php'; ?>
       <div class="card text-center shadow maintenance mx-2 py-3" id="featured">
         <div class="card-body">
           <h5 class="card-title">Silver</h5>
-          <p class="card-text">Za naprednije projekte, poput interaktivnih platformi ili online prodavnica.</p>
+          <p class="card-text">Za sajtove srednje kompleksnosti, kojima je potrebna veća briga i pažnja.</p>
         </div>
         <ul class="list-group list-group-flush">
-          <li class="list-group-item">Kompleksniji veb sajt</li>
-          <li class="list-group-item">SEO</li>
-          <li class="list-group-item">Određivanje palete boja</li>
-          <li class="list-group-item">10 e-mail naloga</li>
-          <li class="list-group-item">SSL verifikacija</li>
-          <li class="list-group-item">Optimizacija za mobilne uređaje</li>
-          <li class="list-group-item">Google Analitika i Console</li>
-          <li class="list-group-item">Logo dizajn</li>
-          <li class="list-group-item">Besplatna obuka za korišćenje</li>
-          <li class="list-group-item">Opcija za e-commerce</li>
+          <li class="list-group-item">Obilaženje sajta dva puta nedeljno</li>
+          <li class="list-group-item">Popravka bagova</li>
+          <li class="list-group-item">Ažuriranje zastarelog kôda</li>
+          <li class="list-group-item">Izmene na sajtu radi poboljšanja funkcionalnosti</li>
+          <li class="list-group-item">Uvek dostupna podrška</li>
+          <li class="list-group-item">Podešavanja responsivnosti</li>
+          <li class="list-group-item">Bezbedonosna verifikacija</li>
+          <li class="list-group-item">Mesečni testing</li>
+          <li class="list-group-item">Ažuriranje SEO-a jednom mesečno</li>
+          <li class="list-group-item">Do 3 izmene na sajtu mesečno</li>
         </ul>
         <div class="card-body">
             <p class="price price-muted mprice1 text-gray-400 text-muted text-decoration-line-through">1560€</p>
@@ -72,15 +72,22 @@ require './modules/header.php'; ?>
           <div class="card-body">
             <h5 class="card-title">Gold</h5>
             <span class="badge bg-secondary my-2">Najtraženije</span>    
-            <p class="card-text">Za najhrabrije! Ovaj paket obuhvata izradu kompletnog veb sajta sa uključenim brendingom.</p>
+            <p class="card-text">Za kompleksnije sajtove i Internet prodavnice. Sajtovi koji u sebi imaju dinamički sadržaj zahtevaju svakodnevno obilaženje.</p>
           </div>
           <ul class="list-group list-group-flush">
-            <li class="list-group-item">Neograničeno stranica</li>
-            <li class="list-group-item">Napredni SEO</li>
-            <li class="list-group-item">Napredno kodiranje</li>
-            <li class="list-group-item">Izrada kompletnog vizuelnog identiteta</li>
-            <li class="list-group-item">Povezivanje sa Guglom i Instagramom</li>
+            <li class="list-group-item">Svakodnevno obilaženje sajta</li>
+            <li class="list-group-item">Popravke bagova</li>
+            <li class="list-group-item">Rešavanje problema u roku od 24 sata</li>
+            <li class="list-group-item">Ažuriranje i izmena zastarelog kôda</li>
+            <li class="list-group-item">Nedeljno ažuriranje SEO-a</li>
             <li class="list-group-item">Pravljenje kompleksnih baza podataka</li>
+            <li class="list-group-item">Pravljenje kompleksnih baza podataka</li>
+            <li class="list-group-item">Pravljenje kompleksnih baza podataka</li>
+            <li class="list-group-item">Podržano održavanje dvojezičnog sajta</li>
+            <li class="list-group-item">Bezbedonosna verifikacija</li>
+            <li class="list-group-item">Nedeljni testing</li>
+            <li class="list-group-item">Uvek dostupna korisnička podrška</li>
+            <li class="list-group-item">Do 30 izmena/produkata mesečno</li>
           </ul>
           <div class="card-body">
             <p class="price price-muted mprice1 text-gray-400 text-muted text-decoration-line-through">3000€</p>
