@@ -197,28 +197,59 @@ $badge-font-weight: normal;
 }
 
 //form
-#builder {
+#msform {
   font-size: $font-size-sm;
 }
 
-#builder button {
+#msform {
   margin-top: 1rem !important;
 }
 
-#builder .page-link {
-  border-width: 0px;
+
+#msform input[type=text] {
+  border:1px solid $gray-900;
+  margin-bottom: 1rem;
 }
 
-#builder input {
+#msform input[type=email] {
+  border:1px solid $gray-900;
+  margin-bottom: 1rem;
+}
+
+#msform input[type=date] {
+  border:1px solid $gray-900;
+  margin-bottom: 1rem;
+}
+
+#msform input[type=email] {
   border:1px solid $gray-900;
 }
 
-#builder .selection {
+#msform select {
+  border:1px solid $gray-900;
+  margin-bottom: 1rem;
+}
+
+#msform input[type=button] {
+  margin-bottom: 1rem;
+}
+
+
+#msform textarea {
+  border:1px solid $gray-900;
+  margin-bottom: 1rem;
+}
+
+#msform .selection {
   border:1px solid $gray-900;
 }
 
-.info {
+
+#info {
   font-size: $font-size-sm;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 20px;
 }
 
 
@@ -232,6 +263,17 @@ $badge-font-weight: normal;
   height: 50%;
   transform: skewY(-7deg);
   background: $gray-100;
+  z-index: -1;
+}
+
+.skew-secondary::before{
+  content: '';
+  position: absolute;
+  margin-top: -7%;
+  width: 100%;
+  height: 50%;
+  transform: skewY(7deg);
+  background: $secondary;
   z-index: -1;
 }
 

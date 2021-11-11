@@ -64,7 +64,7 @@
             <div class="col">
                 <span class="text-white">Powered by <a href="https://www.dngstudio.co">DNG Studio</a></span>
             </div>
-            <div class="col d-flex align-items-right justify-content-end ">
+            <div class="col d-flex align-items-right justify-content-end px-sm-3">
                 <img src="media\pics\tehnologije\html.png" alt="" class="tehnologije">
                 <img src="media\pics\tehnologije\css3.png" alt="" class="tehnologije">
                 <img src="media\pics\tehnologije\js.png" alt="" class="tehnologije">
@@ -90,6 +90,7 @@
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 
+
 <script>
   AOS.init({
     delay: 400
@@ -98,6 +99,7 @@
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/rguliev/conditionize2.js@2.0.1/jquery.conditionize2.min.js"></script>
 
 <script
   type="text/javascript"
@@ -106,11 +108,9 @@
 <script type="text/javascript">
   const Marquee = dynamicMarquee.Marquee;
 </script>
-<script src="./magnific/jquery.magnific-popup.min.js"></script>
 <script src="./scripts/lottie.js" type="text/javascript"></script>
 <script src="./scripts/gsap.js"></script>
 <script src="./scripts/misc.js"></script>
-<script src="./scripts/magnific-popup.js"></script>
 <script src="./scripts/form.js"></script>
 <script src="./scripts/marquee.js"></script>
 <script src="./bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>

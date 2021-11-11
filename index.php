@@ -55,7 +55,7 @@ require './modules/header.php'; ?>
     <div class="col-lg-4 col-sm-12  justify-content-center">
       <div class="card text-center shadow services" >
         <div class="card-body">
-          <img src="media\icons\Creative Idea.png" alt="" class="services-icons my-2">
+          <img src="media\icons\Digital Marketing.png" alt="" class="services-icons my-2">
           <h5 class="card-title">Grafički dizajn</h5>
           <p class="card-text">Dizajn logoa, promotivnog materijala i kompletnog vizuelnog identiteta.</p>
           <a href="#" class="card-link">Saznajte više</a>
@@ -147,30 +147,30 @@ require './modules/header.php'; ?>
     <div class="module module1 align-items-center">
       <div class="container">
         <div class="row gx-5 align-items-center">
-          <div class="col ">
+          <div class="col-lg-6 col-sm-12">
             <h2 class="text-primary">Zašto mi?</h2>
             <p class="text-white">Naš tim čine iskusni dizajneri i programeri koji će da ti pruže najbolju moguću uslugu. U svetu Internet tehnologija je teško opredeliti se za adekvatnu agenciju. Naša preporuka je da staviš kvalitet pre cene, jer će te jeftin sajt i dizajn kasnije koštati mnogo više.</p>
           </div>
-          <div class="col">
-            <div class="card w-75">
+          <div class="col-lg-6 col-sm-12">
+            <div class="card bg-dark">
               <div class="card-body">
                 <img src="" alt="">
-                <h5 class="card-title">Transparentne cene</h5>
-                <p class="card-text">Odmah po proceni projekta dobijaš kompletan cenovnik usluga, napravljen samo za tebe. Cene ne menjamo na pola posla i nema neprijatnih iznenađenja.</p>
+                <h5 class="card-title text-white">Transparentne cene</h5>
+                <p class="card-text text-white">Odmah po proceni projekta dobijaš kompletan cenovnik usluga, napravljen samo za tebe. Cene ne menjamo na pola posla i nema neprijatnih iznenađenja.</p>
               </div>
             </div>
-            <div class="card w-75 mt-3">
+            <div class="card bg-dark mt-3">
               <div class="card-body">
                 <img src="" alt="">
-                <h5 class="card-title">Nama je stalo do kvaliteta</h5>
-                <p class="card-text">Kao što je klijentu stalo do digitalne prezentacije svoje firme, tako i mi svaki projekat gledamo kao da radimo za nas. Uz klijentovu dozvolu, projekat stavljamo u svoj portfolio.</p>
+                <h5 class="card-title text-white">Nama je stalo do kvaliteta</h5>
+                <p class="card-text text-white">Kao što je klijentu stalo do digitalne prezentacije svoje firme, tako i mi svaki projekat gledamo kao da radimo za nas. Uz klijentovu dozvolu, projekat stavljamo u svoj portfolio.</p>
               </div>
             </div>
-            <div class="card w-75 mt-3">
+            <div class="card bg-dark mt-3">
               <div class="card-body">
                 <img src="" alt="">
-                <h5 class="card-title">Naša usluga nije mačka u džaku</h5>
-                <p class="card-text">Od samog početka te obaveštavamo o etapama projekta, uvek sve vidiš unapred i ne moraš da strepiš od toga kakav će finalni rad da bude.</p>
+                <h5 class="card-title text-white">Naša usluga nije mačka u džaku</h5>
+                <p class="card-text text-white">Od samog početka te obaveštavamo o etapama projekta, uvek sve vidiš unapred i ne moraš da strepiš od toga kakav će finalni rad da bude.</p>
               </div>
             </div>
           </div>
@@ -181,15 +181,18 @@ require './modules/header.php'; ?>
       <div class="container my-auto">
         <h2 class="text-center mb-4">Naš ekosistem</h2>
         <div class="row gx-4">
-          <div class="col text-center">
+          <div class="col-lg-4 col-sm-12 text-center">
+            <div class="vgap"></div>
             <h3>DNG Shop</h3>
             <p>Uz pomoć DNG Shop sistema za razvoj e-prodavnica napravićemo ti prestižan online shop, lagan za korišćenje, a bogat naprednim opcijama koje vode ka prodajama.</p>
           </div>
-          <div class="col text-center">
+          <div class="col-lg-4 col-sm-12 text-center">
+            <div class="vgap"></div>
             <h3>DNG Lite</h3>
             <p>Kreiraj sebi pristupačan sajt uz DNG Lite generator. Ovi sajtovi su idelni za ljude koji tek počinju. Kasnije uvek možeš da se opredeliš za ručno rađen sajt na kome bi radio naš tim.</p>
           </div>
-          <div class="col text-center">
+          <div class="col-lg-4 col-sm-12 text-center">
+            <div class="vgap"></div>
             <h3>DNG Express</h3>
             <p>Ukoliko ti je hitno potreban dizajn, a nemaš vremena i sredstava da angažuješ naše dizajnere, možeš da se opredeliš za DNG Express, gde ćemo mi da ti nađemo brzu i povoljnu opciju.</p>
           </div>
@@ -222,16 +225,17 @@ require './modules/header.php'; ?>
 </div>
 
 
-<div class="container min-vh-100 px-lg-5">
+<div class="container min-vh-100">
   <div class="row gx-lg-2 mt-3">
-    <div class="col-lg-4 col-sm-12">
+    <div class="col-lg-4 col-sm-12" id="plan1">
+      <div class="vgap"></div>
       <div class="card text-center shadow pricing mx-2 py-3">
           <div class="card-body">
             <h5 class="card-title">Šegrt</h5>
             <p class="card-text">Početni sajt, savršen za portfolio firme ili pojedinca.</p>
           </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">Do 5 stranica</li>
+          <ul class="list-group list-group-flush ">
+            <li class="list-group-item ">Do 5 stranica</li>
             <li class="list-group-item">SEO</li>
             <li class="list-group-item">Optimizacija za mobilne uređaje</li>
           </ul>
@@ -242,7 +246,8 @@ require './modules/header.php'; ?>
           </div>
       </div>
     </div>
-    <div class="col-lg-4 col-sm-12">
+    <div class="col-lg-4 col-sm-12" id="plan2">
+      <div class="vgap"></div>
       <div class="card text-center shadow pricing mx-2 py-3" id="featured">
         <div class="card-body">
           <h5 class="card-title">Majstor</h5>   
@@ -268,7 +273,8 @@ require './modules/header.php'; ?>
         </div>
       </div>
     </div>
-    <div class="col-lg-4 col-sm-12">
+    <div class="col-lg-4 col-sm-12" id="plan3">
+      <div class="vgap"></div>
       <div class="card text-center shadow pricing mx-2 py-3">
           <div class="card-body">
             <h5 class="card-title">Ekspert</h5>

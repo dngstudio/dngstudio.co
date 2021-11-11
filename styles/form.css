@@ -1,37 +1,6 @@
 
-
 #msform fieldset:not(:first-of-type) {
     display: none
-}
-
-
-
-#msform input:focus,
-#msform textarea:focus {
-    -moz-box-shadow: none !important;
-    -webkit-box-shadow: none !important;
-    box-shadow: none !important;
-    border: 1px solid #107e7d;
-    outline-width: 0
-}
-
-
-
-
-.card {
-    z-index: 0;
-    border: none;
-    position: relative
-}
-
-.fs-title {
-    color: #107e7d;
-    margin-bottom: 15px;
-    text-align: left
-}
-
-.purple-text {
-    color: #107e7d;
 }
 
 
@@ -86,9 +55,4 @@
 
 .progress-bar {
     background-color: #107e7d
-}
-
-.fit-image {
-    width: 100%;
-    object-fit: cover
 }

@@ -5,11 +5,7 @@
       <p class="card-text my-2">To je sasvim normalno! Svaki projekat je priča za sebe i ne treba svakom klijentu isti tip usluge. Slobodno nam napiši u formi ispod šta te zanima, a mi ćemo da te provedemo kroz neka najbitnija pitanja. Ovde možeš da odlučiš da li želiš da se prvo konsultujemo ili bi odmah da nas angažuješ.</p>
       <div class="row">
         <div class="col-lg-6 col-sm-12">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-12">
-                  <div class="card">
-                         <form id="msform">
+        <form id="msform">
                               <!-- progressbar -->
                               <ul id="progressbar">
                                   <li class="active" id="account"><strong>Korak 1</strong></li>
@@ -25,77 +21,197 @@
                               <fieldset>
                                   <div class="form-card">
                                     <div class="form-group">
-                                      <label for="formGroupExampleInput">Ime i prezime</label>
-                                      <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Ime i Prezime">
+                                      <label for="name">Ime i prezime</label>
+                                      <input type="text" class="form-control" id="name" placeholder="Ime i Prezime">
                                     </div>
                                     <div class="form-group">
-                                      <label for="exampleFormControlInput1">E-mail addresa</label>
-                                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email@email.com">
+                                      <label for="email">E-mail addresa</label>
+                                      <input type="email" class="form-control" id="email" placeholder="email@email.com">
                                     </div>
                                     <div class="form-group">
-                                    <label for="exampleFormControlSelect1">Koja te usluga zanima?</label>
-                                      <select class="form-control" id="exampleFormControlSelect1">
-                                        <option>Izrada Internet prodavnice</option>
-                                        <option>Izrada/održavanje sajta</option>
-                                        <option>Grafički dizajn</option>
-                                        <option>SEO</option>
-                                        <option>Marketing</option>
+                                    <label for="service">Koja te usluga zanima?</label>
+                                      <select class="form-control" id="service" name="service">
+                                        <option value="website">Izrada sajta/web prodavnice</option>
+                                        <option value="">Grafički dizajn</option>
+                                        <option value="">SEO & Marketing</option>
                                       </select>
+                                    </div>
+                                    <div class="conditional-web" data-condition="service === 'website'">
+                                      <div class="form-group">
+                                        <label for="numpages">Koliko okvirno stranica želiš da ima sajt?</label>
+                                          <select class="form-control" id="numpages">
+                                            <option>1-10</option>
+                                            <option>11-100</option>
+                                            <option>101-500</option>
+                                            <option>501-1000</option>
+                                            <option>>1000</option>
+                                          </select>
+                                      </div>
                                     </div>
                                   </div> <input type="button" name="dalje" class="btn btn-outline-secondary next action-button" value="Dalje" />
                               </fieldset>
                               <fieldset>
                                   <div class="form-card">
-                                    <div class="form-group">
-                                      <label for="exampleFormControlSelect1">Koliko produkata će okvirno prodavnica da ima u početku?</label>
-                                        <select class="form-control" id="exampleFormControlSelect1">
-                                          <option>1-10</option>
-                                          <option>11-100</option>
-                                          <option>101-500</option>
-                                          <option>501-1000</option>
-                                          <option>>1000</option>
+                                    <div class="conditional-web" data-condition="#service === 'website'">
+                                      <div class="form-group">
+                                        <label for="numpages">Koliko okvirno stranica želiš da ima sajt?</label>
+                                          <select class="form-control" id="numpages">
+                                            <option>1-10</option>
+                                            <option>11-100</option>
+                                            <option>101-500</option>
+                                            <option>501-1000</option>
+                                            <option>>1000</option>
+                                          </select>
+                                      </div>
+                                      <div class="form-group">
+                                      <label for="websitetype">Koja bi bila namena sajta?</label>
+                                        <select class="form-control" id="websitetype">
+                                          <option>E-prodavnica</option>
+                                          <option>Platforma sa opcijama za pravljenje profila</option>
+                                          <option>Portfolio sajt</option>
+                                          <option>Prezentacija firme</option>
+                                          <option>Lični blog</option>
+                                          <option>Ostalo</option>
                                         </select>
                                       </div>
                                       <div class="form-group">
-                                      <label for="exampleFormControlSelect1">Koliko produkata će okvirno prodavnica da ima u početku?</label>
-                                        <select class="form-control" id="exampleFormControlSelect1">
-                                          <option>1-10</option>
-                                          <option>11-100</option>
-                                          <option>101-500</option>
-                                          <option>501-1000</option>
-                                          <option>>1000</option>
+                                      <label for="websitebudget">Koliki ti je okviran budžet za projekat?</label>
+                                        <select class="form-control" id="websitebudget">
+                                          <option>do 500€</option>
+                                          <option>500€ - 1000€</option>
+                                          <option>2000€ - 3000€</option>
+                                          <option>3000€ - 5000€</option>
+                                          <option>Preko 5000€</option>
                                         </select>
                                       </div>
+                                    </div>
+                                    
+                                    <div class="conditional-design" data-condition="service === 'Grafički dizajn'">
+                                      <div class="form-group">
+                                        <label for="designtype">Šta želiš da dizajniramo?</label>
+                                        <select class="form-control" id="designtype">
+                                          <option>Logo</option>
+                                          <option>Vizit kartu</option>
+                                          <option>Flajer/brošuru</option>
+                                          <option>Promotivni materijal</option>
+                                          <option>Dizajn za garderobu</option>
+                                          <option>Vizuelni identitet</option>
+                                          <option>Brending vozila</option>
+                                          <option>Reklamu</option>
+                                          <option>UI/UX dizajn</option>
+                                          <option>Imam poseban zahtev</option>
+                                        </select>
+                                      </div>
+                                      <div class="form-group">
+                                      <label for="websitebudget">Koliki ti je okviran budžet za projekat?</label>
+                                        <select class="form-control" id="websitebudget">
+                                          <option>do 500€</option>
+                                          <option>500€ - 1000€</option>
+                                          <option>2000€ - 3000€</option>
+                                          <option>3000€ - 5000€</option>
+                                          <option>Preko 5000€</option>
+                                        </select>
+                                      </div>
+                                    </div>
+                                      
+                                      
+                                      <div class="form-group">
+                                        <label for="designmisc">Ovde napiši šta želiš da dizajniramo</label>
+                                        <textarea class="form-control" id="designmisc" placeholder="Ime i Prezime"></textarea>
+                                      </div>
+                                      <div class="form-group">
+                                        <label for="marketingtype">Koji tip marketinga te zanima?</label>
+                                        <select class="form-control" id="marketingtype">
+                                          <option>SEO</option>
+                                          <option>Google marketing</option>
+                                          <option>Instagram marketing</option>
+                                          <option>Facebook marketing</option>
+                                          <option>Vođenje profila na društvenim mrežama</option>
+                                        </select>
+                                      </div>
+                                      <div class="form-group">
+                                      <label for="marketingbudget">Koliki ti je okviran mesečni budžet za projekat?</label>
+                                        <select class="form-control" id="marketingbudget">
+                                          <option>do 200€</option>
+                                          <option>200€ - 500€</option>
+                                          <option>5000€ - 1000€</option>
+                                          <option>1000€ - 2000€</option>
+                                          <option>2000€ - 3000€</option>
+                                          <option>Preko 3000€</option>
+                                        </select>
+                                      </div>
+                                      <div class="form-group">
+                                        <label for="specialrequest">Opiši nam projekat, šta tačno želiš, navedi nam neke postojeće primere ako ti padaju na pamet</label>
+                                        <textarea class="form-control" id="specialrequest" placeholder="Ime i Prezime"></textarea>
+                                      </div>
+                                      
                                   </div>
                                   <input type="button" name="dalje" class="btn btn-outline-secondary next action-button" value="Dalje" /> <input type="button" name="Nazad" class="previous btn btn-outline-secondary action-button-previous" value="Nazad" />
                               </fieldset>
                               <fieldset>
                                   <div class="form-card">
-                                      <label class="fieldlabels">Upload Your Photo:</label> <input type="file" name="pic" accept="image/*"> <label class="fieldlabels">Upload Signature Photo:</label> <input type="file" name="pic" accept="image/*">
-                                  </div> <input type="button" name="next" class="next action-button" value="Submit" /> <input type="button" name="previous" class="previous action-button-previous" value="Previous" />
+                                    <div class="form-check">
+                                      <input class="form-check-input" type="radio" name="existingsite" id="existingsite1" value="option1" checked>
+                                      <label class="form-check-label" for="existingsite1">
+                                        Treba mi potpuno novi sajt
+                                      </label>
+                                    </div>
+                                    <div class="form-check">
+                                      <input class="form-check-input" type="radio" name="existingsite" id="existingsite2" value="option2">
+                                      <label class="form-check-label" for="existingsite2">
+                                        Već imam sajt i trebaju mi izmene/održavanje
+                                      </label>
+                                    </div>
+                                    <div class="form-check">
+                                      <input class="form-check-input" type="radio" name="existingsite" id="existingsite1" value="option1" checked>
+                                      <label class="form-check-label" for="existingsite1">
+                                        Imam već napravljene profile
+                                      </label>
+                                    </div>
+                                    <div class="form-check">
+                                      <input class="form-check-input" type="radio" name="existingsite" id="existingsite2" value="option2">
+                                      <label class="form-check-label" for="existingsite2">
+                                        Treba da se otvore novi profili
+                                      </label>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="specialrequest">Opiši ovde detaljnije projekat, reci nam šta želiš, pošalji neke sajtove koji ti se sviđaju.</label>
+                                        <textarea class="form-control" id="specialrequest" placeholder="Ime i Prezime"></textarea>
+                                    </div>
+                                    <div class="form-check">
+                                      <input class="form-check-input" type="radio" name="existingsite" id="existingsite1" value="option1" checked>
+                                      <label class="form-check-label" for="existingsite1">
+                                        Želim da mi pošaljete ponudu na mejl
+                                      </label>
+                                    </div>
+                                    <div class="form-check">
+                                      <input class="form-check-input" type="radio" name="existingsite" id="existingsite2" value="option2">
+                                      <label class="form-check-label" for="existingsite2">
+                                        Želim da zakažem konsultacije
+                                      </label>
+                                    </div>
+                                    <div class="form-check">
+                                      <input class="form-check-input" type="radio" name="existingsite" id="existingsite2" value="option2">
+                                      <label class="form-check-label" for="existingsite2">
+                                        Želim da vas odmah angažujem
+                                      </label>
+                                    </div>
+                                    <label for="date">Zakažite online konsultacije:</label>
+                                    <input type="date" id="date" name="date">
+                                    </div>
+                                  <input type="button" name="next" class="next action-button btn btn-outline-secondary" value="Pošalji" /> <input type="button" name="previous" class="previous action-button-previous btn btn-outline-secondary" value="Nazad" />
                               </fieldset>
                               <fieldset>
                                   <div class="form-card">
-                                      <br><br>
-                                      <h2 class="purple-text text-center"><strong>SUCCESS !</strong></h2> <br>
-                                      <div class="row justify-content-center">
-                                          <div class="col-3"> <img src="https://i.imgur.com/GwStPmg.png" class="fit-image"> </div>
-                                      </div> <br><br>
-                                      <div class="row justify-content-center">
-                                          <div class="col-7 text-center">
-                                              <h5 class="purple-text text-center">You Have Successfully Signed Up</h5>
-                                          </div>
-                                      </div>
+                                        <h3>Poruka uspešno poslata</h3>
+                                        <p>Naš tim će da ti odgovori u najkraćem roku.</p>
+                                        <div id="msg-sent"></div>
                                   </div>
                               </fieldset>
                           </form>
-                      </div>
-                  </div>
-              </div>
-          </div>
         </div>
         <div class="col-lg-6 col-sm-12">
-          <div class="card mb-3 info bg-light" style="max-width: 18rem;">
+          <div class="card mb-3 bg-light" style="max-width: 18rem;" id="info">
             <div class="card-body">
               <h4 class="card-title"><i class="bi bi-info-circle me-1" aria-label="Info"></i>Nekoliko napomena</h4>
               <ul>
@@ -112,3 +228,17 @@
     </div>
   </div>
 </div>
+
+
+
+<label>Select2</label>
+<select name="select2">
+    <option value=""></option>
+    <option value="one">One</option>
+    <option value="two">Two</option>
+</select>
+<p class="conditional" data-condition="select2 === 'two'">Makes sense!</p>
+
+<script>
+  $(".conditional").conditionize();
+</script>

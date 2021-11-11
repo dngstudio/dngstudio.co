@@ -32,5 +32,23 @@ $( document ).ready(function() {
       snap: 1 / (sections.length - 1),
     }
   })
-
 });
+
+let tlMaintenance = gsap.timeline({
+  scrollTrigger: {
+    trigger: "#maintenance-container",
+    start:"top bottom",
+    markers:true,
+    toggleActions: "play pause resume reset"
+  }
+},
+{defaults: {duration:.5, ease:"power1.out"}},
+);
+
+$( document ).ready(function() {
+  tlMaintenance.from("#maintenance1", {y: 100});
+  tlMaintenance.from("#maintenance2", {y: 100}, "<+=25%");
+  tlMaintenance.from("#maintenance3", {y: 100}, "<+=25%");
+  tlMaintenance.from("#maintenance4", {y: 100}, "<+=25%");
+});
+

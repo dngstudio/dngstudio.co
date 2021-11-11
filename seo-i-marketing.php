@@ -4,8 +4,8 @@ require './modules/header.php'; ?>
 
 <div class="container-fluid bg-dark py-4">
     <div class="container text-center ">
-        <h1 class="px-5 text-white">Dobar marketing se daleko čuje, a naš još dalje</h1>
-        <p class="px-5 text-white my-3">SEO, Google, Instagram i Facebook oglašavanje za Vaš biznis. Digitalni marketing za sve.</p>
+        <h1 class="px-lg-5 text-white">Dobar marketing se daleko čuje, a naš još dalje</h1>
+        <p class="px-lg-5 text-white my-3">SEO, Google, Instagram i Facebook oglašavanje za Vaš biznis. Digitalni marketing za sve.</p>
         <button class="btn btn-secondary">Saznajte više</button>
     </div>
 </div>
@@ -13,17 +13,17 @@ require './modules/header.php'; ?>
 <div class="container">
     <h2 class="text-center my-4">Predstavljamo te u najboljem svetlu</h2>
     <div class="row text-center justify-content-center g-4">
-        <div class="col">
+        <div class="col-lg-3 col-sm-12">
             <h3><i class="bi bi-google"></i></h3>
             <h3>SEO & Google ads</h3>
             <p>Pozicioniraćemo tvoj sajt na vrh Google pretrage, kako bi vas posetioci brzo našli. </p>
         </div>
-        <div class="col">
+        <div class="col-lg-3 col-sm-12">
             <h3><i class="bi bi-facebook"></i></h3>
             <h3>Facebook</h3>
             <p>Pogrešno je shvatanje da je Facebook zastareo. On je jači nego ikada i ima milionsku publiku.</p>
         </div>
-        <div class="col">
+        <div class="col-lg-3 col-sm-12">
             <h3><i class="bi bi-instagram"></i></h3>
             <h3>Instagram</h3>
             <p>Ukoliko plasirate proizvode mlađoj publici, definitivno treba da počnete od Instagrama.</p>
@@ -33,7 +33,7 @@ require './modules/header.php'; ?>
 
 <div class="container my-5">
     <div class="row">
-        <div class="col">
+        <div class="col-lg-6 col-sm-12">
             <h2>Kako to funkcioniše?</h2>
             <p>Upoznajte se sa procesom digitalnog marketinga, kako biste znali šta možete da očekujete.</p>
             <ul>
@@ -80,7 +80,7 @@ require './modules/header.php'; ?>
                 </div>
             </div>
         </div>
-        <div class="col" id="socialanim"></div>
+        <div class="col-lg-6 col-sm-12" id="socialanim"></div>
     </div>
 </div>
 

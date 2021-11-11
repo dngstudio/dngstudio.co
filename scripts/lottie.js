@@ -1,6 +1,7 @@
-let animacija = document.getElementById("home-anim")
-let codeanim = document.getElementById("code-anim")
-let socialanim = document.getElementById("socialanim")
+let animacija = document.getElementById("home-anim");
+let codeanim = document.getElementById("code-anim");
+let socialanim = document.getElementById("socialanim");
+let msgsent = document.getElementById("msg-sent");
 
 lottie.loadAnimation({
     container: animacija, // the dom element that will contain the animation
@@ -26,3 +27,10 @@ lottie.loadAnimation({
   path: 'media/misc/social-media.json' // the path to the animation json
 });
 
+lottie.loadAnimation({
+  container: msgsent, // the dom element that will contain the animation
+  renderer: 'svg',
+  autoplay: true,
+  loop:1,
+  path: 'media/misc/DNG Studio - Message Sent.json' // the path to the animation json
+});

@@ -4,12 +4,47 @@ require './modules/header.php'; ?>
 
 <div class="container-fluid py-4">
     <div class="container text-center">
-        <h1 class="px-5">Bolje sprečiti nego lečiti</h1>
-        <p class="px-5 my-3">Zašto da se dovodiš u situaciju da ti sajt padne ili da zastari? Sajt je živ organizam kome treba redovno održavanje i sređivanje. Prepusti to nama.</p>
+        <h1 class="px-lg-5">Bolje sprečiti nego lečiti</h1>
+        <p class="px-lg-5 my-3">Zašto da se dovodiš u situaciju da ti sajt padne ili da zastari? Sajt je živ organizam kome treba redovno održavanje i sređivanje. Prepusti to nama.</p>
         <button class="fill">Pogledaj pakete</button>
     </div>
 </div>
 
+<div class="container-fluid skew-secondary bg-secondary mt-5">
+  <div class="container mt-3">
+    <h2 class="text-white">Zašto održavanje?</h2>
+    <p class="text-white">Klijenti često misle da je izrada sajta posao koji se obavi jednom i onda može da bude miran godinama. Međutim, tehnologija je toliko napredovala i menja se iz dana u dan, tako da izgled i funkcionalnosti sajta mogu lako da zastare. U najboljem slučaju posledica je samo estetska, ali nažalost zapušten sajt često odbija posetioce.</p>
+      <div class="row g-4 pt-3 pb-4">
+      <div class="col-lg-4 col-sm-12 justify-content-center">
+        <div class="card text-center shadow services" >
+          <div class="card-body">
+            <img src="media\icons\Coupe-01.png" alt="" class="services-icons my-2">
+            <h5 class="card-title">Sajt je kao auto</h5>
+            <p class="card-text">Kako bi te sajt dobro služio, moraš redovno i temeljno da ga "servisiraš". Ne dopusti da te izda na sred puta.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-12 justify-content-center">
+      <div class="card text-center shadow services" >
+          <div class="card-body">
+            <img src="media\icons\Anti Virus.png" alt="" class="services-icons my-2">
+            <h5 class="card-title">Bezbednost</h5>
+            <p class="card-text">Napadači prepoznaju ranjive sajtove. Mi se brinemo o redovnom ažuriranju kôda i skeniranju virusa.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-12  justify-content-center">
+      <div class="card text-center shadow services" >
+          <div class="card-body">
+            <img src="media\icons\Manager.png" alt="" class="services-icons my-2">
+            <h5 class="card-title">Sve prepuštaš nama</h5>
+            <p class="card-text">Ne gubi dragoceno vreme na održavanje. Svu brigu prepusti nama, a ti se posveti razvijanju svog posla.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 <h3 class="mb-2 mt-5 text-center">Paketi održavanja</h2>
 
@@ -20,9 +55,9 @@ require './modules/header.php'; ?>
 </div>
 
 
-<div class="container min-vh-100">
+<div class="container min-vh-100" id="maintenance-container">
   <div class="row gx-lg-2 mt-3">
-    <div class="col-lg-3 col-sm-12">
+    <div class="col-lg-3 col-sm-12" id="maintenance1">
       <div class="card text-center shadow maintenance mx-2 py-3">
           <div class="card-body">
             <h5 class="card-title">Bronze</h5>
@@ -41,7 +76,8 @@ require './modules/header.php'; ?>
           </div>
       </div>
     </div>
-    <div class="col-lg-3 col-sm-12">
+    <div class="col-lg-3 col-sm-12" id="maintenance2">
+    <div class="vgap"></div>
       <div class="card text-center shadow maintenance mx-2 py-3" id="featured">
         <div class="card-body">
           <h5 class="card-title">Silver</h5>
@@ -68,7 +104,8 @@ require './modules/header.php'; ?>
         </div>
       </div>
     </div>
-    <div class="col-lg-3 col-sm-12">
+    <div class="col-lg-3 col-sm-12" id="maintenance3">
+    <div class="vgap"></div>
       <div class="card text-center shadow maintenance mx-2 py-3">
           <div class="card-body">
             <h5 class="card-title">Gold</h5>
@@ -99,7 +136,8 @@ require './modules/header.php'; ?>
           </div>
       </div>
     </div>
-    <div class="col-lg-3 col-sm-12">
+    <div class="col-lg-3 col-sm-12" id="maintenance4">
+    <div class="vgap"></div>
       <div class="card text-center shadow maintenance mx-2 py-3">
           <div class="card-body">
             <h5 class="card-title">Platinum</h5>

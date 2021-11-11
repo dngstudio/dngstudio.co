@@ -6,6 +6,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="Izrada sajtova Beograd" />
+    <meta name="description" content="Buy high-quality bicycle parts and save money while riding through Nevada.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Sora:wght@400;700&display=swap" rel="stylesheet"> 
@@ -15,16 +17,12 @@
     <link rel="stylesheet" href="./styles/main.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="styles/form.css">
-    <link rel="stylesheet" href="./magnific/magnific-popup.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
 
     <title><?php echo $title; ?></title>
     <script src="//code-eu1.jivosite.com/widget/vioHGNClnN" async></script>
+    
 
-    <!--Start of formio Script-->
-    <link rel='stylesheet' href='https://cdn.form.io/formiojs/formio.full.min.css'>
-    <script src='https://cdn.form.io/formiojs/formio.full.min.js'></script> 
-    <!--End of formio Script-->
 
   </head>
 
