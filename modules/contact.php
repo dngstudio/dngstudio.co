@@ -77,7 +77,7 @@
                                     <div class="conditional-design" data-condition="service === 'design'">
                                       <div class="form-group">
                                         <label for="designtype">Šta želiš da dizajniramo?</label>
-                                        <select class="form-control" id="designtype">
+                                        <select class="form-control" id="designtype" name="designtype">
                                           <option>Logo</option>
                                           <option>Vizit kartu</option>
                                           <option>Flajer/brošuru</option>
@@ -87,8 +87,14 @@
                                           <option>Brending vozila</option>
                                           <option>Reklamu</option>
                                           <option>UI/UX dizajn</option>
-                                          <option>Imam poseban zahtev</option>
+                                          <option value="customdesign">Imam poseban zahtev</option>
                                         </select>
+                                      </div>
+                                      <div class="conditional-customdesign" data-condition="designtype === 'customdesign'">
+                                        <div class="form-group">
+                                          <label for="designmisc">Ovde napiši šta želiš da dizajniramo</label>
+                                          <textarea class="form-control" id="designmisc" placeholder="Npr. Želim da mi dizajnirate post za moju Facebook reklamu"></textarea>
+                                        </div>
                                       </div>
                                       <div class="form-group">
                                       <label for="websitebudget">Koliki ti je okviran budžet za projekat?</label>
@@ -100,10 +106,10 @@
                                           <option>Preko 5000€</option>
                                         </select>
                                       </div>
-                                      <div class="form-group">
-                                        <label for="designmisc">Ovde napiši šta želiš da dizajniramo</label>
-                                        <textarea class="form-control" id="designmisc" placeholder="Ime i Prezime"></textarea>
-                                      </div>
+                                      
+                                      
+                                    </div>
+                                    <div class="conditional-design" data-condition="service === 'marketing'">
                                       <div class="form-group">
                                         <label for="marketingtype">Koji tip marketinga te zanima?</label>
                                         <select class="form-control" id="marketingtype">
@@ -114,9 +120,8 @@
                                           <option>Vođenje profila na društvenim mrežama</option>
                                         </select>
                                       </div>
-                                    </div>
-                                    <div class="form-group">
-                                      <label for="marketingbudget">Koliki ti je okviran mesečni budžet za projekat?</label>
+                                      <div class="form-group">
+                                        <label for="marketingbudget">Koliki ti je okviran mesečni budžet za projekat?</label>
                                         <select class="form-control" id="marketingbudget">
                                           <option>do 200€</option>
                                           <option>200€ - 500€</option>
@@ -130,7 +135,7 @@
                                         <label for="specialrequest">Opiši nam projekat, šta tačno želiš, navedi nam neke postojeće primere ako ti padaju na pamet</label>
                                         <textarea class="form-control" id="specialrequest" placeholder="Ime i Prezime"></textarea>
                                       </div>
-                                      
+                                    </div>
                                   </div>
                                   <input type="button" name="dalje" class="btn btn-outline-secondary next action-button" value="Dalje" /> <input type="button" name="Nazad" class="previous btn btn-outline-secondary action-button-previous" value="Nazad" />
                               </fieldset>

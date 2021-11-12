@@ -80,5 +80,6 @@ $(document).ready(function(){
         $(".conditional-web").conditionize();
         $(".conditional-design").conditionize();
         $(".conditional-marketing").conditionize();
+        $(".conditional-customdesign").conditionize();
     });
     
