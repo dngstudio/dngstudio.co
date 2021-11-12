@@ -133,6 +133,10 @@
   font-size: 0.875rem;
 }
 
+#msform input::placeholder {
+  font-size: 0.875rem;
+}
+
 #msform {
   margin-top: 1rem !important;
 }
@@ -149,11 +153,8 @@
 
 #msform input[type=date] {
   border: 1px solid #202020;
+  margin-top: 1rem;
   margin-bottom: 1rem;
-}
-
-#msform input[type=email] {
-  border: 1px solid #202020;
 }
 
 #msform select {
@@ -162,7 +163,7 @@
 }
 
 #msform input[type=button] {
-  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 #msform textarea {
@@ -170,8 +171,20 @@
   margin-bottom: 1rem;
 }
 
+#msform textarea::placeholder {
+  font-size: 0.875rem;
+}
+
 #msform .selection {
   border: 1px solid #202020;
+}
+
+#msform .selection {
+  font-size: 0.875rem;
+}
+
+#msform .input-group-text {
+  margin-bottom: 16px;
 }
 
 #info {

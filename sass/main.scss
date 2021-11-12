@@ -201,6 +201,11 @@ $badge-font-weight: normal;
   font-size: $font-size-sm;
 }
 
+#msform input::placeholder {
+  font-size: $font-size-sm;
+}
+
+
 #msform {
   margin-top: 1rem !important;
 }
@@ -218,12 +223,10 @@ $badge-font-weight: normal;
 
 #msform input[type=date] {
   border:1px solid $gray-900;
+  margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
-#msform input[type=email] {
-  border:1px solid $gray-900;
-}
 
 #msform select {
   border:1px solid $gray-900;
@@ -231,7 +234,7 @@ $badge-font-weight: normal;
 }
 
 #msform input[type=button] {
-  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 
@@ -240,8 +243,20 @@ $badge-font-weight: normal;
   margin-bottom: 1rem;
 }
 
+#msform textarea::placeholder {
+  font-size: $font-size-sm;
+}
+
 #msform .selection {
   border:1px solid $gray-900;
+}
+
+#msform .selection {
+  font-size: $font-size-sm;
+}
+
+#msform .input-group-text {
+  margin-bottom: 16px;
 }
 
 

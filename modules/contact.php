@@ -18,7 +18,7 @@
                               </div>
                               <br>
                               <!-- fieldsets -->
-                              <fieldset>
+                            <fieldset>
                                   <div class="form-card">
                                     <div class="form-group">
                                       <label for="name">Ime i prezime</label>
@@ -37,8 +37,8 @@
                                       </select>
                                     </div>
                                   </div> <input type="button" name="dalje" class="btn btn-outline-secondary next action-button" value="Dalje" />
-                              </fieldset>
-                              <fieldset>
+                            </fieldset>
+                            <fieldset>
                                   <div class="form-card">
                                     <div class="conditional-web" data-condition="#service === 'website'">
                                       <div class="form-group">
@@ -107,9 +107,8 @@
                                         </select>
                                       </div>
                                       
-                                      
                                     </div>
-                                    <div class="conditional-design" data-condition="service === 'marketing'">
+                                    <div class="conditional-marketing" data-condition="service === 'marketing'">
                                       <div class="form-group">
                                         <label for="marketingtype">Koji tip marketinga te zanima?</label>
                                         <select class="form-control" id="marketingtype">
@@ -131,74 +130,112 @@
                                           <option>Preko 3000€</option>
                                         </select>
                                       </div>
-                                      <div class="form-group">
-                                        <label for="specialrequest">Opiši nam projekat, šta tačno želiš, navedi nam neke postojeće primere ako ti padaju na pamet</label>
-                                        <textarea class="form-control" id="specialrequest" placeholder="Ime i Prezime"></textarea>
-                                      </div>
                                     </div>
                                   </div>
                                   <input type="button" name="dalje" class="btn btn-outline-secondary next action-button" value="Dalje" /> <input type="button" name="Nazad" class="previous btn btn-outline-secondary action-button-previous" value="Nazad" />
-                              </fieldset>
-                              <fieldset>
+                            </fieldset>
+                              
+                              
+                            <fieldset>
                                   <div class="form-card">
+                                    <div class="conditional-web-2" data-condition="service === 'website'">
                                     <div class="form-check">
-                                      <input class="form-check-input" type="radio" name="existingsite" id="existingsite1" value="option1" checked>
-                                      <label class="form-check-label" for="existingsite1">
-                                        Treba mi potpuno novi sajt
-                                      </label>
-                                    </div>
-                                    <div class="form-check">
-                                      <input class="form-check-input" type="radio" name="existingsite" id="existingsite2" value="option2">
-                                      <label class="form-check-label" for="existingsite2">
-                                        Već imam sajt i trebaju mi izmene/održavanje
-                                      </label>
-                                    </div>
-                                    <div class="form-check">
-                                      <input class="form-check-input" type="radio" name="existingsite" id="existingsite1" value="option1" checked>
-                                      <label class="form-check-label" for="existingsite1">
-                                        Imam već napravljene profile
-                                      </label>
-                                    </div>
-                                    <div class="form-check">
-                                      <input class="form-check-input" type="radio" name="existingsite" id="existingsite2" value="option2">
-                                      <label class="form-check-label" for="existingsite2">
-                                        Treba da se otvore novi profili
-                                      </label>
-                                    </div>
-                                    <div class="form-group">
+                                        <input class="form-check-input" type="radio" name="existingsite" value="existingsite">
+                                        <label class="form-check-label" for="existingsite1">
+                                          Treba mi novi sajt
+                                        </label>
+                                      </div>
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="existingsite" value="hassite">
+                                        <label class="form-check-label" for="existingsite2">
+                                          Imam već svoj sajt i treba mi održavanje/redizajn
+                                        </label>
+                                      </div>
+                                      <div class="basegap"></div>
+                                      <div class="conditional-existing-site"  data-condition="existingsite === 'hassite'">
+                                        <div class="input-group flex-nowrap">
+                                          <span class="input-group-text" id="addon-wrapping">https:\\</span>
+                                          <input type="text" class="form-control" placeholder="www.tvojsajt.com" aria-label="Username" aria-describedby="addon-wrapping">
+                                        </div>
+                                      </div>
+                                      <div class="form-group">
                                         <label for="specialrequest">Opiši ovde detaljnije projekat, reci nam šta želiš, pošalji neke sajtove koji ti se sviđaju.</label>
-                                        <textarea class="form-control" id="specialrequest" placeholder="Ime i Prezime"></textarea>
+                                        <textarea class="form-control" id="specialrequest" placeholder="Npr. Želim da mi napravite sajt za prodaju automobila, da korisnici mogu da prave profile i šalju poruke..."></textarea>
+                                      </div>
                                     </div>
-                                    <div class="form-check">
-                                      <input class="form-check-input" type="radio" name="existingsite" id="existingsite1" value="option1" checked>
-                                      <label class="form-check-label" for="existingsite1">
-                                        Želim da mi pošaljete ponudu na mejl
-                                      </label>
+                                    
+                                    <div class="conditional-marketing-2" data-condition="service === 'marketing'">
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="existingprofile" value="existingprofiles">
+                                        <label class="form-check-label" for="existingsite1">
+                                          Imam već napravljene profile
+                                        </label>
+                                      </div>
+                                      
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="existingprofile" value="newprofiles">
+                                        <label class="form-check-label" for="existingsite2">
+                                          Treba da se otvore novi profili
+                                        </label>
+                                      </div>
+                                      <div class="conditional-existing-profiles" data-condition="existingprofile === 'existingprofiles'">
+                                        <div class="input-group flex-nowrap">
+                                          <span class="input-group-text" id="addon-wrapping"><i class="bi bi-facebook"></i></span>
+                                          <input type="text" class="form-control" placeholder="Link do Facebook profila" aria-label="Username" aria-describedby="addon-wrapping">
+                                        </div>
+                                        <div class="input-group flex-nowrap">
+                                          <span class="input-group-text" id="addon-wrapping"><i class="bi bi-instagram"></i></span>
+                                          <input type="text" class="form-control" placeholder="Link do Instagram profila" aria-label="Username" aria-describedby="addon-wrapping">
+                                        </div>
+                                      </div>
+                                      <div class="basegap"></div>
+                                      <div class="form-group">
+                                          <label for="specialrequest">Opiši ovde detaljnije projekat, reci nam šta želiš, pošalji nam neku marketing kampanju na koju bi da se ugledaš.</label>
+                                          <textarea class="form-control" id="specialrequest" placeholder="Npr. Želim da mi napravite kampanju u kojoj bih reklamirao aparate za kafu."></textarea>
+                                      </div>
+                                      
                                     </div>
-                                    <div class="form-check">
-                                      <input class="form-check-input" type="radio" name="existingsite" id="existingsite2" value="option2">
-                                      <label class="form-check-label" for="existingsite2">
-                                        Želim da zakažem konsultacije
-                                      </label>
+                                    
+                                    <div class="conditional-design-2"  data-condition="service === 'design'">
+                                      <div class="form-group">
+                                          <label for="specialrequest">Opiši ovde detaljnije projekat, reci nam šta želiš, pošalji neki dizajn koji ti se sviđa i reci nam koji fajlovi ti trebaju.</label>
+                                          <textarea class="form-control" id="specialrequest" placeholder="Želim da mi dizajnirate reklamu za bilbord, treba mi PDF fajl i želim da glavna boja bude žuta."></textarea>
+                                      </div>
                                     </div>
-                                    <div class="form-check">
-                                      <input class="form-check-input" type="radio" name="existingsite" id="existingsite2" value="option2">
-                                      <label class="form-check-label" for="existingsite2">
-                                        Želim da vas odmah angažujem
-                                      </label>
-                                    </div>
-                                    <label for="date">Zakažite online konsultacije:</label>
+                                    
+                                  <div class="form-check">
+                                    <label class="form-check-label">
+                                      <input type="radio" class="form-check-input" name="nextsteps" value="mailoffer">Pošaljite mi ponudu na mejl
+                                    </label>
+                                  </div>
+                                  <div class="form-check">
+                                    <label class="form-check-label">
+                                      <input type="radio" class="form-check-input" name="nextsteps" value="book">Želim da zakažem online konsultacije
+                                    </label>
+                                  </div>
+                                  <div class="form-check">
+                                    <label class="form-check-label">
+                                      <input type="radio" class="form-check-input" name="nextsteps" value="hire">Želim odmah da vas angažujem
+                                    </label>
+                                  </div>
+                                  
+                                  <div class="conditional-book"  data-condition="nextsteps === 'book'">
+                                    <label for="date">Odaberite datum: </label>
                                     <input type="date" id="date" name="date">
                                     </div>
+                                  </div>
+                                    
                                   <input type="button" name="next" class="next action-button btn btn-outline-secondary" value="Pošalji" /> <input type="button" name="previous" class="previous action-button-previous btn btn-outline-secondary" value="Nazad" />
                               </fieldset>
-                              <fieldset>
-                                  <div class="form-card">
-                                        <h3>Poruka uspešno poslata</h3>
-                                        <p>Naš tim će da ti odgovori u najkraćem roku.</p>
-                                        <div id="msg-sent"></div>
-                                  </div>
-                              </fieldset>
+                              
+                              
+                            <fieldset>
+                              <div class="form-card">
+                                    <h3>Poruka uspešno poslata</h3>
+                                    <p>Naš tim će da ti odgovori u najkraćem roku.</p>
+                                    <div id="msg-sent"></div>
+                              </div>
+                            </fieldset>
                           </form>
         </div>
         <div class="col-lg-6 col-sm-12">
