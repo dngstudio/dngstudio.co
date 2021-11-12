@@ -32,21 +32,9 @@
                                     <label for="service">Koja te usluga zanima?</label>
                                       <select class="form-control" id="service" name="service">
                                         <option value="website">Izrada sajta/web prodavnice</option>
-                                        <option value="">Grafički dizajn</option>
-                                        <option value="">SEO & Marketing</option>
+                                        <option value="design">Grafički dizajn</option>
+                                        <option value="marketing">SEO & Marketing</option>
                                       </select>
-                                    </div>
-                                    <div class="conditional-web" data-condition="service === 'website'">
-                                      <div class="form-group">
-                                        <label for="numpages">Koliko okvirno stranica želiš da ima sajt?</label>
-                                          <select class="form-control" id="numpages">
-                                            <option>1-10</option>
-                                            <option>11-100</option>
-                                            <option>101-500</option>
-                                            <option>501-1000</option>
-                                            <option>>1000</option>
-                                          </select>
-                                      </div>
                                     </div>
                                   </div> <input type="button" name="dalje" class="btn btn-outline-secondary next action-button" value="Dalje" />
                               </fieldset>
@@ -86,7 +74,7 @@
                                       </div>
                                     </div>
                                     
-                                    <div class="conditional-design" data-condition="service === 'Grafički dizajn'">
+                                    <div class="conditional-design" data-condition="service === 'design'">
                                       <div class="form-group">
                                         <label for="designtype">Šta želiš da dizajniramo?</label>
                                         <select class="form-control" id="designtype">
@@ -112,9 +100,6 @@
                                           <option>Preko 5000€</option>
                                         </select>
                                       </div>
-                                    </div>
-                                      
-                                      
                                       <div class="form-group">
                                         <label for="designmisc">Ovde napiši šta želiš da dizajniramo</label>
                                         <textarea class="form-control" id="designmisc" placeholder="Ime i Prezime"></textarea>
@@ -129,7 +114,8 @@
                                           <option>Vođenje profila na društvenim mrežama</option>
                                         </select>
                                       </div>
-                                      <div class="form-group">
+                                    </div>
+                                    <div class="form-group">
                                       <label for="marketingbudget">Koliki ti je okviran mesečni budžet za projekat?</label>
                                         <select class="form-control" id="marketingbudget">
                                           <option>do 200€</option>
@@ -228,17 +214,3 @@
     </div>
   </div>
 </div>
-
-
-
-<label>Select2</label>
-<select name="select2">
-    <option value=""></option>
-    <option value="one">One</option>
-    <option value="two">Two</option>
-</select>
-<p class="conditional" data-condition="select2 === 'two'">Makes sense!</p>
-
-<script>
-  $(".conditional").conditionize();
-</script>

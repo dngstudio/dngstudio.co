@@ -99,8 +99,7 @@
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/rguliev/conditionize2.js@2.0.1/jquery.conditionize2.min.js"></script>
-
+<script src="https://cdn.jsdelivr.net/gh/rguliev/conditionize2.js/jquery.conditionize2.min.js"></script>
 <script
   type="text/javascript"
   src="https://cdn.jsdelivr.net/npm/dynamic-marquee@2"
