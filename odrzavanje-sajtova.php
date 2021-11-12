@@ -6,8 +6,10 @@ require './modules/header.php'; ?>
     <div class="container text-center">
         <h1 class="px-lg-5">Bolje sprečiti nego lečiti</h1>
         <p class="px-lg-5 my-3">Zašto da se dovodiš u situaciju da ti sajt padne ili da zastari? Sajt je živ organizam kome treba redovno održavanje i sređivanje. Prepusti to nama.</p>
+        <a href="#paketi">
         <button class="fill">Pogledaj pakete</button>
-    </div>
+</a>
+      </div>
 </div>
 
 <div class="container-fluid skew-secondary bg-secondary mt-5">
@@ -46,7 +48,7 @@ require './modules/header.php'; ?>
   </div>
 </div>
 
-<h3 class="mb-2 mt-5 text-center">Paketi održavanja</h2>
+<h3 id="paketi" class="mb-2 mt-5 text-center">Paketi održavanja</h2>
 
 <div class="d-flex form-check form-switch justify-content-center mb-3">
     <label id="odjednom">Godišnje</label>
@@ -72,7 +74,9 @@ require './modules/header.php'; ?>
             <p class="price price-muted mprice1 text-gray-400 text-muted text-decoration-line-through">600€</p>
             <p class="price pb-1 mprice1">500€</p>
             <p class="price pb-1 mprice2">50€</p>
+            <a href="#procena">
             <button class="btn btn-outline-secondary">Zakaži konsultacije</button>
+</a>
           </div>
       </div>
     </div>
@@ -100,7 +104,9 @@ require './modules/header.php'; ?>
             <p class="price price-muted mprice1 text-gray-400 text-muted text-decoration-line-through">1560€</p>
             <p class="price pb-1 mprice1">1390€</p>
             <p class="price pb-1 mprice2">130€</p>
+            <a href="#procena">
           <button class="btn btn-outline-secondary">Zakaži konsultacije</button>
+</a>
         </div>
       </div>
     </div>
@@ -132,7 +138,9 @@ require './modules/header.php'; ?>
             <p class="price price-muted mprice1 text-gray-400 text-muted text-decoration-line-through">3000€</p>
             <p class="price pb-1 mprice1">2600€</p>
             <p class="price pb-1 mprice2">250€</p>
+            <a href="#procena">
             <button class="btn btn-outline-secondary">Zakaži konsultacije</button>
+</a>
           </div>
       </div>
     </div>
@@ -166,7 +174,9 @@ require './modules/header.php'; ?>
             <p class="price price-muted mprice1 text-gray-400 text-muted text-decoration-line-through">4200€</p>
             <p class="price pb-1 mprice1">3700€</p>
             <p class="price pb-1 mprice2">350€</p>
+            <a href="#procena">
             <button class="btn btn-outline-secondary">Zakaži konsultacije</button>
+</a>
           </div>
       </div>
     </div>

@@ -8,7 +8,7 @@
                     <div class="card-body mt-2">
                         <p class="card-text">DNG Studio se bavi izradom veb sajtova, aplikacija i razvijanjem vizuelnog identiteta brendova.
                                             Omogućavamo firmama da ostvare svoj pun potencijal!</p>
-                        <a href="#" class="btn btn-primary">Zakaži konsultacije</a>
+                        <a href="besplatne-konsultacije.php" class="btn btn-primary">Zakaži konsultacije</a>
                     </div>
                 </div>
             </div>
@@ -17,11 +17,11 @@
                     <div class="col-lg-6 col-sm-12 mt-3">
                         <div class="list-group">
                             <h4 class="text-primary">Usluge</h4>
-                            <a class="text-white mt-1" href="#">Izrada sajta</a>
-                            <a class="text-white mt-1" href="#">Izrada Internet prodavnice</a>
-                            <a class="text-white mt-1" href="#">Grafički dizajn</a>
-                            <a class="text-white mt-1" href="#">SEO</a>
-                            <a class="text-white mt-1" href="#">Digitalni marketing</a>
+                            <a class="text-white mt-1" href="izrada-sajtova.php">Izrada sajta</a>
+                            <a class="text-white mt-1" href="e-commerce.php">Izrada Internet prodavnice</a>
+                            <a class="text-white mt-1" href="graficki-dizajn.php">Grafički dizajn</a>
+                            <a class="text-white mt-1" href="seo-i-marketing.php">SEO</a>
+                            <a class="text-white mt-1" href="seo-i-marketing.php">Digitalni marketing</a>
                         </div>
                     </div>
                     <div class="col-lg-6 col-sm-12 mt-3">
@@ -30,8 +30,7 @@
                             <a class="text-white mt-1" href="#">Portfolio</a>
                             <a class="text-white mt-1" href="#">Cenovnik</a>
                             <a class="text-white mt-1" href="#">Baza znanja</a>
-                            <a class="text-white mt-1" href="#">Kontakt</a>
-                            <a class="text-white mt-1" href="#">Naš tim</a>
+                            <a class="text-white mt-1" href="index.php">Naš tim</a>
                         </div>
                     </div>
                 </div>

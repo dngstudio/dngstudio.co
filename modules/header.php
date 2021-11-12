@@ -65,7 +65,7 @@
                 </div>
               </div>
             </a>
-            <a class="dropdown-item p-1" href="redesign-sajtova.php">
+            <a class="dropdown-item p-1" href="index.php">
               <div class="row d-flex align-items-center justify-content-center">
                 <div class="col-3 d-flex"><i class="bi bi-tools mx-auto" style="font-size:20px"></i></div>
                 <div class="col-9">

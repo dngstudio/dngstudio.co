@@ -6,11 +6,13 @@ require './modules/header.php'; ?>
     <div class="container text-center ">
         <h1 class="px-lg-5 text-white">Dizajn govori hiljadu reči</h1>
         <p class="px-lg-5 text-white my-3">Podigni svoj biznis na viši nivo.</p>
+        <a href="#vise">
         <button class="btn btn-secondary">Saznajte više</button>
+</a>
     </div>
 </div>
 
-<div class="container-fluid">
+<div id="vise" class="container-fluid">
     <div class="row">
         <div class="col-lg-6 col-sm-12 bg-primary px-lg-5 px-sm-4 py-4">
             <h2 class="text-black">Kompletan vizuelni identitet</h2>
@@ -72,7 +74,9 @@ require './modules/header.php'; ?>
 <div class="container text-center shadow p-4 mt-5" id="ecom-cta">
     <h3>Budi u trendu. Dizajn govori mnogo o firmi. </h3>
     <p>Nekada se čini da je dobar dizajn samo detalj, ali mnogo biznisa uspeva samo zbog lepe estetike. Najpoznatiji svetski brendovi su na tim pozicijama baš zbog svoje posvećenosti dizajnu.</p>
+    <a href="besplatne-konsultacije.php">
     <button class="fill">Zakaži besplatne konsultacije</button>
+</a>
 </div>
 
 <?php include './modules/footer.php' ?>

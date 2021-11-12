@@ -6,7 +6,9 @@ require './modules/header.php'; ?>
 <div class="container text-center mt-4 ecom-header">
     <h2 class="px-lg-5">Pretvorite svoju prodavnicu u online carstvo!</h2>
     <p class="px-lg-5 my-3">U poslednjih nekoliko godina se sve više ljudi odlučuje na kupovinu putem Interneta, a razloga ima bezbroj.</p>
+    <a href="#vise">
     <button class="fill">Saznajte više</button>
+</a>
     <div class="row mt-5 gx-5 px-lg-4">
         <div class="col-sm-12 col-lg-4">
             <div class="card text-center shadow services">
@@ -56,7 +58,7 @@ require './modules/header.php'; ?>
 </div>
 
 
-<div class="container-fluid mt-5 py-5">
+<div id="vise" class="container-fluid mt-5 py-5">
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-sm-12">
@@ -127,7 +129,9 @@ require './modules/header.php'; ?>
 <div class="container text-center shadow p-4 bg-white" id="ecom-cta">
     <h3>Ne znaš odakle da počneš?</h3>
     <p>Sasvim je normalno da klijenti nemaju potpuno razvijenu ideju, pogotovo jer je Internet trgovina relativno nova stvar i nisu se svi navikli na to. Zato možeš da se konsultuješ sa našim timom stručnjaka za e-commerce kako bi te pravilno posavetovali.</p>
+    <a href="besplatne-konsultacije.php">
     <button class="btn btn-outline-secondary">Zakaži besplatne konsultacije</button>
+</a>
 </div>
 
 <div class="container mt-5">

@@ -6,11 +6,13 @@ require './modules/header.php'; ?>
     <div class="container text-center ">
         <h1 class="px-lg-5 text-white">Dobar marketing se daleko čuje, a naš još dalje</h1>
         <p class="px-lg-5 text-white my-3">SEO, Google, Instagram i Facebook oglašavanje za Vaš biznis. Digitalni marketing za sve.</p>
+        <a href="#vise">
         <button class="btn btn-secondary">Saznajte više</button>
+</a>
     </div>
 </div>
 
-<div class="container">
+<div id="vise" class="container">
     <h2 class="text-center my-4">Predstavljamo te u najboljem svetlu</h2>
     <div class="row text-center justify-content-center g-4">
         <div class="col-lg-3 col-sm-12">

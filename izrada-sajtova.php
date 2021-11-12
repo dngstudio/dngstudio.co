@@ -9,8 +9,12 @@ require './modules/header.php'; ?>
     <div class="vgap"></div>
       <h1 class="h1">Bez sajta nema zanata</h1>
       <p>Od jednostavnog portfolia do kompleksne platforme. Izrada sajta, optimizovanog za najbolje rezultate.</p>
+      <a href="besplatne-konsultacije.php">
       <button class="fill">Pošaljite upit</button>
+</a>
+<a href="#vise">
       <button class="btn btn-outline-dark ms-2" style="padding: 10px 20px 10px; position:relative;top:7px">Saznajte više</button>
+</a>
     </div>
     <div class="col-lg-6 col-sm-12 order-1 order-sm-2">
       <img src="media\pics\izrada-sajtova\Izrada sajtova - head.png" alt="" id="izrada-sajtova-head">
@@ -19,7 +23,7 @@ require './modules/header.php'; ?>
 </div>
 
 
-<div class="container-fluid skew bg-light">
+<div id="vise" class="container-fluid skew bg-light">
     <div class="container py-4">
         <div class="row align-items-center">
           <div class="col-lg-6 col-sm-12">

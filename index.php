@@ -7,8 +7,12 @@ require './modules/header.php'; ?>
     <div class="col-lg-6 col-sm-12 order-2 order-sm-1" data-aos="fade-right">
       <h1>DNG Studio firmu čuva</h1>
       <p>Pomažemo firmama i pojedincima da se istaknu uz upečatljiv digitalni identitet.</p>
-      <button class="fill">Pošaljite upit</button>
+      <a href="#procena">
+        <button class="fill">Pošaljite upit</button>
+      </a>
+      <a href="#vise">
       <button class="btn btn-outline-dark ms-2" style="padding: 10px 20px 10px; position:relative;top:7px">Saznajte više</button>
+      </a>  
     </div>
     <div class="col-lg-6 col-sm-12 order-1 order-sm-2">
       <div id="home-anim"></div>
@@ -18,7 +22,7 @@ require './modules/header.php'; ?>
 
 
 
-<div class="pt-5 pb-5 container">
+<div id="vise" class="pt-5 pb-5 container">
   <div class="row g-4">
     <div class="col-lg-4 col-sm-12 justify-content-center">
       <div class="card text-center shadow services" >
@@ -132,7 +136,9 @@ require './modules/header.php'; ?>
         <li>Nakon svakog projekta radimo detaljno testiranje</li>
         <li>Klijent može sve da prepusti nama, bez brige</li>
       </ul>
+      <a href="#procena">
       <button class="fill">Započnimo</button>
+      </a>
     </div>
     <div class="col-lg-6 col-sm-12">
         <img src="media\pics\DNG Studio - Phone Mockup.png" alt="" id="pmockup">
@@ -242,7 +248,9 @@ require './modules/header.php'; ?>
           <div class="card-body">
             <p class="price pb-1 price1">od 300€</p>
             <p class="price pb-1 price2">od 420€</p>
+            <a href="#procena">
             <button class="btn btn-outline-secondary">Zakaži konsultacije</button>
+</a>
           </div>
       </div>
     </div>
@@ -269,7 +277,9 @@ require './modules/header.php'; ?>
         <div class="card-body">
           <p class="price pb-1 price1">od 500€</p>
           <p class="price pb-1 price2">od 600€</p>
+          <a href="#procena">
           <button class="btn btn-outline-secondary">Zakaži konsultacije</button>
+</a>
         </div>
       </div>
     </div>
@@ -291,7 +301,9 @@ require './modules/header.php'; ?>
           <div class="card-body">
             <p class="price pb-1 price1">od 1500€</p>
             <p class="price pb-1 price2">od 1800€</p>
+            <a href="#procena">
             <button class="btn btn-outline-secondary">Zakaži konsultacije</button>
+</a>
           </div>
       </div>
     </div>
