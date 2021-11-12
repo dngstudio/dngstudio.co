@@ -225,7 +225,7 @@
                                     </div>
                                   </div>
                                     
-                                  <input type="button" name="next" class="next action-button btn btn-outline-secondary" value="Pošalji" /> <input type="button" name="previous" class="previous action-button-previous btn btn-outline-secondary" value="Nazad" />
+                                  <input type="button" name="next" id="submit-btn" class="next action-button btn btn-outline-secondary" value="Pošalji" /> <input type="button" name="previous" class="previous action-button-previous btn btn-outline-secondary" value="Nazad" />
                               </fieldset>
                               
                               

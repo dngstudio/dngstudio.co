@@ -27,10 +27,14 @@ lottie.loadAnimation({
   path: 'media/misc/social-media.json' // the path to the animation json
 });
 
-lottie.loadAnimation({
-  container: msgsent, // the dom element that will contain the animation
-  renderer: 'svg',
-  autoplay: true,
-  loop:1,
-  path: 'media/misc/DNG Studio - Message Sent.json' // the path to the animation json
-});
+
+
+$("#submit-btn").click(function(){
+  lottie.loadAnimation({
+    container: msgsent, // the dom element that will contain the animation
+    renderer: 'svg',
+    autoplay: true,
+    loop:false,
+    path: 'media/misc/DNG Studio - Message Sent.json' // the path to the animation json
+  });
+})

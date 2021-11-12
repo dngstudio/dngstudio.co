@@ -73,19 +73,19 @@ $(document).ready(function(){
     return false;
     })
     
-    });
+});
 
 
-    $(document).ready(function(){
-        $(".conditional-web").conditionize();
-        $(".conditional-design").conditionize();
-        $(".conditional-marketing").conditionize();
-        $(".conditional-customdesign").conditionize();
-        $(".conditional-book").conditionize();
-        $(".conditional-web-2").conditionize();
-        $(".conditional-marketing-2").conditionize();
-        $(".conditional-design-2").conditionize();
-        $(".conditional-existing-profiles").conditionize();
-        $(".conditional-existing-site").conditionize();
-    });
+$(document).ready(function(){
+    $(".conditional-web").conditionize();
+    $(".conditional-design").conditionize();
+    $(".conditional-marketing").conditionize();
+    $(".conditional-customdesign").conditionize();
+    $(".conditional-book").conditionize();
+    $(".conditional-web-2").conditionize();
+    $(".conditional-marketing-2").conditionize();
+    $(".conditional-design-2").conditionize();
+    $(".conditional-existing-profiles").conditionize();
+    $(".conditional-existing-site").conditionize();
+});
     
