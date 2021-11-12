@@ -11,7 +11,7 @@ $( document ).ready(function() {
       start: "-30% top", // when the top of the trigger hits the top of the viewport
       end: "+=500", // end after scrolling 500px beyond the start
       scrub: 1, // smooth scrubbing, takes 1 second to "catch up" to the scrollbar
-      markers:true
+      markers:false
     }
   });
 
@@ -27,7 +27,7 @@ $( document ).ready(function() {
       start:"top top",
       pin: true,
       scrub: 1,
-      markers:true,
+      markers:false,
       end: () => "+=" + container.offsetWidth,
       snap: 1 / (sections.length - 1),
     }
@@ -38,7 +38,7 @@ let tlMaintenance = gsap.timeline({
   scrollTrigger: {
     trigger: "#maintenance-container",
     start:"top bottom",
-    markers:true,
+    markers:false,
     toggleActions: "play pause resume reset"
   }
 },

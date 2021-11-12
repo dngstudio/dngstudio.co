@@ -38,3 +38,5 @@ $("#submit-btn").click(function(){
     path: 'media/misc/DNG Studio - Message Sent.json' // the path to the animation json
   });
 })
+
+
