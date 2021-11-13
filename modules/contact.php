@@ -1,3 +1,17 @@
+<?php
+echo "<pre>";
+  print_r($_POST);
+echo  "</pre>";
+
+$to="ivan@edusaurus.net";
+$subject="kontakt forma";
+$body= $_POST['ime'];
+
+mail($to, $subject, $body);
+
+?>
+
+
 <div id="procena" class="container align-items-start justify-content-center mt-5">
   <div class="card shadow mx-2 py-3 my-auto">
     <div class="card-body p-3">
@@ -5,7 +19,7 @@
       <p class="card-text my-2">To je sasvim normalno! Svaki projekat je priča za sebe i ne treba svakom klijentu isti tip usluge. Slobodno nam napiši u formi ispod šta te zanima, a mi ćemo da te provedemo kroz neka najbitnija pitanja. Ovde možeš da odlučiš da li želiš da se prvo konsultujemo ili bi odmah da nas angažuješ.</p>
       <div class="row">
         <div class="col-lg-6 col-sm-12">
-        <form id="msform">
+        <form action="besplatne-konsultacije.php" method="POST" id="msform">
                               <!-- progressbar -->
                               <ul id="progressbar">
                                   <li class="active" id="account"><strong>Korak 1</strong></li>
@@ -22,11 +36,11 @@
                                   <div class="form-card">
                                     <div class="form-group">
                                       <label for="name">Ime i prezime</label>
-                                      <input type="text" class="form-control" id="name" placeholder="Ime i Prezime">
+                                      <input type="text" class="form-control" name="ime" id="name" placeholder="Ime i Prezime">
                                     </div>
                                     <div class="form-group">
                                       <label for="email">E-mail addresa</label>
-                                      <input type="email" class="form-control" id="email" placeholder="email@email.com">
+                                      <input type="email" class="form-control" name="email" id="email" placeholder="email@email.com">
                                     </div>
                                     <div class="form-group">
                                     <label for="service">Koja te usluga zanima?</label>
@@ -43,7 +57,7 @@
                                     <div class="conditional-web" data-condition="#service === 'website'">
                                       <div class="form-group">
                                         <label for="numpages">Koliko okvirno stranica želiš da ima sajt?</label>
-                                          <select class="form-control" id="numpages">
+                                          <select class="form-control" id="numpages" name="KolikoStranicaDaImaSajt" >
                                             <option>1-10</option>
                                             <option>11-100</option>
                                             <option>101-500</option>
@@ -53,7 +67,7 @@
                                       </div>
                                       <div class="form-group">
                                       <label for="websitetype">Koja bi bila namena sajta?</label>
-                                        <select class="form-control" id="websitetype">
+                                        <select class="form-control" id="websitetype" name="namenaSajta" >
                                           <option>E-prodavnica</option>
                                           <option>Platforma sa opcijama za pravljenje profila</option>
                                           <option>Portfolio sajt</option>
@@ -64,7 +78,7 @@
                                       </div>
                                       <div class="form-group">
                                       <label for="websitebudget">Koliki ti je okviran budžet za projekat?</label>
-                                        <select class="form-control" id="websitebudget">
+                                        <select class="form-control" id="websitebudget" name="budzetSajta" >
                                           <option>do 500€</option>
                                           <option>500€ - 1000€</option>
                                           <option>2000€ - 3000€</option>
@@ -98,7 +112,7 @@
                                       </div>
                                       <div class="form-group">
                                       <label for="websitebudget">Koliki ti je okviran budžet za projekat?</label>
-                                        <select class="form-control" id="websitebudget">
+                                        <select class="form-control" id="websitebudget" name="budzetDizajna" >
                                           <option>do 500€</option>
                                           <option>500€ - 1000€</option>
                                           <option>2000€ - 3000€</option>
@@ -111,7 +125,7 @@
                                     <div class="conditional-marketing" data-condition="service === 'marketing'">
                                       <div class="form-group">
                                         <label for="marketingtype">Koji tip marketinga te zanima?</label>
-                                        <select class="form-control" id="marketingtype">
+                                        <select class="form-control" id="marketingtype" name="tipMarketinga" >
                                           <option>SEO</option>
                                           <option>Google marketing</option>
                                           <option>Instagram marketing</option>
@@ -121,7 +135,7 @@
                                       </div>
                                       <div class="form-group">
                                         <label for="marketingbudget">Koliki ti je okviran mesečni budžet za projekat?</label>
-                                        <select class="form-control" id="marketingbudget">
+                                        <select class="form-control" id="marketingbudget" name="budzetZaMarketing" >
                                           <option>do 200€</option>
                                           <option>200€ - 500€</option>
                                           <option>5000€ - 1000€</option>
@@ -155,12 +169,12 @@
                                       <div class="conditional-existing-site"  data-condition="existingsite === 'hassite'">
                                         <div class="input-group flex-nowrap">
                                           <span class="input-group-text" id="addon-wrapping">https:\\</span>
-                                          <input type="text" class="form-control" placeholder="www.tvojsajt.com" aria-label="Username" aria-describedby="addon-wrapping">
+                                          <input name="imaSajt" type="text" class="form-control" placeholder="www.tvojsajt.com" aria-label="Username" aria-describedby="addon-wrapping">
                                         </div>
                                       </div>
                                       <div class="form-group">
                                         <label for="specialrequest">Opiši ovde detaljnije projekat, reci nam šta želiš, pošalji neke sajtove koji ti se sviđaju.</label>
-                                        <textarea class="form-control" id="specialrequest" placeholder="Npr. Želim da mi napravite sajt za prodaju automobila, da korisnici mogu da prave profile i šalju poruke..."></textarea>
+                                        <textarea name="opisZaSajtove" class="form-control" id="specialrequest" placeholder="Npr. Želim da mi napravite sajt za prodaju automobila, da korisnici mogu da prave profile i šalju poruke..."></textarea>
                                       </div>
                                     </div>
                                     
@@ -181,17 +195,17 @@
                                       <div class="conditional-existing-profiles" data-condition="existingprofile === 'existingprofiles'">
                                         <div class="input-group flex-nowrap">
                                           <span class="input-group-text" id="addon-wrapping"><i class="bi bi-facebook"></i></span>
-                                          <input type="text" class="form-control" placeholder="Link do Facebook profila" aria-label="Username" aria-describedby="addon-wrapping">
+                                          <input type="text" class="form-control" placeholder="Link do Facebook profila" aria-label="Username" aria-describedby="addon-wrapping" name="linkFB" >
                                         </div>
                                         <div class="input-group flex-nowrap">
                                           <span class="input-group-text" id="addon-wrapping"><i class="bi bi-instagram"></i></span>
-                                          <input type="text" class="form-control" placeholder="Link do Instagram profila" aria-label="Username" aria-describedby="addon-wrapping">
+                                          <input type="text" class="form-control" placeholder="Link do Instagram profila" aria-label="Username" aria-describedby="addon-wrapping" name="linkInsta" >
                                         </div>
                                       </div>
                                       <div class="basegap"></div>
                                       <div class="form-group">
                                           <label for="specialrequest">Opiši ovde detaljnije projekat, reci nam šta želiš, pošalji nam neku marketing kampanju na koju bi da se ugledaš.</label>
-                                          <textarea class="form-control" id="specialrequest" placeholder="Npr. Želim da mi napravite kampanju u kojoj bih reklamirao aparate za kafu."></textarea>
+                                          <textarea name="opisMarketing" class="form-control" id="specialrequest" placeholder="Npr. Želim da mi napravite kampanju u kojoj bih reklamirao aparate za kafu."></textarea>
                                       </div>
                                       
                                     </div>
@@ -199,33 +213,38 @@
                                     <div class="conditional-design-2"  data-condition="service === 'design'">
                                       <div class="form-group">
                                           <label for="specialrequest">Opiši ovde detaljnije projekat, reci nam šta želiš, pošalji neki dizajn koji ti se sviđa i reci nam koji fajlovi ti trebaju.</label>
-                                          <textarea class="form-control" id="specialrequest" placeholder="Želim da mi dizajnirate reklamu za bilbord, treba mi PDF fajl i želim da glavna boja bude žuta."></textarea>
+                                          <textarea name="opisDizajn" class="form-control" id="specialrequest" placeholder="Želim da mi dizajnirate reklamu za bilbord, treba mi PDF fajl i želim da glavna boja bude žuta."></textarea>
                                       </div>
                                     </div>
                                     
                                   <div class="form-check">
                                     <label class="form-check-label">
-                                      <input type="radio" class="form-check-input" name="nextsteps" value="mailoffer">Pošaljite mi ponudu na mejl
+                                      <input type="radio" class="form-check-input" name="sledeciKoraci" value="mailoffer">Pošaljite mi ponudu na mejl
                                     </label>
                                   </div>
                                   <div class="form-check">
                                     <label class="form-check-label">
-                                      <input type="radio" class="form-check-input" name="nextsteps" value="book">Želim da zakažem online konsultacije
+                                      <input type="radio" class="form-check-input" name="sledeciKoraci" value="book">Želim da zakažem online konsultacije
                                     </label>
                                   </div>
                                   <div class="form-check">
                                     <label class="form-check-label">
-                                      <input type="radio" class="form-check-input" name="nextsteps" value="hire">Želim odmah da vas angažujem
+                                      <input type="radio" class="form-check-input" name="sledeciKoraci" value="hire">Želim odmah da vas angažujem
                                     </label>
                                   </div>
                                   
-                                  <div class="conditional-book"  data-condition="nextsteps === 'book'">
+                                  <div class="conditional-book"  data-condition="sledeciKoraci === 'book'">
                                     <label for="date">Odaberite datum: </label>
                                     <input type="date" id="date" name="date">
                                     </div>
                                   </div>
-                                    
-                                  <input type="button" name="next" id="submit-btn" class="next action-button btn btn-outline-secondary" value="Pošalji" /> <input type="button" name="previous" class="previous action-button-previous btn btn-outline-secondary" value="Nazad" />
+
+
+                                  
+                                    <!--  <input type="button" name="next" id="submit-btn" class="next action-button btn btn-outline-secondary" value="Pošalji" /> <input type="button" name="previous" class="previous action-button-previous btn btn-outline-secondary" value="Nazad" /> -->
+                                  <input type="submit" name="next" id="submit-btn" class="next action-button btn btn-outline-secondary" value="Pošalji" >Posalji</input> 
+                                  
+                                  <input type="button" name="previous" class="previous action-button-previous btn btn-outline-secondary" value="Nazad" />
                               </fieldset>
                               
                               
