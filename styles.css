@@ -224,6 +224,16 @@ body {
 .hcontainer {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
+  overscroll-behavior: none;
+}
+
+.container {
+  overflow-x: hidden;
+}
+
+.container-fluid {
+  overflow-x: hidden;
 }
 
 #container {
