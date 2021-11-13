@@ -61,7 +61,7 @@
 
 .fill {
   font-size: 16px;
-  font-family: "Anonymous Pro";
+  font-family: "Anonymous Pro", monospace;
   font-weight: bold;
   padding: 10px 20px 10px;
   outline: 0;
@@ -126,7 +126,7 @@
 }
 
 .badge {
-  font-family: "Anonymous Pro";
+  font-family: "Anonymous Pro", monospace;
 }
 
 #msform {
@@ -217,7 +217,7 @@
 }
 
 .price {
-  font-family: "Anonymous Pro";
+  font-family: "Anonymous Pro", monospace;
   font-weight: bold;
   font-size: 30px;
 }
@@ -242,7 +242,7 @@ div a {
 }
 
 #marquee {
-  font-family: "Anonymous Pro";
+  font-family: "Anonymous Pro", monospace;
   font-size: 30px;
   color: #e56161 !important;
 }
@@ -3134,7 +3134,7 @@ textarea.form-control-lg {
 
 .btn {
   display: inline-block;
-  font-family: "Anonymous Pro";
+  font-family: "Anonymous Pro", monospace;
   font-weight: 400;
   line-height: 1.5;
   color: #202020;

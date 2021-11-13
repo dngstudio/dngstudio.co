@@ -18,7 +18,7 @@ require './modules/header.php'; ?>
   <div class="container mt-3">
     <h2 class="text-white">Zašto održavanje?</h2>
     <p class="text-white">Klijenti često misle da je izrada sajta posao koji se obavi jednom i onda može da bude miran godinama. Međutim, tehnologija je toliko napredovala i menja se iz dana u dan, tako da izgled i funkcionalnosti sajta mogu lako da zastare. U najboljem slučaju posledica je samo estetska, ali nažalost zapušten sajt često odbija posetioce.</p>
-      <div class="row g-4 pt-3 pb-4">
+      <div class="row gx-lg-4 gy-4 pt-3 pb-4">
       <div class="col-lg-4 col-sm-12 justify-content-center">
         <div class="card text-center shadow services" >
           <div class="card-body">

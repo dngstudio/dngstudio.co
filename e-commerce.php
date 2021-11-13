@@ -8,8 +8,8 @@ require './modules/header.php'; ?>
     <p class="px-lg-5 my-3">U poslednjih nekoliko godina se sve više ljudi odlučuje na kupovinu putem Interneta, a razloga ima bezbroj.</p>
     <a href="#vise">
     <button class="fill">Saznajte više</button>
-</a>
-    <div class="row mt-5 gx-5 px-lg-4">
+    </a>
+    <div class="row mt-5 gx-lg-4 mx-4">
         <div class="col-sm-12 col-lg-4">
             <div class="card text-center shadow services">
                 <div class="row">
@@ -135,7 +135,7 @@ require './modules/header.php'; ?>
 </div>
 
 <div class="container mt-5">
-    <div class="row g-4">
+    <div class="row gx-lg-4 gy-4">
         <div class="col-lg-6 col-sm-12">
             <h3 class="">Klasična e-prodavnica</h3>
             <img src="media\pics\ecom\Klasična e-prodavnica.png" alt="" class=" shadow my-3 img-fluid">

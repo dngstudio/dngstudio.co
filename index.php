@@ -22,8 +22,8 @@ require './modules/header.php'; ?>
 
 
 
-<div id="vise" class="pt-5 pb-5 container">
-  <div class="row g-4">
+<div id="vise" class="mt-5 mb-5 container">
+  <div class="row gy-4 gx-lg-4">
     <div class="col-lg-4 col-sm-12 justify-content-center">
       <div class="card text-center shadow services" >
         <div class="card-body">
@@ -55,7 +55,7 @@ require './modules/header.php'; ?>
       </div>
     </div>
   </div>
-  <div class="row mt-2 g-4">
+  <div class="row mt-2 gy-4 gx-lg-4">
     <div class="col-lg-4 col-sm-12  justify-content-center">
       <div class="card text-center shadow services" >
         <div class="card-body">
@@ -89,7 +89,7 @@ require './modules/header.php'; ?>
   </div>
 </div>
 
-<div  data-aos="fade-up" class="container my-5 text-center px-4">
+<div  data-aos="fade-up" class="container my-5 text-center px-4 ">
   <h3>Ukazali su nam poverenje</h3>
   <div class="row mt-4 g-4 align-items-center">
     <div class="col-lg-3 col-sm-6">
@@ -122,9 +122,9 @@ require './modules/header.php'; ?>
   </div>
 </div>
 
-<div class="container mcontainer">
+<div class="container-fluid overflow-hidden">
   <div class="row">
-    <div class="col-lg-6 col-sm-12 my-auto">
+    <div class="col-lg-6 col-sm-12 my-auto ps-lg-5">
       <h2 class="h2">Nego, kako mi sve to radimo?</h2>
       <p>Pomažemo firmama i pojedincima da se istaknu uz upečatljiv digitalni identitet.</p>
       <ul>
@@ -148,7 +148,7 @@ require './modules/header.php'; ?>
 </div>
 
 
-<div class="container-fluid hcontainer min-vh-100 mt-5 ">
+<div class="container-fluid hcontainer min-vh-100 mt-5 overflow-hidden">
   <div id="container">
     <div class="module module1 align-items-center">
       <div class="container">
@@ -209,11 +209,31 @@ require './modules/header.php'; ?>
       <div class="container my-auto">
         <h2 class="text-center mb-4 text-white">Naš tim</h2>
         <div class="row">
-          <div class="col"></div>
-          <div class="col"></div>
-          <div class="col"></div>
-          <div class="col"></div>
-          <div class="col"></div>
+          <div class="col text-center">
+            <img src="media\pics\DNG Team\Jelena Janić.jpg" alt="" class="team-img">
+            <h4 class="text-white mt-3">Jelena Janić</h4>
+            <p class="text-white" style="font-family:'Anonymous Pro'">Frontend Developer</p>
+          </div>
+          <div class="col text-center">
+            <img src="media\pics\DNG Team\Ivan Đukić.jpg" alt="" class="team-img">
+            <h4 class="text-white mt-3">Ivan Đukić</h4>
+            <p class="text-white" style="font-family:'Anonymous Pro'">Backend Developer</p>
+          </div>
+          <div class="col text-center">
+            <img src="media\pics\DNG Team\Milica Perić.jpg" alt="" class="team-img">
+            <h4 class="text-white mt-3">Milica Perić</h4>
+            <p class="text-white" style="font-family:'Anonymous Pro'">Social Media Manager</p>
+          </div>
+          <div class="col text-center">
+            <img src="media\pics\DNG Team\Luka Đukić.jpg" alt="" class="team-img">
+            <h4 class="text-white mt-3">Luka Đukić</h4>
+            <p class="text-white" style="font-family:'Anonymous Pro'">Wordpress Specialist</p>
+          </div>
+          <div class="col text-center">
+            <img src="media\pics\DNG Team\Mr. Willy.jpg" alt="" class="team-img">
+            <h4 class="text-white mt-3">Mr. Willy</h4>
+            <p class="text-white" style="font-family:'Anonymous Pro'">Domar</p>
+          </div>
         </div>
       </div>
     </div>

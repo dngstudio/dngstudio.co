@@ -14,7 +14,7 @@ require './modules/header.php'; ?>
 
 <div id="vise" class="container">
     <h2 class="text-center my-4">Predstavljamo te u najboljem svetlu</h2>
-    <div class="row text-center justify-content-center g-4">
+    <div class="row text-center justify-content-center gx-lg-4 gy-4">
         <div class="col-lg-3 col-sm-12">
             <h3><i class="bi bi-google"></i></h3>
             <h3>SEO & Google ads</h3>
