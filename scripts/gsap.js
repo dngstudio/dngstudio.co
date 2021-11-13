@@ -28,7 +28,7 @@ $( document ).ready(function() {
       scrub: 1,
       markers:false,
       end: () => "+=" + container.offsetWidth,
-      snap: 1 / (sections.length - 1),
+      snap: 1 / (sections.length - 1)
     }
   })
 });
@@ -41,7 +41,7 @@ let tlMaintenance = gsap.timeline({
     toggleActions: "play pause resume reset"
   }
 },
-{defaults: {duration:.5, ease:"power1.out"}},
+{defaults: {duration:.5, ease:"power1.out"}}
 );
 
 $( document ).ready(function() {

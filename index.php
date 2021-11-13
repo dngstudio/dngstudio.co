@@ -122,7 +122,7 @@ require './modules/header.php'; ?>
   </div>
 </div>
 
-<div class="container">
+<div class="container mcontainer">
   <div class="row">
     <div class="col-lg-6 col-sm-12 my-auto">
       <h2 class="h2">Nego, kako mi sve to radimo?</h2>

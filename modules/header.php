@@ -85,9 +85,7 @@
           <a  href="seo-i-marketing.php" <?php if($title=='Seo & Marketing' ){ echo ' id="active"';}else{echo 'class="nav-hover"';}?>  role="button"  aria-expanded="false">
             SEO & marketing
           </a>
-          <!-- <li class="nav-item">
-          <a  <?php// if($title=='Baza znanja' ){ echo 'id="active"';}else{echo 'class="nav-hover"';}?>  aria-current="page" href="baza-znanja.php">Baza znanja</a>
-          </li> -->
+
 
         </li>
       </ul>
