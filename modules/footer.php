@@ -1,4 +1,4 @@
-<div class="container-fluid bg-dark pb-2 pt-4 mt-5" id="footer">
+<div class="container-fluid bg-dark pb-2 pt-4 mt-5 overflow-hidden" id="footer">
     <div class="text-white" id="marquee"></div>
         <div class="container">
         <div class="row bg-dark mt-5 pb-4">

@@ -1,7 +1,5 @@
 <html lang="en">
 
-
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +8,7 @@
     <meta name="description" content="Buy high-quality bicycle parts and save money while riding through Nevada.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Sora:wght@400;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@700&display=swap" rel="stylesheet"> 
     <link rel="icon" href="media\pics\DNG Studio Logo.png" sizes="192x192" />
     <link href="https://api.fontshare.com/css?f[]=satoshi@500,900&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -21,10 +19,7 @@
 
     <title><?php echo $title; ?></title>
     <script src="//code-eu1.jivosite.com/widget/vioHGNClnN" async></script>
-    
-
-
-  </head>
+</head>
 
 <body>
 
@@ -76,12 +71,12 @@
             </a>
           </div>
         </li>
-        <li class="nav-item dropdown">
+        <li class="nav-item">
           <a <?php if($title=='Grafički dizajn' ){ echo ' id="active"';}else{echo 'class="nav-hover "';}?> href="graficki-dizajn.php" role="button"  aria-expanded="false">
             Dizajn
           </a>
         </li>
-        <li class="nav-item ">  <!-- id="navbarDropdown" -->
+        <li class="nav-item">
           <a  href="seo-i-marketing.php" <?php if($title=='Seo & Marketing' ){ echo ' id="active"';}else{echo 'class="nav-hover"';}?>  role="button"  aria-expanded="false">
             SEO & marketing
           </a>
