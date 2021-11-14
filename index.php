@@ -89,33 +89,33 @@ require './modules/header.php'; ?>
   </div>
 </div>
 
-<div  data-aos="fade-up" class="container my-5 text-center px-4 ">
+<div  data-aos="fade-up" class="container my-5 text-center ">
   <h3>Ukazali su nam poverenje</h3>
-  <div class="row mt-4 g-4 align-items-center">
-    <div class="col-lg-3 col-sm-6">
+  <div class="row gy-4 row-cols-2 row-cols-sm-2 row-cols-lg-4 mt-4 align-items-center">
+    <div class="col">
         <img src="media\pics\Tvoja Majica Logo.png" alt="" class="partners">
     </div>
-    <div class="col-lg-3 col-sm-6">
+    <div class="col">
       <img src="media\pics\Easy Moving Logo.png" alt="" class="partners">
     </div>
-    <div class="col-lg-3 col-sm-6">
+    <div class="col">
       <img src="media\pics\Dungn Underground Logo.png" alt="" class="partners">
     </div>
-    <div class="col-lg-3 col-sm-6">
+    <div class="col">
       <img src="media\pics\Digital Print Logo.png" alt="" class="partners">
     </div>
     </div>
-    <div class="row mt-2 g-4 align-items-center">
-    <div class="col-lg-3 col-sm-6">
+    <div class="row gy-4 row-cols-2 row-cols-sm-2 row-cols-lg-4 mt-4 mt-sm-4 mt-lg-3 align-items-center">
+    <div class="col">
         <img src="media\pics\Charlie Fashion Logo.png" alt="" class="partners">
     </div>
-    <div class="col-lg-3 col-sm-6">
+    <div class="col">
       <img src="media\pics\Zelena Panorama Logo.png" alt="" class="partners">
     </div>
-    <div class="col-lg-3 col-sm-6">
+    <div class="col">
       <img src="media\pics\Moja nalepnica Logo.png" alt="" class="partners">
     </div>
-    <div class="col-lg-3 col-sm-6">
+    <div class="col">
       <img src="media\pics\Edusaurus Logo.png" alt="" class="partners">
     </div>
     </div>
@@ -208,7 +208,7 @@ require './modules/header.php'; ?>
     <div class="module module3">
       <div class="container my-auto">
         <h2 class="text-center mb-4 text-white">Naš tim</h2>
-        <div class="row">
+        <div class="row row-cols-2 row-cols-sm-2 row-cols-md-5 row-cols-lg-5">
           <div class="col text-center">
             <img src="media\pics\DNG Team\Jelena Janić.jpg" alt="" class="team-img">
             <h4 class="text-white mt-3">Jelena Janić</h4>

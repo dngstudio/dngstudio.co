@@ -19,6 +19,7 @@
 
     <title><?php echo $title; ?></title>
     <script src="//code-eu1.jivosite.com/widget/vioHGNClnN" async></script>
+
 </head>
 
 <body>

@@ -1,8 +1,8 @@
 <div class="container-fluid bg-dark pb-2 pt-4 mt-5 overflow-hidden" id="footer">
     <div class="text-white" id="marquee"></div>
         <div class="container">
-        <div class="row bg-dark mt-5 pb-4">
-            <div class="col-lg-3 col-sm-12 mt-3">
+        <div class="row row-cols-1 row-cols-sm-1 row-cols-md-5 row-cols-lg-5 bg-dark mt-4 pb-4">
+            <div class="col mt-3">
                 <div class="card" id="footer-info">
                     <img src="media\pics\DNG Studio Logo.png" class="card-img-top" alt="...">
                     <div class="card-body mt-2">
@@ -12,30 +12,26 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-sm-12">
-                <div class="row">
-                    <div class="col-lg-6 col-sm-12 mt-3">
-                        <div class="list-group">
-                            <h4 class="text-primary">Usluge</h4>
-                            <a class="text-white mt-1" href="izrada-sajtova.php">Izrada sajta</a>
-                            <a class="text-white mt-1" href="e-commerce.php">Izrada Internet prodavnice</a>
-                            <a class="text-white mt-1" href="graficki-dizajn.php">Grafički dizajn</a>
-                            <a class="text-white mt-1" href="seo-i-marketing.php">SEO</a>
-                            <a class="text-white mt-1" href="seo-i-marketing.php">Digitalni marketing</a>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-sm-12 mt-3">
-                        <div class="list-group">
-                            <h4 class="text-primary">O nama</h4>
-                            <a class="text-white mt-1" href="#">Portfolio</a>
-                            <a class="text-white mt-1" href="#">Cenovnik</a>
-                            <a class="text-white mt-1" href="#">Baza znanja</a>
-                            <a class="text-white mt-1" href="index.php">Naš tim</a>
-                        </div>
-                    </div>
+            <div class="col mt-3">
+                <div class="list-group">
+                    <h4 class="text-primary">Usluge</h4>
+                    <a class="text-white mt-1" href="izrada-sajtova.php">Izrada sajta</a>
+                    <a class="text-white mt-1" href="e-commerce.php">Izrada Internet prodavnice</a>
+                    <a class="text-white mt-1" href="graficki-dizajn.php">Grafički dizajn</a>
+                    <a class="text-white mt-1" href="seo-i-marketing.php">SEO</a>
+                    <a class="text-white mt-1" href="seo-i-marketing.php">Digitalni marketing</a>
                 </div>
             </div>
-            <div class="col-lg-3 col-sm-12 mt-3">
+            <div class="col mt-3">
+                <div class="list-group">
+                    <h4 class="text-primary">O nama</h4>
+                    <a class="text-white mt-1" href="#">Portfolio</a>
+                    <a class="text-white mt-1" href="#">Cenovnik</a>
+                    <a class="text-white mt-1" href="#">Baza znanja</a>
+                    <a class="text-white mt-1" href="index.php">Naš tim</a>
+                </div>
+            </div>
+            <div class="col mt-3">
                 <div class="list-group">
                     <h4 class="text-primary">Call centar</h4>
                     <a class="text-white mt-1" href="tel:+381677411312">0677/411-312</a>
@@ -44,7 +40,7 @@
 
                 </div>
             </div>
-            <div class="col-lg-3 col-sm-12 mt-3">
+            <div class="col mt-3">
                 <div class="list-group">
                     <h4 class="text-primary">O firmi</h4>
                     <p class="text-white mt-1">Jelena Janić PR DNG Media</p>
@@ -59,11 +55,11 @@
 
 <div class="container-fluid bg-dark pb-2">
     <div class="container">
-        <div class="row">
-            <div class="col">
+        <div class="row align-items-center">
+            <div class="col order-2 order-sm-1 ">
                 <span class="text-white">Powered by <a href="https://www.dngstudio.co">DNG Studio</a></span>
             </div>
-            <div class="col d-flex align-items-right justify-content-end px-sm-3">
+            <div class="col order-1 order-sm-2 d-flex justify-content-end px-sm-3 mb-lg-1 mb-3">
                 <img src="media\pics\tehnologije\html.png" alt="" class="tehnologije">
                 <img src="media\pics\tehnologije\css3.png" alt="" class="tehnologije">
                 <img src="media\pics\tehnologije\js.png" alt="" class="tehnologije">
