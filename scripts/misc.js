@@ -119,18 +119,7 @@ $(window).scroll(function() {
 
 });
 
-
-/* var prev = 0;
-var $window = $(window);
-var nav = $('nav');
-
-$window.on('scroll', function(){
-  var scrollTop = $window.scrollTop();
-  nav.toggleClass('hidden', scrollTop > prev);
-  prev = scrollTop;
-}); */
-
-var prevScrollpos = 0;
+/* var prevScrollpos = 0;
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
@@ -139,4 +128,16 @@ window.onscroll = function() {
     $('nav').addClass('hidden');
   }
   prevScrollpos = currentScrollPos;
-} 
+}  */
+
+var prev = 100;
+var $window = $(window);
+var nav = $('nav');
+
+$window.on('scroll', function(){
+  var scrollTop = $window.scrollTop();
+  nav.toggleClass('hidden', scrollTop > prev);
+  prev = scrollTop;
+});
+
+

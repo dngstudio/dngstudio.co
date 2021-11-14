@@ -19,7 +19,7 @@ mail($to, $subject, $body);
       <p class="card-text my-2">To je sasvim normalno! Svaki projekat je priča za sebe i ne treba svakom klijentu isti tip usluge. Slobodno nam napiši u formi ispod šta te zanima, a mi ćemo da te provedemo kroz neka najbitnija pitanja. Ovde možeš da odlučiš da li želiš da se prvo konsultujemo ili bi odmah da nas angažuješ.</p>
       <div class="row">
         <div class="col-lg-6 col-sm-12">
-        <form action="besplatne-konsultacije.php" method="POST" id="msform">
+        <form action="besplatne-konsultacije.php" method="POST" id="msform" class="needs-validation" novalidate>
                               <!-- progressbar -->
                               <ul id="progressbar">
                                   <li class="active" id="account"><strong>Korak 1</strong></li>
@@ -37,6 +37,9 @@ mail($to, $subject, $body);
                                     <div class="form-group">
                                       <label for="name">Ime i prezime</label>
                                       <input type="text" class="form-control" name="ime" id="name" placeholder="Ime i Prezime">
+                                      <div class="invalid-feedback">
+                                        Ostavi svoje ime i prezime.
+                                      </div>
                                     </div>
                                     <div class="form-group">
                                       <label for="email">E-mail addresa</label>

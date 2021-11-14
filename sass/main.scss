@@ -67,9 +67,13 @@ $dropdown-spacer:0px;
   margin: 0 auto;
 }
 
-.dropdown:hover .dropdown-menu {
-  display: block;
-  margin-top: 10px; // remove the gap so it doesn't close
+
+
+@media (min-width: 768px) {
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 10px; // remove the gap so it doesn't close
+  }
 }
 
 .nav-hover {
