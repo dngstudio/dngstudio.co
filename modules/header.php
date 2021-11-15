@@ -51,6 +51,11 @@
           <a <?php if($title=='Izrada sajtova' ){ echo ' id="active"';}else{echo 'class="nav-hover dropdown-toggle"';}?> href="izrada-sajtova.php"  role="button"  aria-expanded="false">
             Izrada sajtova
           </a>
+          <a class="nav-link dropdown-toggle d-inline-flex d-lg-none d-sm-block d-md-block" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <i class="bi bi-caret-down-fill chevron"></i>
+          </a>
+          
+          
           <div class="dropdown-menu shadow" aria-labelledby="navbarDropdown">
             <a class="dropdown-item p-1" href="odrzavanje-sajtova.php">
               <div class="row d-flex align-items-center justify-content-center">

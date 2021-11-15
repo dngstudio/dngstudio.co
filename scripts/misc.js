@@ -10,6 +10,10 @@ $(window).scroll(function() {
   }
 });
 
+$( ".chevron" ).click(function() {
+  $(this).toggleClass("rotated")
+});
+
 var prev = 100;
 var $window = $(window);
 var nav = $('nav');
@@ -121,13 +125,11 @@ picker.addEventListener('input', function(e){
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   anchor.addEventListener('click', function (e) {
       e.preventDefault();
-
       document.querySelector(this.getAttribute('href')).scrollIntoView({
           behavior: 'smooth'
       });
   });
 });
-
 
 
 

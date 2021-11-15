@@ -68,13 +68,20 @@ $dropdown-spacer:0px;
 }
 
 
-
 @media (min-width: 768px) {
+
   .dropdown:hover .dropdown-menu {
     display: block;
     margin-top: 10px; // remove the gap so it doesn't close
   }
+
 }
+
+
+
+
+
+
 
 .nav-hover {
   padding: 5px 10px 5px;
