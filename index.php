@@ -29,7 +29,7 @@ require './modules/header.php'; ?>
         <div class="card-body">
           <img src="media\icons\Ecommerce.png" alt="" class="services-icons my-2">
           <h5 class="card-title">E-commerce</h5>
-          <p class="card-text">Izrada Internet prodavnica, od onih za jedan proizvoda, do velikih radnji.</p>
+          <p class="card-text">Izrada Internet prodavnica, od onih za jedan proizvod, do velikih radnji.</p>
           <a href="#" class="card-link">Saznajte više</a>
         </div>
       </div>
@@ -71,7 +71,7 @@ require './modules/header.php'; ?>
         <div class="card-body">
           <img src="media\icons\SEO.png" alt="" class="services-icons my-2">
           <h5 class="card-title">SEO</h5>
-          <p class="card-text">Uz adekvatno odrađen SEO, Vaš sajt može da se nađe na prvoj strani Gugla bez reklama.</p>
+          <p class="card-text">Uz adekvatno odrađen SEO, tvoj sajt može da se nađe na prvoj strani Gugla bez reklama.</p>
           <a href="#" class="card-link">Saznajte više</a>
         </div>
       </div>

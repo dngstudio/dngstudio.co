@@ -127,7 +127,7 @@ require './modules/header.php'; ?>
             <li class="list-group-item">Ažuriranje i izmena zastarelog kôda</li>
             <li class="list-group-item">Nedeljno ažuriranje SEO-a</li>
             <li class="list-group-item">Održavanje baza podataka</li>
-            <li class="list-group-item">Do 2 sata besplatih konsultacija mesečno</li>
+            <li class="list-group-item">Do 2 sata besplatnih konsultacija mesečno</li>
             <li class="list-group-item">Dodavanje do 2 statične stranice mesečno</li>
             <li class="list-group-item">Podržano održavanje dvojezičnog sajta</li>
             <li class="list-group-item">Bezbedonosna verifikacija</li>

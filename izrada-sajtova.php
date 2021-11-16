@@ -63,7 +63,7 @@ require './modules/header.php'; ?>
     <div class="row mt-4 ">
       <div class="col-lg-6 col-sm-12">
         <h3 class="text-lg-end text-sm-start">Moderan dizajn</h3>
-        <p class="text-lg-end text-sm-start">Savremen, čist i simetričan dizajn koji odaje utisak profesionalnosti. Moderan sajt mora da prati unapred određena pravila dizajna, zobg čega pre svakog projekta radimo prvobitno dizajn interfejsa koga se kasnije pridržavamo pri kodiranju.</p>
+        <p class="text-lg-end text-sm-start">Savremen, čist i simetričan dizajn koji odaje utisak profesionalnosti. Moderan sajt mora da prati unapred određena pravila dizajna, zbog čega pre svakog projekta radimo prvobitno dizajn interfejsa koga se kasnije pridržavamo pri kodiranju.</p>
       </div>
       <div class="col-lg-6 col-sm-12"><img src="media\pics\izrada-sajtova\Izrada sajta - Dizajn.jpg" alt="" class="izradasajtovaslika"></div>
     </div>
@@ -77,7 +77,7 @@ require './modules/header.php'; ?>
     <div class="row mt-4">
       <div class="col-lg-6 col-sm-12">
         <h3 class="text-lg-end text-sm-start">Bez dodatnih troškova</h3>
-        <p class="text-lg-end text-sm-start">Svi naši paketi uključuju celokupnu uslugu izrade sajta. To znači da je sajt potpuno tvoj nakon izrade i možeš sa njim da radiš šta želiš. Svakako preporučujemo da se odlučiš bar za osnovni paket okržavanja, kako bi sajt uvek bio ispravan i osvežen.</p>
+        <p class="text-lg-end text-sm-start">Svi naši paketi uključuju celokupnu uslugu izrade sajta. To znači da je sajt potpuno tvoj nakon izrade i možeš sa njim da radiš šta želiš. Svakako preporučujemo da se odlučiš bar za osnovni paket održavanja, kako bi sajt uvek bio ispravan i osvežen.</p>
       </div>
       <div class="col-lg-6 col-sm-12"><img src="media\pics\izrada-sajtova\Izrada sajta - ušteda.jpg" alt="" class="izradasajtovaslika"></div>
     </div>
