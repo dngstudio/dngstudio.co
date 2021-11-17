@@ -1,0 +1,26 @@
+Dungn Underground
+Izrada sajta, vođenje društvenih mreža
+
+Dungn Underground je brend pod okriljem DNG Studija koji je nastao kao pokazna vežba naših mogućnosti koja je prerasla u odvojeni entitet koji ima kultno praćenje na domaćoj alternativnoj sceni. DNG Studio ne stoji samo iza Dungn sajta već i iza svakog dizajna koji Dungn ima u svojoj ponudi.
+
+Kurs Internet Prodaje
+Izrada sajta
+
+Još jedan od Flagship projekata iza koga ponosno stojimo. Kao tim web developera koji specijalizuje izradu internet prodavnica bilo je potpuno logično da izradimo ovakav jedan sajt koji ima kompletan kurs, sistem za online praćenje kursa, polaganje ispita i online plaćanje.
+
+Tvoja Majica
+Izrada sajta
+
+Svi smo bar jednom naručivali štampu na majici za poklon nekome i majica nije ispala onakvo kako smo je zamislili. Kako se to ne bi dešavalo više Tvoja Majica Vam nudi opciju da u interaktivnom online dizajneru sami dizajnirate majicu. U ovaj projekat smo implementirali Fancy Product Designer koji omogućava da Vaši kupci sami određuju poziciju teksta i slika na majicama i da Vi dobijate fajlove spremne za štampu.
+
+
+Charlie Fashion
+Izrada sajta i Logo dizajn
+
+Cilj ovog projekta je bio da napravimo sajt koji ne izgleda kao da je sajt. Želeli smo da napravimo sajt koji će Vam izazvati osećaj kupovine iz retro kataloga. Koliko god to zvučalo kontradiktorno u današnje vreme je bitno istaći se po svaku cenu.
+
+
+Easy Moving
+Izrada sajta i brending
+
+Želite da se preselite ali ne znate odakle da počnete? Easy Moving je pravo mesto za Vas. Na sajtu možete da se upoznate sa celim procesom selidbe od priprema stana i stvari za selidbu do izračunavanja kompletne cene selidbe preko online kalkulatora cene.

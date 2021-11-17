@@ -148,6 +148,11 @@ $dropdown-spacer:0px;
     left: 0px;
 }
 
+.btn.btn-link {
+  padding: 0px;
+  border:none
+}
+
 //layout
 $spacer: 1rem;
 $spacers: (
@@ -278,6 +283,10 @@ $badge-font-weight: normal;
   top: 20px;
 }
 
+//modals
+$modal-content-border-radius:0px;
+$modal-content-border-width:0px;
+$modal-inner-padding: $spacer * 2;
 
 //misc
 

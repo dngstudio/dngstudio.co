@@ -25,7 +25,7 @@
             <div class="col mt-3">
                 <div class="list-group">
                     <h4 class="text-primary">O nama</h4>
-                    <a class="text-white mt-1" href="#">Portfolio</a>
+                    <a class="text-white mt-1" href="portfolio.php">Portfolio</a>
                     <a class="text-white mt-1" href="#">Cenovnik</a>
                     <a class="text-white mt-1" href="#">Baza znanja</a>
                     <a class="text-white mt-1" href="index.php">Naš tim</a>

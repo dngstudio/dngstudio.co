@@ -24,6 +24,15 @@ $window.on('scroll', function(){
   prev = scrollTop;
 });
 
+function myFunction() {
+  let excerpt = document.getElementsByClassName("excerpt");
+  if (excerpt.length > 10) {
+    excerpt = excerpt.substring(0,10) + "...";
+  }
+  excerpt.innerHTML = excerpt;
+}
+
+
 $(".pricing").hover(
     function () {
       $(this).addClass('shadow-lg');
