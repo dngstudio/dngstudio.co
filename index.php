@@ -261,16 +261,19 @@ require './modules/header.php'; ?>
             <p class="card-text">Početni sajt, savršen za portfolio firme ili pojedinca.</p>
           </div>
           <ul class="list-group list-group-flush ">
-            <li class="list-group-item ">Do 5 stranica</li>
+            <li class="list-group-item">Do 5 stranica</li>
             <li class="list-group-item">SEO</li>
             <li class="list-group-item">Optimizacija za mobilne uređaje</li>
+            <li class="list-group-item">Moderan UI dizajn</li>
+            <li class="list-group-item">Bonus održavanje mesec dana</li>
+            <li class="list-group-item">3 poslovna e-mail naloga</li>
           </ul>
           <div class="card-body">
             <p class="price pb-1 price1">od 300€</p>
             <p class="price pb-1 price2">od 420€</p>
             <a href="#procena">
             <button class="btn btn-outline-secondary">Zakaži konsultacije</button>
-</a>
+            </a>
           </div>
       </div>
     </div>
@@ -293,6 +296,7 @@ require './modules/header.php'; ?>
           <li class="list-group-item">Logo dizajn</li>
           <li class="list-group-item">Besplatna obuka za korišćenje</li>
           <li class="list-group-item">Opcija za e-commerce</li>
+          <li class="list-group-item">Bonus održavanje 3 meseca</li>
         </ul>
         <div class="card-body">
           <p class="price pb-1 price1">od 500€</p>
@@ -317,6 +321,7 @@ require './modules/header.php'; ?>
             <li class="list-group-item">Izrada kompletnog vizuelnog identiteta</li>
             <li class="list-group-item">Povezivanje sa Guglom i Instagramom</li>
             <li class="list-group-item">Pravljenje kompleksnih baza podataka</li>
+            <li class="list-group-item">Bonus održavanje 6 meseci</li>
           </ul>
           <div class="card-body">
             <p class="price pb-1 price1">od 1500€</p>
