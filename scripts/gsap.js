@@ -1,8 +1,3 @@
-
-let container = document.getElementById("container");
-
-let sections = gsap.utils.toArray(".module");
-
 $( document ).ready(function() {
   gsap.from("#pmockup", {
     x: 500,
@@ -18,6 +13,11 @@ $( document ).ready(function() {
 
 
 $( document ).ready(function() {
+
+  let container = document.getElementById("container");
+  let sections = gsap.utils.toArray(".module");
+
+
   gsap.to(container, {
     x: () => -(container.scrollWidth - document.documentElement.clientWidth) + "px",
     ease: "none",
@@ -28,7 +28,7 @@ $( document ).ready(function() {
       scrub: 1,
       markers:false,
       end: () => "+=" + container.offsetWidth,
-      snap: 1 / (sections.length - 1)
+      snap: 1 / (sections.length - 1),
     }
   })
 });
