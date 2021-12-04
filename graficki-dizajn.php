@@ -1,5 +1,6 @@
 <?php 
 $title = 'Grafički dizajn';
+$desc = 'DNG Media je firma za pravljenje sajtova i svega što ide uz to.';
 require './modules/header.php'; ?>
 
 <div class="container-fluid bg-dark py-4">

@@ -1,5 +1,6 @@
 <?php 
 $title = 'Baza znanja';
+$desc = 'DNG Media je firma za pravljenje sajtova i svega što ide uz to.';
 require './modules/header.php'; 
 
 $servername = "127.0.0.1";

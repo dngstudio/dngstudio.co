@@ -1,8 +1,9 @@
 <?php
+/*
 echo "<pre>";
   print_r($_POST);
 echo  "</pre>";
-
+*/
 $to="ivan@edusaurus.net";
 $subject="kontakt forma";
 $body= $_POST['ime'];
