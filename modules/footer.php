@@ -37,6 +37,9 @@
                     <a class="text-white mt-1" href="tel:+381677411312">0677/411-312</a>
                     <h4 class="text-primary mt-3">E-mail podrška</h4>
                     <a class="text-white" href="mailto:office@dngstudio.co">office@dngstudio.co</a>
+                    <h4 class="text-primary mt-3">Povežimo se</h4>
+                    <a href="https://www.instagram.com/dngstudio.co/" class="mt-1"><i class="bi bi-instagram text-white "></i></a>
+
 
                 </div>
             </div>
