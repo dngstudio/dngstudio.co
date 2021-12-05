@@ -1,10 +1,15 @@
 <?php 
+session_start();
 $title = 'Početna';
 $desc = 'DNG Media je firma za pravljenje sajtova i svega što ide uz to.';
-require './modules/header.php'; ?>
+require './modules/header.php'; 
+?>
+
+
 
 <div class="container header">
   <div class="row align-items-center">
+  <?php if($_SESSION['kontakt']=='popunjeno' ){ $_SESSION['kontakt'] = 'nije';; echo '<h1>Uspešno popunjena forma!</h1>';}else{echo '';}?>
     <div class="col-lg-6 col-sm-12 order-2 order-sm-1" data-aos="fade-right">
       <h1>DNG Studio firmu čuva</h1>
       <p>Pomažemo firmama i pojedincima da se istaknu uz upečatljiv digitalni identitet.</p>

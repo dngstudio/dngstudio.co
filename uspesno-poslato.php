@@ -13,12 +13,11 @@ echo "<pre>";
   print_r($_POST);
 echo  "</pre>";
 
-?>
 
-<?php 
-
+session_start();
+$_SESSION['kontakt'] = 'popunjeno';
 sleep(0.25);
 
-header('Location: https://www.dngstudio.co');
+header('Location: ./index.php');
 
 ?>
