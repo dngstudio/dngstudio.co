@@ -1,6 +1,6 @@
 <?php 
-$title = 'Portfolio';
-$desc = 'DNG Media je firma za pravljenje sajtova i svega što ide uz to.';
+$title = 'Portfolio | Prikaz naših radova';
+$desc = 'Portfolio sa našim radovima iz sfere izrade sajta i grafičkog dizajna.';
 require './modules/header.php'; ?>
 
 <div class="container text-center mt-4 ecom-header">

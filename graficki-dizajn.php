@@ -1,6 +1,6 @@
 <?php 
-$title = 'Grafički dizajn';
-$desc = 'DNG Media je firma za pravljenje sajtova i svega što ide uz to.';
+$title = 'Grafički dizajn | Logo dizajn, priprema za štampu, dizajn promotivnog materijala';
+$desc = 'Grafički dizajn logoa, promotivnog materijala, banera, flajera, UI/UX dizajn.';
 require './modules/header.php'; ?>
 
 <div class="container-fluid bg-dark py-4">

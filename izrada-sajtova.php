@@ -1,6 +1,6 @@
 <?php 
-$title = 'Izrada sajtova';
-$desc = 'DNG Media je firma za pravljenje sajtova i svega što ide uz to.';
+$title = 'Izrada sajtova | Web dizajn, devlopment i izrada aplikacija';
+$desc = 'Izrada sajtova za pojedince i biznise. Web prodavnice, portfolio, ';
 require './modules/header.php'; ?>
 
 

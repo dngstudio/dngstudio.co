@@ -1,6 +1,6 @@
 <?php 
-$title = 'E-commerce';
-$desc = 'DNG Media je firma za pravljenje sajtova i svega što ide uz to.';
+$title = 'E-commerce | Izrada Internet prodavnica za sve produkte ili dropšiping';
+$desc = 'E-commerce i izrada internet prodavnica. Povećajte prodaje uz optimizovani web shop.';
 require './modules/header.php'; ?>
 
 

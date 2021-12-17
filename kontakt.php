@@ -1,6 +1,6 @@
 <?php 
-$title = 'Kontakt';
-$desc = 'DNG Media je firma za pravljenje sajtova i svega što ide uz to.';
+$title = 'Kontakt | Pišite nam i zakažite besplatne konsultacije';
+$desc = 'Konktaktirajte nas radi zakazivanja konsultacija ili upita za ponudu.';
 require './modules/header.php'; ?>
 
 

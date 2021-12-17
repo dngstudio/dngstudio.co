@@ -1,6 +1,6 @@
 <?php 
-$title = 'Konsultacije';
-$desc = 'DNG Media je firma za pravljenje sajtova i svega što ide uz to.';
+$title = 'Konsultacije | Zakažite besplatne konsultacije i zatražite upit';
+$desc = 'Konsultacije služe tome da zatražite upit ili se posavetujete sa našim timom oko najbolje taktike.';
 require './modules/header.php'; ?>
 
 

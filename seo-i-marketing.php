@@ -1,6 +1,6 @@
 <?php 
-$title = 'Seo & Marketing';
-$desc = 'DNG Media je firma za pravljenje sajtova i svega što ide uz to.';
+$title = 'SEO & Marketing | Facebook, Instagram i Google oglašavanje';
+$desc = 'SEO, digitalni marketing, optimizacija sajtova. Vođenje Facebook i Instagram profila.';
 require './modules/header.php'; ?>
 
 <div class="container-fluid bg-dark py-4">
@@ -9,7 +9,7 @@ require './modules/header.php'; ?>
         <p class="px-lg-5 text-white my-3">SEO, Google, Instagram i Facebook oglašavanje za Vaš biznis. Digitalni marketing za sve.</p>
         <a href="#vise">
         <button class="btn btn-secondary">Saznajte više</button>
-</a>
+        </a>
     </div>
 </div>
 

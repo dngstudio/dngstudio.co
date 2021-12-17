@@ -1,6 +1,6 @@
 <?php 
-$title = 'Održavanje sajtova';
-$desc = 'DNG Media je firma za pravljenje sajtova i svega što ide uz to.';
+$title = 'Održavanje sajtova  | Mesečno i godišnje održavanje i popravke';
+$desc = 'Održavanje sajtova je neophodno za dobar rad. Popravljamo sve vrste bagova i dodajemo sadržaj.';
 require './modules/header.php'; ?>
 
 

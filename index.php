@@ -1,7 +1,7 @@
 <?php 
 session_start();
 $title = 'Početna';
-$desc = 'DNG Media je firma za pravljenje sajtova i svega što ide uz to.';
+$desc = 'Izrada sajtova, grafički dizajn, SEO i digitalni marketing';
 require './modules/header.php'; 
 ?>
 
@@ -36,7 +36,7 @@ require './modules/header.php';
           <img src="media\icons\Ecommerce.png" alt="" class="services-icons my-2">
           <h5 class="card-title">E-commerce</h5>
           <p class="card-text">Izrada Internet prodavnica, od onih za jedan proizvod, do velikih radnji.</p>
-          <a href="#" class="card-link">Saznajte više</a>
+          <a href="e-commerce.php" class="card-link">Saznajte više</a>
         </div>
       </div>
     </div>
@@ -46,7 +46,7 @@ require './modules/header.php';
           <img src="media\icons\Website.png" alt="" class="services-icons my-2">
           <h5 class="card-title">Web dizajn</h5>
           <p class="card-text">Dizajniramo sajtove svih nivoa kompleksnosti. Neka Vaš sajt bude poseban!</p>
-          <a href="#" class="card-link">Saznajte više</a>
+          <a href="izrada-sajtova.php" class="card-link">Saznajte više</a>
         </div>
       </div>
     </div>
@@ -56,7 +56,7 @@ require './modules/header.php';
           <img src="media\icons\Development.png" alt="" class="services-icons my-2">
           <h5 class="card-title">Web development</h5>
           <p class="card-text">Razvijanje dinamičkih sistema i aplikacija za web pregledače, Android i iOS.</p>
-          <a href="#" class="card-link">Saznajte više</a>
+          <a href="besplatne-konsultacije.php" class="card-link">Saznajte više</a>
         </div>
       </div>
     </div>
@@ -68,7 +68,7 @@ require './modules/header.php';
           <img src="media\icons\Digital Marketing.png" alt="" class="services-icons my-2">
           <h5 class="card-title">Grafički dizajn</h5>
           <p class="card-text">Dizajn logoa, promotivnog materijala i kompletnog vizuelnog identiteta.</p>
-          <a href="#" class="card-link">Saznajte više</a>
+          <a href="graficki-dizajn.php" class="card-link">Saznajte više</a>
         </div>
       </div>
     </div>
@@ -78,7 +78,7 @@ require './modules/header.php';
           <img src="media\icons\SEO.png" alt="" class="services-icons my-2">
           <h5 class="card-title">SEO</h5>
           <p class="card-text">Uz adekvatno odrađen SEO, tvoj sajt može da se nađe na prvoj strani Gugla bez reklama.</p>
-          <a href="#" class="card-link">Saznajte više</a>
+          <a href="seo-i-marketing.php" class="card-link">Saznajte više</a>
         </div>
       </div>
     </div>
@@ -88,7 +88,7 @@ require './modules/header.php';
           <img src="media\icons\Feedback Audience.png" alt="" class="services-icons my-2">
           <h5 class="card-title">Digitalni marketing</h5>
           <p class="card-text">Postavljanje kampanja na društvenim mrežama i vođenje profila.</p>
-          <a href="#" class="card-link">Saznajte više</a>
+          <a href="seo-i-marketing.php" class="card-link">Saznajte više</a>
         </div>
       </div>
     </div>
