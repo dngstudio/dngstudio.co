@@ -146,7 +146,7 @@ require './modules/header.php';
       <button class="fill">Započnimo</button>
       </a>
     </div>
-    <div class="col-lg-6 col-sm-12">
+    <div class="col-lg-6 col-sm-12 pmockup-container">
         <img src="media\pics\DNG Studio - Phone Mockup.png" alt="" id="pmockup">
       </div>
     </div>

@@ -111,6 +111,7 @@
 <script src="./scripts/form.js"></script>
 <script src="./scripts/marquee.js"></script>
 <script src="./bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="./scripts/imagesloaded.pkgd.min.js" type="text/javascript"></script>
 
 
 </body>
