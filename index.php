@@ -247,7 +247,7 @@ require './modules/header.php';
 </div>
 
 
-
+<!--
 <h3 class="mb-2 mt-5 text-center">Paketi usluga</h2>
 
 <div class="d-flex form-check form-switch justify-content-center mb-3">
@@ -341,7 +341,7 @@ require './modules/header.php';
   </div>
 </div>
 
-
+-->
 
 
 <?php include './modules/contact.php' ?>
