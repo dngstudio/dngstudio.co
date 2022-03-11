@@ -247,7 +247,7 @@ mail($to, $subject, $body);
 
                                   
                                     <!--  <input type="button" name="next" id="submit-btn" class="next action-button btn btn-outline-secondary" value="Pošalji" /> <input type="button" name="previous" class="previous action-button-previous btn btn-outline-secondary" value="Nazad" /> -->
-                                  <input type="submit" name="next" id="submit-btn" class="next action-button btn btn-outline-secondary" value="Pošalji" ></input> 
+                                  <input type="submit" name="next" id="submit-btn" class="next action-button btn btn-outline-secondary" value="Pošalji" >&nbsp;</input> 
                                   
                                   <input type="button" name="previous" class="previous action-button-previous btn btn-outline-secondary" value="Nazad" />
                               </fieldset>
