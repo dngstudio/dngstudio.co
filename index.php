@@ -385,7 +385,7 @@ require './modules/header.php';
             </h2>
             <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
               <div class="accordion-body">
-                <p>Cene su izražene samo za promotivne pakete koje nudimo. Zašto nisu izražene za svaku uslugu? Iz prostog razloga: zato što je svaki posao drugačiji. Izrada sajta nekada podrazumeva jednu jednostavnu stranicu, a nekada platformu na kojoj se radi mesecima.</p>
+                <p>Izrada sajta nekada podrazumeva jednu jednostavnu stranicu, a nekada platformu na kojoj se radi mesecima. Stoga nije moguće napraviti precizan cenovnik.</p>
                 <p>Cena sata rada našeg tima je 25 evra po satu, te u skladu sa tim formiramo i ponudu. Najjednostavnije je da nam bez ikakvih obaveza pošaljete zahtev za ponudu putem neke od kontakt formi i mi ćemo da Vam u najkraćem roku odgovorimo.</p>
               </div>
             </div>
