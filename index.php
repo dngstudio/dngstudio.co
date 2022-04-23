@@ -7,7 +7,7 @@ require './modules/header.php';
 
 
 
-<div class="container header">
+<div class="container header vh-100">
   <div class="row align-items-center">
   <?php if($_SESSION['kontakt']=='popunjeno' ){ $_SESSION['kontakt'] = 'nije';; echo '<h1>Uspešno popunjena forma!</h1>';}else{echo '';}?>
     <div class="col-lg-6 col-sm-12 order-2 order-sm-1" data-aos="fade-right">
@@ -20,7 +20,7 @@ require './modules/header.php';
       <button class="btn btn-outline-dark ms-2" style="padding: 10px 20px 10px; position:relative;top:7px">Saznajte više</button>
       </a>  
     </div>
-    <div class="col-lg-6 col-sm-12 order-1 order-sm-2">
+    <div class="col-lg-6 col-sm-12 order-1 order-sm-2 h-100">
       <div id="home-anim"></div>
     </div>
   </div>

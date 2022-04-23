@@ -112,6 +112,13 @@
 <script src="./scripts/marquee.js"></script>
 <script src="./bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
 <script src="./scripts/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+<script src="https://www.google.com/recaptcha/api.js"></script>
+<script>
+    function onSubmit(token) {
+        document.getElementById("msform").submit();
+    }
+</script>
+
 
 
 </body>
