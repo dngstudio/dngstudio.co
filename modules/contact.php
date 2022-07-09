@@ -17,8 +17,8 @@ mail($to, $subject, $body);
 <div id="procena" class="container align-items-start justify-content-center mt-5">
   <div class="card shadow mx-2 py-3 my-auto">
     <div class="card-body p-3">
-      <h3 class="card-title">Želiš da saznaš rok izrade i cenu?</h3>
-      <p class="card-text my-2">Svaki projekat je priča za sebe i ne treba svakom klijentu isti tip usluge. Slobodno nam napiši u formi ispod šta te zanima, a mi ćemo da te provedemo kroz neka najbitnija pitanja. Ovde možeš da odlučiš da li želiš da se prvo konsultujemo ili bi odmah da nas angažuješ.</p>
+      <h3 class="card-title"><?php echo $requestquote["title"]; ?></h3>
+      <p class="card-text my-2"><?php echo $requestquote["desc"]; ?></p>
       <div class="row">
         <div class="col-lg-6 col-sm-12">
         <form action="uspesno-poslato.php" method="POST" id="msform" class="needs-validation" novalidate>

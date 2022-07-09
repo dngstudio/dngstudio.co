@@ -7,11 +7,7 @@
         else
           $lang = $_GET['langID'];
  
-        
-        if (isset($_GET['langID']))
-          $locale = $_GET['langID'];
- 
-        include('PHP_Define/locale/'. $locale . '.php');    
+        include('PHP_Define/locale/'. $lang . '.php');    
 ?>
 
 <html lang="<?php echo language; ?>">
@@ -104,8 +100,6 @@
             SEO & marketing
           </a>
         </li>
-
-         
         
       </ul>
 

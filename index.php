@@ -10,6 +10,14 @@ if($_GET['langID'] === "en_US") {
 require './modules/header.php'; 
 ?>
 
+<?php
+
+$ip = $_SERVER['REMOTE_ADDR'];
+$details = json_decode(file_get_contents("http://ip-api.com/json/79.175.98.187?fields=country"));
+echo $details->country;
+
+
+?>
 
 
 <div class="container header vh-100">
@@ -40,7 +48,7 @@ require './modules/header.php';
         <div class="card-body">
           <img src="media\icons\Ecommerce.png" alt="" class="services-icons my-2">
           <h5 class="card-title">E-commerce</h5>
-          <p class="card-text">Izrada Internet prodavnica, od onih za jedan proizvod, do velikih radnji.</p>
+          <p class="card-text"><?php echo ecomdesc; ?></p>
           <a href="e-commerce.php" class="card-link"><?php echo findoutmore; ?></a>
         </div>
       </div>
@@ -50,7 +58,7 @@ require './modules/header.php';
         <div class="card-body">
           <img src="media\icons\Website.png" alt="" class="services-icons my-2">
           <h5 class="card-title">Web dizajn</h5>
-          <p class="card-text">Dizajniramo sajtove svih nivoa kompleksnosti. Neka Vaš sajt bude poseban!</p>
+          <p class="card-text"><?php echo webdesigndesc; ?></p>
           <a href="izrada-sajtova.php" class="card-link"><?php echo findoutmore; ?></a>
         </div>
       </div>
@@ -60,7 +68,7 @@ require './modules/header.php';
         <div class="card-body">
           <img src="media\icons\Development.png" alt="" class="services-icons my-2">
           <h5 class="card-title"><?php echo webdev; ?></h5>
-          <p class="card-text">Razvijanje dinamičkih sistema i aplikacija za web pregledače, Android i iOS.</p>
+          <p class="card-text"><?php echo webdevdesc; ?></p>
           <a href="besplatne-konsultacije.php" class="card-link"><?php echo findoutmore; ?></a>
         </div>
       </div>
@@ -72,7 +80,7 @@ require './modules/header.php';
         <div class="card-body">
           <img src="media\icons\Digital Marketing.png" alt="" class="services-icons my-2">
           <h5 class="card-title"><?php echo design; ?></h5>
-          <p class="card-text">Dizajn logoa, promotivnog materijala i kompletnog vizuelnog identiteta.</p>
+          <p class="card-text"><?php echo designdesc; ?></p>
           <a href="graficki-dizajn.php" class="card-link"><?php echo findoutmore; ?></a>
         </div>
       </div>
@@ -82,7 +90,7 @@ require './modules/header.php';
         <div class="card-body">
           <img src="media\icons\SEO.png" alt="" class="services-icons my-2">
           <h5 class="card-title">SEO</h5>
-          <p class="card-text">Uz adekvatno odrađen SEO, tvoj sajt može da se nađe na prvoj strani Gugla bez reklama.</p>
+          <p class="card-text"><?php echo seodesc; ?></p>
           <a href="seo-i-marketing.php" class="card-link"><?php echo findoutmore; ?></a>
         </div>
       </div>
@@ -92,7 +100,7 @@ require './modules/header.php';
         <div class="card-body">
           <img src="media\icons\Feedback Audience.png" alt="" class="services-icons my-2">
           <h5 class="card-title">Digitalni marketing</h5>
-          <p class="card-text">Postavljanje kampanja na društvenim mrežama i vođenje profila.</p>
+          <p class="card-text"><?php echo marketingdesc; ?></p>
           <a href="seo-i-marketing.php" class="card-link"><?php echo findoutmore; ?></a>
         </div>
       </div>
@@ -101,7 +109,7 @@ require './modules/header.php';
 </div>
 
 <div  data-aos="fade-up" class="container my-5 text-center ">
-  <h3>Ukazali su nam poverenje</h3>
+  <h3><?php echo ourclients; ?></h3>
   <div class="row gy-4 row-cols-2 row-cols-sm-2 row-cols-lg-4 mt-4 align-items-center">
     <div class="col">
         <img src="media\pics\Tvoja Majica Logo.png" alt="" class="partners">
@@ -136,16 +144,16 @@ require './modules/header.php';
 <div class="container-fluid overflow-hidden">
   <div class="row">
     <div class="col-lg-6 col-sm-12 my-auto ps-lg-5">
-      <h2 class="h2">Nego, kako mi sve to radimo?</h2>
-      <p>Pomažemo firmama i pojedincima da se istaknu uz upečatljiv digitalni identitet.</p>
+      <h2 class="h2"><?php echo $howdowedoit["title"]; ?></h2>
+      <p><?php echo $howdowedoit["desc"]; ?></p>
       <ul>
-        <li>Vršimo detaljnu analizu projekta</li>
-        <li>Organizujemo sastanke tokom cele saradnje</li>
-        <li>Obaveštavamo klijenta o svakom koraku</li>
-        <li>Zajednički sa klijentom formiramo stavke projekta</li>
-        <li>Ništa ne prepuštamo slučaju</li>
-        <li>Nakon svakog projekta radimo detaljno testiranje</li>
-        <li>Klijent može sve da prepusti nama, bez brige</li>
+        <li><?php echo $howdowedoit["bullet1"]; ?></li>
+        <li><?php echo $howdowedoit["bullet2"]; ?></li>
+        <li><?php echo $howdowedoit["bullet3"]; ?></li>
+        <li><?php echo $howdowedoit["bullet4"]; ?></li>
+        <li><?php echo $howdowedoit["bullet5"]; ?></li>
+        <li><?php echo $howdowedoit["bullet6"]; ?></li>
+        <li><?php echo $howdowedoit["bullet7"]; ?></li>
       </ul>
       <a href="#procena">
       <button class="fill"><?php echo letsgetstarted; ?></button>
@@ -165,29 +173,29 @@ require './modules/header.php';
       <div class="container">
         <div class="row gx-5 align-items-center">
           <div class="col-lg-6 col-sm-12">
-            <h2 class="text-primary">Zašto mi?</h2>
-            <p class="text-white">Naš tim čine iskusni dizajneri i programeri koji će da ti pruže najbolju moguću uslugu. U svetu Internet tehnologija je teško opredeliti se za adekvatnu agenciju. Naša preporuka je da staviš kvalitet pre cene, jer će te jeftin sajt i dizajn kasnije koštati mnogo više.</p>
+            <h2 class="text-primary"><?php echo $whyus["title"]; ?></h2>
+            <p class="text-white"><?php echo $whyus["desc"]; ?></p>
           </div>
           <div class="col-lg-6 col-sm-12">
             <div class="card bg-dark">
               <div class="card-body">
                 <img src="" alt="">
-                <h5 class="card-title text-white">Transparentne cene</h5>
-                <p class="card-text text-white">Odmah po proceni projekta dobijaš kompletan cenovnik usluga, napravljen samo za tebe. Cene ne menjamo na pola posla i nema neprijatnih iznenađenja.</p>
+                <h5 class="card-title text-white"><?php echo $whyus["bullet1title"]; ?></h5>
+                <p class="card-text text-white"><?php echo $whyus["bullet1desc"]; ?></p>
               </div>
             </div>
             <div class="card bg-dark mt-3">
               <div class="card-body">
                 <img src="" alt="">
-                <h5 class="card-title text-white">Nama je stalo do kvaliteta</h5>
-                <p class="card-text text-white">Kao što je klijentu stalo do digitalne prezentacije svoje firme, tako i mi svaki projekat gledamo kao da radimo za nas. Uz klijentovu dozvolu, projekat stavljamo u svoj portfolio.</p>
+                <h5 class="card-title text-white"><?php echo $whyus["bullet2title"]; ?></h5>
+                <p class="card-text text-white"><?php echo $whyus["bullet2desc"]; ?></p>
               </div>
             </div>
             <div class="card bg-dark mt-3">
               <div class="card-body">
                 <img src="" alt="">
-                <h5 class="card-title text-white">Naša usluga nije mačka u džaku</h5>
-                <p class="card-text text-white">Od samog početka te obaveštavamo o etapama projekta, uvek sve vidiš unapred i ne moraš da strepiš od toga kakav će finalni rad da bude.</p>
+                <h5 class="card-title text-white"><?php echo $whyus["bullet3title"]; ?></h5>
+                <p class="card-text text-white"><?php echo $whyus["bullet3desc"]; ?></p>
               </div>
             </div>
           </div>
@@ -196,22 +204,22 @@ require './modules/header.php';
     </div>
     <div class="module module2 ">
       <div class="container my-auto">
-        <h2 class="text-center mb-4">Naš ekosistem</h2>
+        <h2 class="text-center mb-4"><?php echo $ourecosystem["title"]; ?></h2>
         <div class="row gx-4">
           <div class="col-lg-4 col-sm-12 text-center">
             <div class="vgap"></div>
             <h3>DNG Shop</h3>
-            <p>Uz pomoć DNG Shop sistema za razvoj e-prodavnica napravićemo ti prestižan online shop, lagan za korišćenje, a bogat naprednim opcijama koje vode ka prodajama.</p>
+            <p><?php echo $ourecosystem["bullet1desc"]; ?></p>
           </div>
           <div class="col-lg-4 col-sm-12 text-center">
             <div class="vgap"></div>
             <h3>DNG Lite</h3>
-            <p>Kreiraj sebi pristupačan sajt uz DNG Lite generator. Ovi sajtovi su idelni za ljude koji tek počinju. Kasnije uvek možeš da se opredeliš za ručno rađen sajt na kome bi radio naš tim.</p>
+            <p><?php echo $ourecosystem["bullet2desc"]; ?></p>
           </div>
           <div class="col-lg-4 col-sm-12 text-center">
             <div class="vgap"></div>
             <h3>DNG Express</h3>
-            <p>Ukoliko ti je hitno potreban dizajn, a nemaš vremena i sredstava da angažuješ naše dizajnere, možeš da se opredeliš za DNG Express, gde ćemo mi da ti nađemo brzu i povoljnu opciju.</p>
+            <p><?php echo $ourecosystem["bullet3desc"]; ?></p>
           </div>
         </div>
       </div>
@@ -243,7 +251,7 @@ require './modules/header.php';
           <div class="col text-center">
             <img src="media\pics\DNG Team\Mr. Willy.jpg" alt="" class="team-img">
             <h4 class="text-white mt-3">Mr. Willy</h4>
-            <p class="text-white" style="font-family:'Anonymous Pro'">Domar</p>
+            <p class="text-white" style="font-family:'Anonymous Pro'"><?php echo janitor; ?></p>
           </div>
         </div>
       </div>
