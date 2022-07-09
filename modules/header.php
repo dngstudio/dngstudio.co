@@ -1,4 +1,20 @@
-<html lang="en">
+
+
+<?php
+ 
+        if (!isset($_GET['langID']))
+          $lang = 'en_US';
+        else
+          $lang = $_GET['langID'];
+ 
+        
+        if (isset($_GET['langID']))
+          $locale = $_GET['langID'];
+ 
+        include('PHP_Define/locale/'. $locale . '.php');    
+?>
+
+<html lang="<?php echo language; ?>">
 
 <head>
     <meta charset="UTF-8">
@@ -17,8 +33,9 @@
     <link rel="stylesheet" href="styles/form.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
 
-    <title><?php echo $title; ?> - DNG Studio</title>
-    <script src="//code-eu1.jivosite.com/widget/vioHGNClnN" async></script>
+    <title><?php  if (isset($title))echo $title ?> - DNG Studio</title>
+
+
 
 </head>
 
@@ -40,7 +57,7 @@
 
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a  <?php if($title=='Početna' ){ echo 'id="active"';}else{echo 'class="nav-hover"';}?>  aria-current="page" href="index.php">Početna</a>
+          <a  <?php if($title=='Početna' ){ echo 'id="active"';}else{echo 'class="nav-hover"';}?>  aria-current="page" href="index.php"><?php echo homepage; ?></a>
         </li>
         <li class="nav-item">
           <a href="e-commerce.php" <?php if($title=='E-commerce' ){ echo ' id="active"';}else{echo 'class="nav-hover"';}?>  role="button"  aria-expanded="false"  >
@@ -49,7 +66,7 @@
         </li>
         <li class="nav-item dropdown">
           <a <?php if($title=='Izrada sajtova' ){ echo ' id="active"';}else{echo 'class="nav-hover dropdown-toggle"';}?> href="izrada-sajtova.php"  role="button"  aria-expanded="false">
-            Izrada sajtova
+          <?php echo webdev; ?>
           </a>
           <a class="nav-link dropdown-toggle d-inline-flex d-lg-none d-sm-block d-md-block" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
           <i class="bi bi-caret-down-fill chevron"></i>
@@ -79,21 +96,22 @@
         </li>
         <li class="nav-item">
           <a <?php if($title=='Grafički dizajn' ){ echo ' id="active"';}else{echo 'class="nav-hover "';}?> href="graficki-dizajn.php" role="button"  aria-expanded="false">
-            Dizajn
+            <?php echo design; ?>
           </a>
         </li>
         <li class="nav-item">
           <a  href="seo-i-marketing.php" <?php if($title=='Seo & Marketing' ){ echo ' id="active"';}else{echo 'class="nav-hover"';}?>  role="button"  aria-expanded="false">
             SEO & marketing
           </a>
-
-
         </li>
+
+         
+        
       </ul>
 
       <form class="d-flex">
       <a href="besplatne-konsultacije.php">
-        <button  class="fill" type="button">Besplatne konsultacije</button>
+        <button  class="fill" type="button"><?php echo requestqoute; ?></button>
     </a>
       </form>
     </div>

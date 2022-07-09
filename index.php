@@ -1,7 +1,12 @@
 <?php 
 session_start();
-$title = 'Početna';
-$desc = 'Izrada sajtova, grafički dizajn, SEO i digitalni marketing';
+if($_GET['langID'] === "en_US") {
+  $title = "Homepage";
+  $desc = "Web development, graphic design, SEO and digital marketing";
+} else {
+  $title = "Početna";
+  $desc = "Izrada sajtova, grafički dizajn, SEO i digitalni marketing";
+};
 require './modules/header.php'; 
 ?>
 
@@ -11,13 +16,13 @@ require './modules/header.php';
   <div class="row align-items-center">
   <?php if($_SESSION['kontakt']=='popunjeno' ){ $_SESSION['kontakt'] = 'nije';; echo '<h1>Uspešno popunjena forma!</h1>';}else{echo '';}?>
     <div class="col-lg-6 col-sm-12 order-2 order-sm-1" data-aos="fade-right">
-      <h1>DNG Studio firmu čuva</h1>
-      <p>Pomažemo firmama i pojedincima da se istaknu uz upečatljiv digitalni identitet.</p>
+      <h1><?php echo indexheading; ?></h1>
+      <p><?php echo indexparagraph; ?></p>
       <a href="#procena">
-        <button class="fill">Pošaljite upit</button>
+        <button class="fill"><?php echo requestqoute; ?></button>
       </a>
       <a href="#vise">
-      <button class="btn btn-outline-dark ms-2" style="padding: 10px 20px 10px; position:relative;top:7px">Saznajte više</button>
+      <button class="btn btn-outline-dark ms-2" style="padding: 10px 20px 10px; position:relative;top:7px"><?php echo findoutmore; ?></button>
       </a>  
     </div>
     <div class="col-lg-6 col-sm-12 order-1 order-sm-2 h-100">
@@ -36,7 +41,7 @@ require './modules/header.php';
           <img src="media\icons\Ecommerce.png" alt="" class="services-icons my-2">
           <h5 class="card-title">E-commerce</h5>
           <p class="card-text">Izrada Internet prodavnica, od onih za jedan proizvod, do velikih radnji.</p>
-          <a href="e-commerce.php" class="card-link">Saznajte više</a>
+          <a href="e-commerce.php" class="card-link"><?php echo findoutmore; ?></a>
         </div>
       </div>
     </div>
@@ -46,7 +51,7 @@ require './modules/header.php';
           <img src="media\icons\Website.png" alt="" class="services-icons my-2">
           <h5 class="card-title">Web dizajn</h5>
           <p class="card-text">Dizajniramo sajtove svih nivoa kompleksnosti. Neka Vaš sajt bude poseban!</p>
-          <a href="izrada-sajtova.php" class="card-link">Saznajte više</a>
+          <a href="izrada-sajtova.php" class="card-link"><?php echo findoutmore; ?></a>
         </div>
       </div>
     </div>
@@ -54,9 +59,9 @@ require './modules/header.php';
     <div class="card text-center shadow services" >
         <div class="card-body">
           <img src="media\icons\Development.png" alt="" class="services-icons my-2">
-          <h5 class="card-title">Web development</h5>
+          <h5 class="card-title"><?php echo webdev; ?></h5>
           <p class="card-text">Razvijanje dinamičkih sistema i aplikacija za web pregledače, Android i iOS.</p>
-          <a href="besplatne-konsultacije.php" class="card-link">Saznajte više</a>
+          <a href="besplatne-konsultacije.php" class="card-link"><?php echo findoutmore; ?></a>
         </div>
       </div>
     </div>
@@ -66,9 +71,9 @@ require './modules/header.php';
       <div class="card text-center shadow services" >
         <div class="card-body">
           <img src="media\icons\Digital Marketing.png" alt="" class="services-icons my-2">
-          <h5 class="card-title">Grafički dizajn</h5>
+          <h5 class="card-title"><?php echo design; ?></h5>
           <p class="card-text">Dizajn logoa, promotivnog materijala i kompletnog vizuelnog identiteta.</p>
-          <a href="graficki-dizajn.php" class="card-link">Saznajte više</a>
+          <a href="graficki-dizajn.php" class="card-link"><?php echo findoutmore; ?></a>
         </div>
       </div>
     </div>
@@ -78,7 +83,7 @@ require './modules/header.php';
           <img src="media\icons\SEO.png" alt="" class="services-icons my-2">
           <h5 class="card-title">SEO</h5>
           <p class="card-text">Uz adekvatno odrađen SEO, tvoj sajt može da se nađe na prvoj strani Gugla bez reklama.</p>
-          <a href="seo-i-marketing.php" class="card-link">Saznajte više</a>
+          <a href="seo-i-marketing.php" class="card-link"><?php echo findoutmore; ?></a>
         </div>
       </div>
     </div>
@@ -88,7 +93,7 @@ require './modules/header.php';
           <img src="media\icons\Feedback Audience.png" alt="" class="services-icons my-2">
           <h5 class="card-title">Digitalni marketing</h5>
           <p class="card-text">Postavljanje kampanja na društvenim mrežama i vođenje profila.</p>
-          <a href="seo-i-marketing.php" class="card-link">Saznajte više</a>
+          <a href="seo-i-marketing.php" class="card-link"><?php echo findoutmore; ?></a>
         </div>
       </div>
     </div>
@@ -143,7 +148,7 @@ require './modules/header.php';
         <li>Klijent može sve da prepusti nama, bez brige</li>
       </ul>
       <a href="#procena">
-      <button class="fill">Započnimo</button>
+      <button class="fill"><?php echo letsgetstarted; ?></button>
       </a>
     </div>
     <div class="col-lg-6 col-sm-12 pmockup-container">
@@ -213,7 +218,7 @@ require './modules/header.php';
     </div>
     <div class="module module3">
       <div class="container my-auto">
-        <h2 class="text-center mb-4 text-white">Naš tim</h2>
+        <h2 class="text-center mb-4 text-white"><?php echo ourteam; ?></h2>
         <div class="row row-cols-2 row-cols-sm-2 row-cols-md-5 row-cols-lg-5">
           <div class="col text-center">
             <img src="media\pics\DNG Team\Jelena Janić.jpg" alt="" class="team-img">
@@ -398,7 +403,6 @@ require './modules/header.php';
       </div>
   </div>
 </div>
-
 
 
 <?php include './modules/footer.php' ?>
